@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { View, Text, StyleSheet, Pressable } from "react-native";
 import MapView, { PROVIDER_GOOGLE } from "react-native-maps";
 import CustomMarker from "./CustomMarker";
+import SearchBar from "./SearchBar";
 
 const MAP_STYLE = [
   { featureType: "poi", stylers: [{ visibility: "off" }] },
@@ -40,6 +41,8 @@ export default function Map() {
     setSelectedMarker(marker);
   };
 
+  const [query, setQuery] = useState("");
+
   return (
     <View style={{ flex: 1 }}>
       <MapView
@@ -64,6 +67,11 @@ export default function Map() {
           />
         ))}
       </MapView>
+
+      <SearchBar
+        value={query}
+        onChangeText={setQuery}
+      />
 
       {/* Overlay card */}
       {selectedMarker && (
