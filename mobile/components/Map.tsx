@@ -1,13 +1,14 @@
-import React, { useState } from "react";
-import { View, Text, StyleSheet, Pressable, Button } from "react-native";
+import React, { useRef, useState } from "react";
+import { View, Text, Alert, StyleSheet, Pressable, Button } from "react-native";
 import MapView from "react-native-maps";
 import CustomMarker from "./CustomMarker";
 import { Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
+import PlaceSheet from "./PlaceSheet";
+import { Place } from "@/types/place";
+import { addToWatchlist } from "@/api/watchlist";
 
 const MAP_STYLE = [{ featureType: "poi", stylers: [{ visibility: "off" }] }];
-
-
 
 const KINGSTON_MARKERS = [
   {
@@ -36,9 +37,24 @@ const KINGSTON_MARKERS = [
 export default function Map() {
   const [selectedMarker, setSelectedMarker] = useState<Place>(null);
   const [query, setQuery] = useState("");
+  const [isSaving, setIsSaving] = useState(false);
 
   const onMarkerPress = async (marker: any) => {
     setSelectedMarker(marker);
+  };
+
+  const handleFavorite = async () => {
+    if (!selectedMarker || isSaving) return;
+    setIsSaving(true);
+    try {
+      await addToWatchlist(selectedMarker.id);
+      Alert.alert("Saved", "Added to your watchlist for this device.");
+    } catch (error) {
+      console.error(error);
+      Alert.alert("Error", "Could not add to watchlist. Please try again.");
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   return (
@@ -80,6 +96,14 @@ export default function Map() {
       >
         <Ionicons name="star" size={36} color="white" />
       </Pressable>
+      {/* TrueSheet */}
+      <PlaceSheet
+        sheetRef={sheetRef}
+        place={selectedMarker}
+        onDismiss={dismissSheet}
+        onFavorite={handleFavorite}
+        isSaving={isSaving}
+      />
     </View>
   );
 }

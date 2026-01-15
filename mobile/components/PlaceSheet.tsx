@@ -9,6 +9,7 @@ type Props = {
   place: Place | null;
   onDismiss: () => void;
   onFavorite: () => void;
+  isSaving?: boolean;
 };
 
 export default function PlaceSheet({
@@ -16,6 +17,7 @@ export default function PlaceSheet({
   place,
   onDismiss,
   onFavorite,
+  isSaving = false,
 }: Props) {
   if (!place) return null;
 
@@ -85,9 +87,15 @@ export default function PlaceSheet({
         <Text style={styles.address}>{place.address}</Text>
 
         {/* Favorite */}
-        <Pressable style={styles.favorite} onPress={onFavorite}>
+        <Pressable
+          style={styles.favorite}
+          onPress={onFavorite}
+          disabled={isSaving}
+        >
           <Ionicons name="star-outline" size={20} />
-          <Text style={styles.favoriteText}>Add to Favorites</Text>
+          <Text style={styles.favoriteText}>
+            {isSaving ? "Saving..." : "Add to Favorites"}
+          </Text>
         </Pressable>
       </View>
     //</TrueSheet>

@@ -24,8 +24,9 @@ def send_to_backboard(endpoint: str, data: Dict[str, Any]):
         raise HTTPException(status_code=500, detail="Error communicating with Backboard")
 
 # Function to save user preferences (language, filters, etc.)
-def save_user_preferences(preferences: Dict[str, Any]):
-    return send_to_backboard("preferences/save", preferences)
+def save_user_preferences(user_id: str, preferences: Dict[str, Any]):
+    payload = {"user_id": user_id, **preferences}
+    return send_to_backboard("preferences/save", payload)
 
 # Function to get user preferences from Backboard
 def get_user_preferences(user_id: str) -> Dict[str, Any]:

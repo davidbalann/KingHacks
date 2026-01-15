@@ -1,7 +1,9 @@
 from typing import Optional
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query
 from pydantic import BaseModel, Field, validator
+
+from backend.app.dependencies import get_user_id_from_request
 
 from backend.app.models.user_locations import (
     DEFAULT_RADIUS_KM,
@@ -14,12 +16,14 @@ router = APIRouter()
 
 
 class LocationPayload(BaseModel):
-    user_id: str = Field(..., min_length=1, description="Identifier for the requesting user")
+    user_id: Optional[str] = Field(default=None, description="Identifier for the requesting user")
     latitude: float = Field(..., description="Latitude in decimal degrees")
     longitude: float = Field(..., description="Longitude in decimal degrees")
 
     @validator("user_id")
-    def strip_user_id(cls, value: str) -> str:
+    def strip_user_id(cls, value: Optional[str]) -> Optional[str]:
+        if value is None:
+            return None
         cleaned = value.strip()
         if not cleaned:
             raise ValueError("user_id cannot be blank.")
@@ -27,9 +31,15 @@ class LocationPayload(BaseModel):
 
 
 @router.post("/location")
-async def store_location(payload: LocationPayload):
+async def store_location(payload: LocationPayload, request_user_id: Optional[str] = Depends(get_user_id_from_request)):
+    resolved_user_id = (payload.user_id or request_user_id or "").strip()
+    if not resolved_user_id:
+        raise HTTPException(
+            status_code=400,
+            detail="user_id is required. Provide it via X-Device-Id header or user_id in the request.",
+        )
     try:
-        save_user_location(payload.user_id, payload.latitude, payload.longitude)
+        save_user_location(resolved_user_id, payload.latitude, payload.longitude)
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc))
     except Exception:
@@ -40,10 +50,7 @@ async def store_location(payload: LocationPayload):
 
 @router.get("/location/nearby")
 async def get_nearby_services(
-    user_id: Optional[str] = Query(
-        default=None,
-        description="User identifier to use the saved location if latitude/longitude are not provided.",
-    ),
+    request_user_id: Optional[str] = Depends(get_user_id_from_request),
     latitude: Optional[float] = Query(default=None, description="Latitude in decimal degrees"),
     longitude: Optional[float] = Query(default=None, description="Longitude in decimal degrees"),
     distance_km: float = Query(default=DEFAULT_RADIUS_KM, gt=0, description="Search radius in kilometers"),
@@ -53,12 +60,12 @@ async def get_nearby_services(
     origin_lon = longitude
 
     if origin_lat is None or origin_lon is None:
-        if not user_id:
+        if not request_user_id:
             raise HTTPException(
                 status_code=400,
                 detail="Provide latitude/longitude or a user_id with a stored location.",
             )
-        stored_location = get_user_location(user_id)
+        stored_location = get_user_location(request_user_id)
         if not stored_location:
             raise HTTPException(status_code=404, detail="No stored location found for the given user_id.")
         origin_lat, origin_lon = stored_location
