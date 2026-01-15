@@ -7,6 +7,10 @@ export default function TabLayout() {
         <Label>Home</Label>
         <Icon sf="house.fill" drawable="custom_android_drawable" />
       </NativeTabs.Trigger>
+      <NativeTabs.Trigger name="chat">
+        <Label>Chat</Label>
+        <Icon sf="house.fill" drawable="custom_android_drawable" />
+      </NativeTabs.Trigger>
     </NativeTabs>
   );
 }

@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import { View, Text, StyleSheet, Pressable } from "react-native";
-import MapView, { PROVIDER_GOOGLE } from "react-native-maps";
+import React, { useRef, useState } from "react";
+import { View, Text, StyleSheet, Pressable, Button } from "react-native";
+import MapView from "react-native-maps";
+import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
 import SearchBar from "./SearchBar";
 
@@ -21,7 +22,7 @@ const KINGSTON_MARKERS = [
     title: "Kingston Waterfront",
     description: "Lake Ontario",
     latitude: 44.2312,
-    longitude: -76.4860,
+    longitude: -76.486,
   },
   {
     id: "3",
@@ -33,24 +34,28 @@ const KINGSTON_MARKERS = [
 ];
 
 export default function Map() {
-  const [selectedMarker, setSelectedMarker] = useState(
-    KINGSTON_MARKERS[0] // selected by default
-  );
+  const [selectedMarker, setSelectedMarker] = useState<any>(null);
+  const [query, setQuery] = useState("");
 
-  const onMarkerPress = (marker: any) => {
+  const sheetRef = useRef<TrueSheet>(null);
+
+  const onMarkerPress = async (marker: any) => {
     setSelectedMarker(marker);
+    await sheetRef.current?.present();
   };
 
-  const [query, setQuery] = useState("");
+  const dismissSheet = async () => {
+    await sheetRef.current?.dismiss();
+    setSelectedMarker(null);
+  };
 
   return (
     <View style={{ flex: 1 }}>
       <MapView
         style={StyleSheet.absoluteFill}
-        provider={PROVIDER_GOOGLE}
         initialRegion={{
           latitude: 44.2312,
-          longitude: -76.4860,
+          longitude: -76.486,
           latitudeDelta: 0.05,
           longitudeDelta: 0.05,
         }}
@@ -68,58 +73,42 @@ export default function Map() {
         ))}
       </MapView>
 
-      <SearchBar
-        value={query}
-        onChangeText={setQuery}
-      />
+      <SearchBar value={query} onChangeText={setQuery} />
 
-      {/* Overlay card */}
-      {selectedMarker && (
-        <View style={styles.card}>
-          <View style={{ flex: 1 }}>
-            <Text style={styles.title}>{selectedMarker.title}</Text>
-            <Text style={styles.description}>
-              {selectedMarker.description}
-            </Text>
+      {/* TrueSheet */}
+      <TrueSheet
+        ref={sheetRef}
+        detents={[0.25, 0.6]}
+        onDismiss={() => setSelectedMarker(null)}
+      >
+        {selectedMarker && (
+          <View style={styles.sheetContent}>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.title}>{selectedMarker.title}</Text>
+              <Text style={styles.description}>
+                {selectedMarker.description}
+              </Text>
+            </View>
+
+            <Button title="Dismiss" onPress={dismissSheet} />
           </View>
-
-          <Pressable onPress={() => setSelectedMarker(null)}>
-            <Text style={styles.close}>✕</Text>
-          </Pressable>
-        </View>
-      )}
+        )}
+      </TrueSheet>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  card: {
-    position: "absolute",
-    bottom: 100,
-    left: 16,
-    right: 16,
-    backgroundColor: "white",
-    borderRadius: 16,
+  sheetContent: {
     padding: 16,
-    flexDirection: "row",
-    alignItems: "center",
-    shadowColor: "#000",
-    shadowOpacity: 0.15,
-    shadowRadius: 12,
-    shadowOffset: { width: 0, height: 6 },
-    elevation: 10,
   },
   title: {
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: "600",
   },
   description: {
-    marginTop: 4,
+    marginTop: 6,
     color: "#666",
-  },
-  close: {
-    fontSize: 18,
-    paddingLeft: 12,
-    color: "#999",
+    fontSize: 14,
   },
 });
