@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { View, StyleSheet } from "react-native";
+import { Alert, View, StyleSheet } from "react-native";
 import MapView from "react-native-maps";
 import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
@@ -7,6 +7,7 @@ import SearchBar from "./SearchBar";
 import { getPlacesFromFile } from "@/api/places";
 import PlaceSheet from "./PlaceSheet";
 import { Place } from "@/types/place";
+import { addToWatchlist } from "@/api/watchlist";
 
 const MAP_STYLE = [
   { featureType: "poi", stylers: [{ visibility: "off" }] },
@@ -41,6 +42,7 @@ const KINGSTON_MARKERS = [
 export default function Map() {
   const [selectedMarker, setSelectedMarker] = useState<Place>(null);
   const [query, setQuery] = useState("");
+  const [isSaving, setIsSaving] = useState(false);
 
   const sheetRef = useRef<TrueSheet>(null);
   const places = getPlacesFromFile();
@@ -53,6 +55,20 @@ export default function Map() {
   const dismissSheet = async () => {
     await sheetRef.current?.dismiss();
     setSelectedMarker(null);
+  };
+
+  const handleFavorite = async () => {
+    if (!selectedMarker || isSaving) return;
+    setIsSaving(true);
+    try {
+      await addToWatchlist(selectedMarker.id);
+      Alert.alert("Saved", "Added to your watchlist for this device.");
+    } catch (error) {
+      console.error(error);
+      Alert.alert("Error", "Could not add to watchlist. Please try again.");
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   return (
@@ -86,7 +102,8 @@ export default function Map() {
         sheetRef={sheetRef}
         place={selectedMarker}
         onDismiss={dismissSheet}
-        onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}
+        onFavorite={handleFavorite}
+        isSaving={isSaving}
       />
     </View>
   );
