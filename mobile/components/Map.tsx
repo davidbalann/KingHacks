@@ -1,10 +1,8 @@
 import React, { useRef, useState } from "react";
 import { View, StyleSheet } from "react-native";
 import MapView from "react-native-maps";
-import { TrueSheet } from "@lodev09/react-native-true-sheet";
+//import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
-import SearchBar from "./SearchBar";
-import { getPlacesFromFile } from "@/api/places";
 import PlaceSheet from "./PlaceSheet";
 import { Place } from "@/types/place";
 import SearchResultsSheet from "./SearchResultsSheet";
@@ -43,8 +41,8 @@ export default function Map() {
   const [selectedMarker, setSelectedMarker] = useState<Place>(null);
   const [query, setQuery] = useState("");
 
-  const placeSheetRef = useRef<TrueSheet>(null);
-  const searchSheetRef = useRef<TrueSheet>(null);
+  const placeSheetRef = useRef<any>(null);
+  const searchSheetRef = useRef<any>(null);
 
   const onSearchFocus = async () => {
     await searchSheetRef.current?.present();
@@ -56,7 +54,7 @@ export default function Map() {
     await placeSheetRef.current?.present();
   };
 
-  const places = getPlacesFromFile();
+  const places = [];
 
   const onMarkerPress = async (marker: Place) => {
     setSelectedMarker(marker);
@@ -92,18 +90,12 @@ export default function Map() {
         ))}
       </MapView>
 
-      <SearchBar
-        value={query}
-        onChangeText={setQuery}
-        onFocus={onSearchFocus}
-      />
       <SearchResultsSheet
         sheetRef={searchSheetRef}
         query={query}
         onSelectPlace={onSelectSearchResult}
       />
 
-      {/* TrueSheet */}
       <PlaceSheet
         sheetRef={placeSheetRef}
         place={selectedMarker}

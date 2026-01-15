@@ -7,13 +7,12 @@ import {
   StyleSheet,
   ActivityIndicator,
 } from "react-native";
-import { TrueSheet } from "@lodev09/react-native-true-sheet";
-import { getPlacesFromFile } from "@/api/places";
+//import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import { Place } from "@/types/place";
 import { searchPlaces } from "@/api/search";
 
 type Props = {
-  sheetRef: React.RefObject<TrueSheet>;
+  sheetRef: React.RefObject<any>;
   query: string;
   onSelectPlace: (place: Place) => void;
 };
@@ -63,11 +62,7 @@ export default function SearchResultsSheet({
 
 
   return (
-    <TrueSheet
-      ref={sheetRef}
-      cornerRadius={16}
-      detents={[0.35, 1]}
-    >
+   
       <View style={styles.container}>
         <Text style={styles.title}>
           Results for “{query}”
@@ -98,7 +93,6 @@ export default function SearchResultsSheet({
           />
         )}
       </View>
-    </TrueSheet>
   );
 }
 
