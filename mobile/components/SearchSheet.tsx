@@ -1,7 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
-import { View, Text, TextInput, FlatList, Pressable, StyleSheet, Keyboard } from "react-native";
+import { View, TextInput, StyleSheet, Keyboard } from "react-native";
 import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import { Place } from "@/types/place";
+import Results from "./Results";
+import Categories from "./Categories";
 
 interface SearchSheetProps {
   onSelectPlace: (place: Place) => void;
@@ -15,7 +17,6 @@ export default function SearchSheet({ onSelectPlace }: SearchSheetProps) {
 
   const focused = inputFocused || sheetExpanded;
 
-  // Present sheet small on mount
   useEffect(() => {
     sheetRef.current?.present();
   }, []);
@@ -29,17 +30,16 @@ export default function SearchSheet({ onSelectPlace }: SearchSheetProps) {
     setInputFocused(false);
   };
 
-  //const dataToRender = query.trim().length > 0 ? results : suggested;
-
   return (
     <TrueSheet
       ref={sheetRef}
-      detents={['auto', 1]}
+      scrollable={true}
+      detents={[0.085, 1]}
       dimmed={false}
       initialDetentIndex={0}
       onDetentChange={(event) => {
         const index = event.nativeEvent.index;
-        const expanded = index === 1;
+        const expanded = index > 0.5;
 
         setSheetExpanded(expanded);
 
@@ -62,18 +62,7 @@ export default function SearchSheet({ onSelectPlace }: SearchSheetProps) {
         </View>
       }
     >
-      {/* Only show lists if expanded */}
-      {focused && query &&(
-          <FlatList
-            data={[]}
-            keyExtractor={(item, index) => `${index}`}
-            renderItem={({ item }) => (
-              <Pressable style={styles.item}>
-                <Text>{item}</Text>
-              </Pressable>
-            )}
-          />
-      )}
+      {focused && query ? <Results query={query}/> : <Categories />}
     </TrueSheet>
   );
 }
