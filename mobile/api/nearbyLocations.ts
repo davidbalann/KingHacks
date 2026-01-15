@@ -1,18 +1,23 @@
 import { API_BASE_URL } from "@/constants";
 import { Place } from "@/types/place";
 
-type SearchResponse = {
+export type SearchResponse = {
+  origin: SearchOrigin;
+  count: number;
   results: Place[];
-  page: number;
-  limit: number;
-  total?: number;
 };
 
-export async function searchPlaces(
-  page: number = 1,
-  limit: number = 20
+export type SearchOrigin = {
+  latitude: number;
+  longitude: number;
+  distance_km: number;
+};
+
+export async function nearbyLocations(
+  latitude: number,
+  longitude: number
 ): Promise<Place[]> {
-  const url = `${API_BASE_URL}/search?page=${page}&limit=${limit}`;
+  const url = `${API_BASE_URL}/location/nearby?latitude=${latitude}&longitude=${longitude}`;
 
   const res = await fetch(url, {
     method: "GET",

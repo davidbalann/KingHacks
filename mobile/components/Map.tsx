@@ -3,60 +3,19 @@ import { View, StyleSheet } from "react-native";
 import MapView from "react-native-maps";
 import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
-import SearchBar from "./SearchBar";
-import { getPlacesFromFile } from "@/api/places";
 import PlaceSheet from "./PlaceSheet";
 import { Place } from "@/types/place";
-import SearchResultsSheet from "./SearchResultsSheet";
-
-const MAP_STYLE = [
-  { featureType: "poi", stylers: [{ visibility: "off" }] },
-];
-
-
-
-const KINGSTON_MARKERS = [
-  {
-    id: "1",
-    title: "Queen’s University",
-    description: "Main campus",
-    latitude: 44.2253,
-    longitude: -76.4951,
-  },
-  {
-    id: "2",
-    title: "Kingston Waterfront",
-    description: "Lake Ontario",
-    latitude: 44.2312,
-    longitude: -76.486,
-  },
-  {
-    id: "3",
-    title: "Fort Henry",
-    description: "Historic site",
-    latitude: 44.2417,
-    longitude: -76.4634,
-  },
-];
+import { useEffect } from "react";
+import { nearbyLocations } from "@/api/nearbyLocations";
+import SearchSheet from "./SearchSheet";
 
 export default function Map() {
+  const [places, setPlaces] = useState<Place[]>([]);
+  const [loadingPlaces, setLoadingPlaces] = useState(false);
+
   const [selectedMarker, setSelectedMarker] = useState<Place>(null);
-  const [query, setQuery] = useState("");
 
   const placeSheetRef = useRef<TrueSheet>(null);
-  const searchSheetRef = useRef<TrueSheet>(null);
-
-  const onSearchFocus = async () => {
-    await searchSheetRef.current?.present();
-  };
-
-  const onSelectSearchResult = async (place: Place) => {
-    await searchSheetRef.current?.dismiss();
-    setSelectedMarker(place);
-    await placeSheetRef.current?.present();
-  };
-
-  const places = getPlacesFromFile();
 
   const onMarkerPress = async (marker: Place) => {
     setSelectedMarker(marker);
@@ -68,9 +27,32 @@ export default function Map() {
     setSelectedMarker(null);
   };
 
+  useEffect(() => {
+    const loadNearby = async () => {
+      try {
+        setLoadingPlaces(true);
+
+        const results = await nearbyLocations(
+          44.2312,
+          -76.486
+        );
+
+        setPlaces(results);
+      } catch (err) {
+        console.error("Failed to load nearby places", err);
+      } finally {
+        setLoadingPlaces(false);
+      }
+    };
+
+    loadNearby();
+  }, []);
+
+
   return (
     <View style={{ flex: 1 }}>
       <MapView
+      showsPointsOfInterest={false}
         style={StyleSheet.absoluteFill}
         initialRegion={{
           latitude: 44.2312,
@@ -78,7 +60,6 @@ export default function Map() {
           latitudeDelta: 0.05,
           longitudeDelta: 0.05,
         }}
-        customMapStyle={MAP_STYLE}
         showsUserLocation
       >
         {places.map(place => (
@@ -92,39 +73,15 @@ export default function Map() {
         ))}
       </MapView>
 
-      <SearchBar
-        value={query}
-        onChangeText={setQuery}
-        onFocus={onSearchFocus}
-      />
-      <SearchResultsSheet
-        sheetRef={searchSheetRef}
-        query={query}
-        onSelectPlace={onSelectSearchResult}
-      />
-
-      {/* TrueSheet */}
       <PlaceSheet
         sheetRef={placeSheetRef}
         place={selectedMarker}
         onDismiss={dismissSheet}
         onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}
       />
+      <SearchSheet places={[]} recentSearches={[]} onSelectPlace={(place: Place) => console.log(place)}/>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  sheetContent: {
-    padding: 16,
-  },
-  title: {
-    fontSize: 18,
-    fontWeight: "600",
-  },
-  description: {
-    marginTop: 6,
-    color: "#666",
-    fontSize: 14,
-  },
-});
+

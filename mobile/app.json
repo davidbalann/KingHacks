@@ -10,7 +10,12 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.bogdansexpo.mobile"
+      "bundleIdentifier": "com.bogdansexpo.mobile",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs your location to show nearby places.",
+        "NSLocationAlwaysUsageDescription": "This app needs your location to show nearby places.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs your location to show nearby places."
+      }
     },
     "android": {
       "adaptiveIcon": {
