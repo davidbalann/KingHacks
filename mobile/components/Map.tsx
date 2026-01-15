@@ -1,12 +1,12 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { View, Text, StyleSheet, Pressable, Button } from "react-native";
 import MapView from "react-native-maps";
 import CustomMarker from "./CustomMarker";
 import SearchBar from "./SearchBar";
+import { Ionicons } from "@expo/vector-icons";
+import { router } from "expo-router";
 
-const MAP_STYLE = [
-  { featureType: "poi", stylers: [{ visibility: "off" }] },
-];
+const MAP_STYLE = [{ featureType: "poi", stylers: [{ visibility: "off" }] }];
 
 const KINGSTON_MARKERS = [
   {
@@ -36,15 +36,11 @@ export default function Map() {
   const [selectedMarker, setSelectedMarker] = useState<any>(null);
   const [query, setQuery] = useState("");
 
-  //const sheetRef = useRef<TrueSheet>(null);
-
   const onMarkerPress = async (marker: any) => {
     setSelectedMarker(marker);
-    //await sheetRef.current?.present();
   };
 
   const dismissSheet = async () => {
-    //await sheetRef.current?.dismiss();
     setSelectedMarker(null);
   };
 
@@ -61,7 +57,7 @@ export default function Map() {
         customMapStyle={MAP_STYLE}
         showsUserLocation
       >
-        {KINGSTON_MARKERS.map(marker => (
+        {KINGSTON_MARKERS.map((marker) => (
           <CustomMarker
             key={marker.id}
             latitude={marker.latitude}
@@ -74,25 +70,21 @@ export default function Map() {
 
       <SearchBar value={query} onChangeText={setQuery} />
 
-      {/* TrueSheet 
-      <TrueSheet
-        ref={sheetRef}
-        detents={[0.25, 0.6]}
-        onDismiss={() => setSelectedMarker(null)}
+      {/* Chat Button */}
+      <Pressable
+        style={{ position: "absolute", top: 100, right: 20 }}
+        onPress={() => router.push("/chat")}
       >
-        {selectedMarker && (
-          <View style={styles.sheetContent}>
-            <View style={{ flex: 1 }}>
-              <Text style={styles.title}>{selectedMarker.title}</Text>
-              <Text style={styles.description}>
-                {selectedMarker.description}
-              </Text>
-            </View>
+        <Ionicons name="chatbubbles" size={36} color="white" />
+      </Pressable>
 
-            <Button title="Dismiss" onPress={dismissSheet} />
-          </View>
-        )}
-      </TrueSheet>*/}
+      {/* Favourites List Button */}
+      <Pressable
+        style={{ position: "absolute", top: 160, right: 20 }}
+        onPress={() => router.push("/favourites")}
+      >
+        <Ionicons name="star" size={36} color="white" />
+      </Pressable>
     </View>
   );
 }
