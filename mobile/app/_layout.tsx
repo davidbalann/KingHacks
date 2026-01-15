@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 import { NativeTabs, Icon, Label } from 'expo-router/unstable-native-tabs';
 import { KeyboardProvider } from "react-native-keyboard-controller";
+=======
+import "react-native-gesture-handler";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { Slot } from "expo-router";
+>>>>>>> origin/setup-chat
 
-export default function TabLayout() {
+export default function Layout() {
   return (
+<<<<<<< HEAD
     <KeyboardProvider>
       <NativeTabs>
         <NativeTabs.Trigger name="index">
@@ -15,5 +22,10 @@ export default function TabLayout() {
         </NativeTabs.Trigger>
       </NativeTabs>
     </KeyboardProvider>
+=======
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <Slot />
+    </GestureHandlerRootView>
+>>>>>>> origin/setup-chat
   );
 }
