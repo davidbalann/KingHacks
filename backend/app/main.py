@@ -5,7 +5,7 @@ import logging
 
 from fastapi import FastAPI
 from backend.app.api.memory import router as memory_router
-from .api import search, watchlist, pickup, admin
+from .api import search, watchlist, pickup, admin, location
 from .services.scraper import refresh_listings_from_sources
 
 logging.basicConfig(
@@ -22,6 +22,7 @@ app.include_router(watchlist.router)
 app.include_router(pickup.router)
 app.include_router(admin.router, prefix="/admin")
 app.include_router(memory_router)
+app.include_router(location.router)
 
 @app.on_event("startup")
 async def load_data_on_startup():
