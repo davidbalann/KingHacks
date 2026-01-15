@@ -7,6 +7,7 @@ import SearchBar from "./SearchBar";
 import { getPlacesFromFile } from "@/api/places";
 import PlaceSheet from "./PlaceSheet";
 import { Place } from "@/types/place";
+import SearchResultsSheet from "./SearchResultsSheet";
 
 const MAP_STYLE = [
   { featureType: "poi", stylers: [{ visibility: "off" }] },
@@ -42,16 +43,28 @@ export default function Map() {
   const [selectedMarker, setSelectedMarker] = useState<Place>(null);
   const [query, setQuery] = useState("");
 
-  const sheetRef = useRef<TrueSheet>(null);
+  const placeSheetRef = useRef<TrueSheet>(null);
+  const searchSheetRef = useRef<TrueSheet>(null);
+
+  const onSearchFocus = async () => {
+    await searchSheetRef.current?.present();
+  };
+
+  const onSelectSearchResult = async (place: Place) => {
+    await searchSheetRef.current?.dismiss();
+    setSelectedMarker(place);
+    await placeSheetRef.current?.present();
+  };
+
   const places = getPlacesFromFile();
 
   const onMarkerPress = async (marker: Place) => {
     setSelectedMarker(marker);
-    await sheetRef.current?.present();
+    await placeSheetRef.current?.present();
   };
 
   const dismissSheet = async () => {
-    await sheetRef.current?.dismiss();
+    await placeSheetRef.current?.dismiss();
     setSelectedMarker(null);
   };
 
@@ -79,11 +92,20 @@ export default function Map() {
         ))}
       </MapView>
 
-      <SearchBar value={query} onChangeText={setQuery} />
+      <SearchBar
+        value={query}
+        onChangeText={setQuery}
+        onFocus={onSearchFocus}
+      />
+      <SearchResultsSheet
+        sheetRef={searchSheetRef}
+        query={query}
+        onSelectPlace={onSelectSearchResult}
+      />
 
       {/* TrueSheet */}
       <PlaceSheet
-        sheetRef={sheetRef}
+        sheetRef={placeSheetRef}
         place={selectedMarker}
         onDismiss={dismissSheet}
         onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}

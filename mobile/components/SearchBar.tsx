@@ -4,12 +4,14 @@ import { View, TextInput, StyleSheet } from "react-native";
 type SearchBarProps = {
   value: string;
   onChangeText: (text: string) => void;
+  onFocus?: () => void;
   placeholder?: string;
 };
 
 export default function SearchBar({
   value,
   onChangeText,
+  onFocus,
   placeholder = "Search places",
 }: SearchBarProps) {
   return (
@@ -17,11 +19,12 @@ export default function SearchBar({
       <TextInput
         value={value}
         onChangeText={onChangeText}
+        onFocus={onFocus}
         placeholder={placeholder}
         placeholderTextColor="#999"
         style={styles.input}
-        returnKeyType="search"
         clearButtonMode="while-editing"
+        returnKeyType="search"
       />
     </View>
   );
