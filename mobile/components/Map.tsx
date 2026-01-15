@@ -1,21 +1,9 @@
-<<<<<<< HEAD
-import React, { useRef, useState } from "react";
-import { View, StyleSheet } from "react-native";
-import MapView from "react-native-maps";
-//import { TrueSheet } from "@lodev09/react-native-true-sheet";
-import CustomMarker from "./CustomMarker";
-import PlaceSheet from "./PlaceSheet";
-import { Place } from "@/types/place";
-import SearchResultsSheet from "./SearchResultsSheet";
-=======
 import React, { useState } from "react";
 import { View, Text, StyleSheet, Pressable, Button } from "react-native";
 import MapView from "react-native-maps";
 import CustomMarker from "./CustomMarker";
-import SearchBar from "./SearchBar";
 import { Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
->>>>>>> origin/setup-chat
 
 const MAP_STYLE = [{ featureType: "poi", stylers: [{ visibility: "off" }] }];
 
@@ -49,37 +37,8 @@ export default function Map() {
   const [selectedMarker, setSelectedMarker] = useState<Place>(null);
   const [query, setQuery] = useState("");
 
-<<<<<<< HEAD
-  const placeSheetRef = useRef<any>(null);
-  const searchSheetRef = useRef<any>(null);
-
-  const onSearchFocus = async () => {
-    await searchSheetRef.current?.present();
-  };
-
-  const onSelectSearchResult = async (place: Place) => {
-    await searchSheetRef.current?.dismiss();
-    setSelectedMarker(place);
-    await placeSheetRef.current?.present();
-  };
-
-  const places = [];
-
-  const onMarkerPress = async (marker: Place) => {
-    setSelectedMarker(marker);
-    await placeSheetRef.current?.present();
-  };
-
-  const dismissSheet = async () => {
-    await placeSheetRef.current?.dismiss();
-=======
   const onMarkerPress = async (marker: any) => {
     setSelectedMarker(marker);
-  };
-
-  const dismissSheet = async () => {
->>>>>>> origin/setup-chat
-    setSelectedMarker(null);
   };
 
   return (
@@ -95,11 +54,7 @@ export default function Map() {
         customMapStyle={MAP_STYLE}
         showsUserLocation
       >
-<<<<<<< HEAD
-        {places.map(place => (
-=======
-        {KINGSTON_MARKERS.map((marker) => (
->>>>>>> origin/setup-chat
+        {KINGSTON_MARKERS.map((place) => (
           <CustomMarker
             key={place.id}
             latitude={place.latitude}
@@ -110,20 +65,6 @@ export default function Map() {
         ))}
       </MapView>
 
-      <SearchResultsSheet
-        sheetRef={searchSheetRef}
-        query={query}
-        onSelectPlace={onSelectSearchResult}
-      />
-
-<<<<<<< HEAD
-      <PlaceSheet
-        sheetRef={placeSheetRef}
-        place={selectedMarker}
-        onDismiss={dismissSheet}
-        onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}
-      />
-=======
       {/* Chat Button */}
       <Pressable
         style={{ position: "absolute", top: 100, right: 20 }}
@@ -139,7 +80,6 @@ export default function Map() {
       >
         <Ionicons name="star" size={36} color="white" />
       </Pressable>
->>>>>>> origin/setup-chat
     </View>
   );
 }
