@@ -40,17 +40,14 @@ export default function CustomMarker({
       onPress={onPress}
       tracksViewChanges={false}
     >
-      <Animated.View
+      <Animated.Image
+        source={require("@/assets/images/markers/greenHouse.png")}
         style={[
           {
-            width: 14,
-            height: 14,
-            borderRadius: 7,
-            backgroundColor: color,
-            borderWidth: 2,
-            borderColor: "white",
+            width: 40,
+            height: 40,
+            resizeMode: "contain",
           },
-          animatedStyle,
         ]}
       />
     </Marker>

@@ -1,13 +1,18 @@
 import React, { useRef, useState } from "react";
-import { View, Text, StyleSheet, Pressable, Button } from "react-native";
+import { View, StyleSheet } from "react-native";
 import MapView from "react-native-maps";
 import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
 import SearchBar from "./SearchBar";
+import { getPlacesFromFile } from "@/api/places";
+import PlaceSheet from "./PlaceSheet";
+import { Place } from "@/types/place";
 
 const MAP_STYLE = [
   { featureType: "poi", stylers: [{ visibility: "off" }] },
 ];
+
+
 
 const KINGSTON_MARKERS = [
   {
@@ -34,12 +39,13 @@ const KINGSTON_MARKERS = [
 ];
 
 export default function Map() {
-  const [selectedMarker, setSelectedMarker] = useState<any>(null);
+  const [selectedMarker, setSelectedMarker] = useState<Place>(null);
   const [query, setQuery] = useState("");
 
   const sheetRef = useRef<TrueSheet>(null);
+  const places = getPlacesFromFile();
 
-  const onMarkerPress = async (marker: any) => {
+  const onMarkerPress = async (marker: Place) => {
     setSelectedMarker(marker);
     await sheetRef.current?.present();
   };
@@ -62,13 +68,13 @@ export default function Map() {
         customMapStyle={MAP_STYLE}
         showsUserLocation
       >
-        {KINGSTON_MARKERS.map(marker => (
+        {places.map(place => (
           <CustomMarker
-            key={marker.id}
-            latitude={marker.latitude}
-            longitude={marker.longitude}
-            selected={selectedMarker?.id === marker.id}
-            onPress={() => onMarkerPress(marker)}
+            key={place.id}
+            latitude={place.latitude}
+            longitude={place.longitude}
+            selected={selectedMarker?.id === place.id}
+            onPress={() => onMarkerPress(place)}
           />
         ))}
       </MapView>
@@ -76,24 +82,12 @@ export default function Map() {
       <SearchBar value={query} onChangeText={setQuery} />
 
       {/* TrueSheet */}
-      <TrueSheet
-        ref={sheetRef}
-        detents={[0.25, 0.6]}
-        onDismiss={() => setSelectedMarker(null)}
-      >
-        {selectedMarker && (
-          <View style={styles.sheetContent}>
-            <View style={{ flex: 1 }}>
-              <Text style={styles.title}>{selectedMarker.title}</Text>
-              <Text style={styles.description}>
-                {selectedMarker.description}
-              </Text>
-            </View>
-
-            <Button title="Dismiss" onPress={dismissSheet} />
-          </View>
-        )}
-      </TrueSheet>
+      <PlaceSheet
+        sheetRef={sheetRef}
+        place={selectedMarker}
+        onDismiss={dismissSheet}
+        onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}
+      />
     </View>
   );
 }
