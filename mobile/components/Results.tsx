@@ -13,7 +13,7 @@ import { useDebouncedValue } from "@/hooks/useDebouncedValue";
 
 interface ResultsProps {
   query: string
-  onSelectPlace?: (place: Place) => void;
+  onSelectPlace: (place: Place) => void;
 }
 
 export default function Results({ query, onSelectPlace }: ResultsProps) {
@@ -87,7 +87,7 @@ export default function Results({ query, onSelectPlace }: ResultsProps) {
       renderItem={({ item }) => (
         <Pressable
           style={styles.item}
-          onPress={() => onSelectPlace?.(item)}
+          onPress={() => onSelectPlace(item)}
         >
           <Text style={styles.name}>{item.name}</Text>
           <Text style={styles.meta}>

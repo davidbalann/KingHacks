@@ -34,7 +34,7 @@ export default function SearchSheet({ onSelectPlace }: SearchSheetProps) {
     <TrueSheet
       ref={sheetRef}
       scrollable={true}
-      detents={[0.085, 1]}
+      detents={[0.077, 1]}
       dimmed={false}
       initialDetentIndex={0}
       onDetentChange={(event) => {
@@ -62,7 +62,7 @@ export default function SearchSheet({ onSelectPlace }: SearchSheetProps) {
         </View>
       }
     >
-      {focused && query ? <Results query={query}/> : <Categories />}
+      {focused && query ? <Results query={query} onSelectPlace={onSelectPlace}/> : <Categories onSelectPlace={onSelectPlace} />}
     </TrueSheet>
   );
 }

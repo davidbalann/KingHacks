@@ -14,7 +14,8 @@
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "This app needs your location to show nearby places.",
         "NSLocationAlwaysUsageDescription": "This app needs your location to show nearby places.",
-        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs your location to show nearby places."
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs your location to show nearby places.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -49,6 +50,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0666675e-9c13-414f-b29a-8c682505efff"
+      }
     }
   }
 }
