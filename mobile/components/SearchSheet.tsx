@@ -4,15 +4,16 @@ import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import { Place } from "@/types/place";
 
 interface SearchSheetProps {
-  places: Place[];
-  recentSearches: string[];
   onSelectPlace: (place: Place) => void;
 }
 
-export default function SearchSheet({ places, recentSearches, onSelectPlace }: SearchSheetProps) {
+export default function SearchSheet({ onSelectPlace }: SearchSheetProps) {
   const sheetRef = useRef<TrueSheet>(null);
   const [query, setQuery] = useState("");
-  const [focused, setFocused] = useState(false);
+  const [inputFocused, setInputFocused] = useState(false);
+  const [sheetExpanded, setSheetExpanded] = useState(false);
+
+  const focused = inputFocused || sheetExpanded;
 
   // Present sheet small on mount
   useEffect(() => {
@@ -20,16 +21,15 @@ export default function SearchSheet({ places, recentSearches, onSelectPlace }: S
   }, []);
 
   const handleFocus = async () => {
-    setFocused(true);
-    await sheetRef.current?.resize(1); // expand to full screen
+    setInputFocused(true);
+    await sheetRef.current?.resize(1);
   };
 
-  const handleDismiss = async () => {
-    setFocused(false);
-    setQuery("");
-    Keyboard.dismiss();
-    await sheetRef.current?.resize(0); // shrink back to small
+  const handleBlur = () => {
+    setInputFocused(false);
   };
+
+  //const dataToRender = query.trim().length > 0 ? results : suggested;
 
   return (
     <TrueSheet
@@ -37,47 +37,42 @@ export default function SearchSheet({ places, recentSearches, onSelectPlace }: S
       detents={['auto', 1]}
       dimmed={false}
       initialDetentIndex={0}
+      onDetentChange={(event) => {
+        const index = event.nativeEvent.index;
+        const expanded = index === 1;
+
+        setSheetExpanded(expanded);
+
+        if (!expanded) {
+            setQuery("");
+            Keyboard.dismiss();
+        }
+      }}
       header={
         <View style={styles.searchContainer}>
             <TextInput
             value={query}
             onChangeText={setQuery}
             onFocus={handleFocus}
+            onBlur={handleBlur}
             placeholder="Search places..."
             placeholderTextColor={"#2f2f2fff"}
             style={styles.input}
             />
-      </View>
+        </View>
       }
     >
       {/* Only show lists if expanded */}
-      {focused && (
-        <View style={{ flex: 1, marginTop: 16 }}>
-          {/* Recent Searches */}
+      {focused && query &&(
           <FlatList
-            data={recentSearches.filter(r => r.toLowerCase().includes(query.toLowerCase()))}
-            keyExtractor={(item, index) => `recent-${index}`}
-            ListHeaderComponent={() => <Text style={styles.title}>Recent Searches</Text>}
+            data={[]}
+            keyExtractor={(item, index) => `${index}`}
             renderItem={({ item }) => (
               <Pressable style={styles.item}>
                 <Text>{item}</Text>
               </Pressable>
             )}
           />
-
-          {/* Suggested Places */}
-          <FlatList
-            data={places.filter(p => p.name.toLowerCase().includes(query.toLowerCase()))}
-            keyExtractor={(item) => item.id.toString()}
-            ListHeaderComponent={() => <Text style={[styles.title, { marginTop: 24 }]}>Suggested Places</Text>}
-            renderItem={({ item }) => (
-              <Pressable style={styles.item} onPress={() => onSelectPlace(item)}>
-                <Text>{item.name}</Text>
-                <Text style={styles.category}>{item.category}</Text>
-              </Pressable>
-            )}
-          />
-        </View>
       )}
     </TrueSheet>
   );
