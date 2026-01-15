@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { View, Text, StyleSheet, Pressable, Button } from "react-native";
 import MapView from "react-native-maps";
-import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
 import SearchBar from "./SearchBar";
 
@@ -37,15 +36,15 @@ export default function Map() {
   const [selectedMarker, setSelectedMarker] = useState<any>(null);
   const [query, setQuery] = useState("");
 
-  const sheetRef = useRef<TrueSheet>(null);
+  //const sheetRef = useRef<TrueSheet>(null);
 
   const onMarkerPress = async (marker: any) => {
     setSelectedMarker(marker);
-    await sheetRef.current?.present();
+    //await sheetRef.current?.present();
   };
 
   const dismissSheet = async () => {
-    await sheetRef.current?.dismiss();
+    //await sheetRef.current?.dismiss();
     setSelectedMarker(null);
   };
 
@@ -75,7 +74,7 @@ export default function Map() {
 
       <SearchBar value={query} onChangeText={setQuery} />
 
-      {/* TrueSheet */}
+      {/* TrueSheet 
       <TrueSheet
         ref={sheetRef}
         detents={[0.25, 0.6]}
@@ -93,7 +92,7 @@ export default function Map() {
             <Button title="Dismiss" onPress={dismissSheet} />
           </View>
         )}
-      </TrueSheet>
+      </TrueSheet>*/}
     </View>
   );
 }
