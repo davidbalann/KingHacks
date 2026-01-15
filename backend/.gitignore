@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 /virtual-env
 __pycache__/
 *.pyc
+=======
+.env
+>>>>>>> e7ea18a011ad027793efb6d99ad17158055c022c
