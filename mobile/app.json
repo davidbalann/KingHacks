@@ -42,20 +42,18 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
-    "extra": {
-      "apiBaseUrl": "http://localhost:8000"
-    },
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    },
     "extra": {
       "router": {},
       "eas": {
         "projectId": "0666675e-9c13-414f-b29a-8c682505efff"
       }
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
     }
   }
 }

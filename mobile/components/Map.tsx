@@ -98,9 +98,9 @@ export default function Map() {
       </Pressable>
       {/* TrueSheet */}
       <PlaceSheet
-        sheetRef={sheetRef}
+        sheetRef={null}
         place={selectedMarker}
-        onDismiss={dismissSheet}
+        onDismiss={() => console.log()}
         onFavorite={handleFavorite}
         isSaving={isSaving}
       />
