@@ -72,7 +72,7 @@ export default function Map() {
   };
 
   const onSelectCategory = async (category: string) => {
-    const resultPlaces = await searchPlaces(category);
+    const resultPlaces = await searchPlaces(category = category);
     setPlaces(resultPlaces);
     await dismissSheet();
   }
