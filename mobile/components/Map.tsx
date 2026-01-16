@@ -10,6 +10,7 @@ import { nearbyLocations } from "@/api/nearbyLocations";
 import SearchSheet from "./SearchSheet";
 import { useFocusEffect } from "@react-navigation/native";
 import { searchPlaces } from "@/api/search";
+import { savePlace } from "@/api/favourite";
 
 export default function Map() {
   const [places, setPlaces] = useState<Place[]>([]);
@@ -38,6 +39,11 @@ export default function Map() {
     setSelectedMarker(null);
     await TrueSheet.present('search');
   };
+
+  const onFavorite = async () => {
+    console.log(selectedMarker);
+    await savePlace(selectedMarker);
+  }
 
   useEffect(() => {
     const loadNearby = async () => {
@@ -103,7 +109,7 @@ export default function Map() {
         <PlaceSheet
           place={selectedMarker}
           onDismiss={dismissSheet}
-          onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}
+          onFavorite={onFavorite}
         />
       </TrueSheet>
       <TrueSheet
