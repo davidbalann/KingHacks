@@ -7,6 +7,7 @@ import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import { Place } from "@/types/place";
 import Results from "./Results";
 import Categories from "./Categories";
+import PickupsList, { SAMPLE_PICKUPS } from "./PickupsList";
 
 interface SearchSheetProps {
   onSelectPlace: (place: Place) => void;
@@ -45,7 +46,10 @@ export default function SearchSheet({onSelectPlace, onSelectCategory} : SearchSh
         {focused && query ? (
           <Results query={query} onSelectPlace={onSelectPlace} />
         ) : (
+          <>
           <Categories onSelectCategory={onSelectCategory} />
+           <PickupsList pickups={SAMPLE_PICKUPS.groceries} />
+          </>
         )}
       </>
     );

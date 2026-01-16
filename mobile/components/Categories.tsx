@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, FlatList, StyleSheet, Pressable } from "react-native";
 import { CATEGORIES, CategoryIcon } from "./CategoryIcon";
+import PickupsList, { SAMPLE_PICKUPS } from "./PickupsList";
 
 interface CategoryProps {
   onSelectCategory: (category: string) => Promise<void>;
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
   },
   iconContainer: {
-    backgroundColor: 'green',
+    backgroundColor: '#2fc29d',
     padding: 5,
     borderRadius: 30,
     alignItems: "center",

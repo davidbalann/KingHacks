@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import { View, StyleSheet, Keyboard } from "react-native";
+import { View, StyleSheet, Keyboard, Alert } from "react-native";
 import MapView from "react-native-maps";
 import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
@@ -83,6 +83,7 @@ export default function Map() {
   const onFavorite = async () => {
     if (!selectedMarker) return;
     await savePlace(selectedMarker);
+    Alert.alert(`${selectedMarker.name} is saved to favorites`)
   };
 
   useEffect(() => {
