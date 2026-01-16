@@ -43,6 +43,7 @@ export default function CustomMarker({
       coordinate={{ latitude, longitude }}
       onPress={onPress}
       tracksViewChanges={false}
+      key={place.id.toString()}
     > 
     <View style={[styles.iconContainer, { backgroundColor: getHoursColor(place.hours) }]}>
       <CategoryIcon

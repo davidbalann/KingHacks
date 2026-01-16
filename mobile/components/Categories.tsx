@@ -11,7 +11,7 @@ export default function Categories({onSelectCategory}: CategoryProps) {
     <View style={styles.container}>
       <FlatList
         data={CATEGORIES}
-        keyExtractor={(item) => item.id}
+        keyExtractor={(item) => item.id.toString()}
         ItemSeparatorComponent={() => <View style={styles.separator} />}
         renderItem={({ item }) => (
           <Pressable style={styles.row} onPress={() => onSelectCategory(item.id)}>

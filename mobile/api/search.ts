@@ -11,7 +11,7 @@ type SearchResponse = {
 export async function searchPlaces(
   category?: string,
   page: number = 1,
-  limit: number = 200
+  limit: number = 100
 ): Promise<Place[]> {
   const params = new URLSearchParams({
     page: String(page),
@@ -32,7 +32,16 @@ export async function searchPlaces(
   });
 
   if (!res.ok) {
-    throw new Error(`Search failed: ${res.status}`);
+    const text = await res.text(); // or res.json() if your API returns JSON
+    console.error("Search failed:", {
+      status: res.status,
+      statusText: res.statusText,
+      body: text,
+    });
+
+    throw new Error(
+      `Search failed (${res.status}): ${text || res.statusText}`
+    );
   }
 
   const data: SearchResponse = await res.json();
