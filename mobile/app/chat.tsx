@@ -20,8 +20,7 @@ export default function Index() {
   const [message, setMessage] = useState("");
   const [inputHeight, setInputHeight] = useState(40);
   const [messages, setMessages] = useState<{ text: string; fromMe: boolean }[]>([
-    { text: "Hello!", fromMe: false },
-    { text: "Hi!", fromMe: true },
+
   ]);
 
   const [zoom, setZoom] = useState(1);
@@ -43,7 +42,8 @@ export default function Index() {
         latitude: 44.2312, // Replace with actual location if available
         longitude: -76.486,
         radius_km: 3,
-        limit: 1,
+        limit: 10,
+        category: 'meals'
       };
 
       const response = await backboardChat(body);
