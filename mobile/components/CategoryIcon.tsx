@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 
@@ -30,7 +30,7 @@ export const CategoryIcon = ({
 }) => {
   switch (provider) {
     case "fa6":
-      return <FontAwesome6 name={name} size={size} color={color} />;
+      return <FontAwesome name={name} size={size} color={color} />;
     case "material":
       return <MaterialIcons name={name} size={size} color={color} />;
     default:

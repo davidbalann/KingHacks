@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, Pressable, Linking } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Place } from "@/types/place";
+import { getWalkingTimeEstimate, LatLng } from "@/api/direction";
 
 type Props = {
   place: Place | null;
@@ -17,6 +18,17 @@ export default function PlaceSheet({
   if (!place) return null;
 
   const isOpen = place.hours?.openNow;
+
+  const [estimate, setEstimate] = useState<any>(null);
+  useEffect(() => {
+    const getTime = async () => {
+      const result = await getWalkingTimeEstimate({ latitude: 44.2312,
+          longitude: -76.486}, {latitude: place.latitude, longitude: place.longitude})
+      console.log(result);
+      setEstimate(result);
+    }
+    getTime();
+  }, [])
 
   return (
     <>
@@ -37,7 +49,7 @@ export default function PlaceSheet({
         <View style={styles.actions}>
           <ActionButton
             icon="walk"
-            label={`${place.walkingTime ?? "—"} min`}
+            label={`${estimate?.durationText}`}
             onPress={() => {}}
             primary
           />
