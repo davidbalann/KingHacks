@@ -92,7 +92,7 @@ export default function Map() {
       >
         {places.map(place => (
           <CustomMarker
-            key={place.id}
+            place={place}
             latitude={place.latitude}
             longitude={place.longitude}
             selected={selectedMarker?.id === place.id}

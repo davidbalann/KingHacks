@@ -1,25 +1,25 @@
-import { Ionicons } from "@expo/vector-icons";
 import React, { useEffect } from "react";
-import { View } from "react-native";
+import { View, StyleSheet } from "react-native";
 import { Marker } from "react-native-maps";
-import Animated, {
+import {
   useSharedValue,
-  useAnimatedStyle,
   withSpring,
 } from "react-native-reanimated";
+import { CATEGORIES, CategoryIcon } from "./CategoryIcon";
+import { Place } from "@/types/place";
 
 type CustomMarkerProps = {
+  place: Place;
   latitude: number;
   longitude: number;
-  color?: string;
   selected?: boolean;
   onPress?: () => void;
 };
 
 export default function CustomMarker({
+  place,
   latitude,
   longitude,
-  color = "#4F46E5",
   selected = false,
   onPress,
 }: CustomMarkerProps) {
@@ -32,9 +32,9 @@ export default function CustomMarker({
     });
   }, [selected]);
 
-  const animatedStyle = useAnimatedStyle(() => ({
-    transform: [{ scale: scale.value }],
-  }));
+  const item = CATEGORIES.find((cat) => cat.id === place.category);
+  console.log(item);
+  if (!item) return null;
 
   return (
     <Marker
@@ -42,9 +42,24 @@ export default function CustomMarker({
       onPress={onPress}
       tracksViewChanges={false}
     > 
-    <View style={{ backgroundColor: 'blue', padding: 3, borderRadius: 50 }}> 
-      <Ionicons name="home" color={'white'}/>
-      </View>
+    <View style={styles.iconContainer}>
+      <CategoryIcon
+        provider={item.provider}
+        name={item.icon}
+        size={15}
+        color={place.hours?.openNow ? "white" : "black"}
+      />
+    </View>
     </Marker>
   );
 }
+
+const styles = StyleSheet.create({
+  iconContainer: {
+    padding: 5,
+    backgroundColor: 'green',
+    borderRadius: 30,
+    alignItems: "center",
+    marginRight: 12,
+  }
+});
