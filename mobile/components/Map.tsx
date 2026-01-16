@@ -53,10 +53,14 @@ export default function Map() {
 
   useFocusEffect(
     React.useCallback(() => {
-      //TrueSheet.present('search');
+      try {
+        TrueSheet.present('search');
+      } catch {
+        console.log('error')
+      }
+        
 
       return () => {
-        // 🔴 SCREEN BLURRED
         TrueSheet.dismissAll();
         setSelectedMarker(null);
       };
