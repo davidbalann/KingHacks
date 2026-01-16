@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet, Pressable, Linking } from "react-native";
-//import { TrueSheet } from "@lodev09/react-native-true-sheet";
+import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import { Ionicons } from "@expo/vector-icons";
 import { Place } from "@/types/place";
 
@@ -9,7 +9,6 @@ type Props = {
   place: Place | null;
   onDismiss: () => void;
   onFavorite: () => void;
-  isSaving?: boolean;
 };
 
 export default function PlaceSheet({
@@ -17,14 +16,13 @@ export default function PlaceSheet({
   place,
   onDismiss,
   onFavorite,
-  isSaving = false,
 }: Props) {
   if (!place) return null;
 
   const isOpen = place.hours?.openNow;
 
   return (
-    //<TrueSheet ref={sheetRef} detents={[0.35, 1]} onDismiss={onDismiss}>
+    <TrueSheet ref={sheetRef} detents={[0.35, 1]} onDismiss={onDismiss}>
       <View style={styles.container}>
         {/* Header */}
         <View style={styles.header}>
@@ -87,18 +85,12 @@ export default function PlaceSheet({
         <Text style={styles.address}>{place.address}</Text>
 
         {/* Favorite */}
-        <Pressable
-          style={styles.favorite}
-          onPress={onFavorite}
-          disabled={isSaving}
-        >
+        <Pressable style={styles.favorite} onPress={onFavorite}>
           <Ionicons name="star-outline" size={20} />
-          <Text style={styles.favoriteText}>
-            {isSaving ? "Saving..." : "Add to Favorites"}
-          </Text>
+          <Text style={styles.favoriteText}>Add to Favorites</Text>
         </Pressable>
       </View>
-    //</TrueSheet>
+    </TrueSheet>
   );
 }
 

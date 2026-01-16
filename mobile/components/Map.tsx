@@ -1,65 +1,71 @@
 import React, { useRef, useState } from "react";
-import { View, Text, Alert, StyleSheet, Pressable, Button } from "react-native";
+import { View, StyleSheet } from "react-native";
 import MapView from "react-native-maps";
+import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
-import { Ionicons } from "@expo/vector-icons";
-import { router } from "expo-router";
 import PlaceSheet from "./PlaceSheet";
 import { Place } from "@/types/place";
-import { addToWatchlist } from "@/api/watchlist";
-
-const MAP_STYLE = [{ featureType: "poi", stylers: [{ visibility: "off" }] }];
-
-const KINGSTON_MARKERS = [
-  {
-    id: "1",
-    title: "Queen’s University",
-    description: "Main campus",
-    latitude: 44.2253,
-    longitude: -76.4951,
-  },
-  {
-    id: "2",
-    title: "Kingston Waterfront",
-    description: "Lake Ontario",
-    latitude: 44.2312,
-    longitude: -76.486,
-  },
-  {
-    id: "3",
-    title: "Fort Henry",
-    description: "Historic site",
-    latitude: 44.2417,
-    longitude: -76.4634,
-  },
-];
+import { useEffect } from "react";
+import { nearbyLocations } from "@/api/nearbyLocations";
+import SearchSheet from "./SearchSheet";
+import { useFocusEffect } from "@react-navigation/native";
 
 export default function Map() {
+  const [places, setPlaces] = useState<Place[]>([]);
+  const [loadingPlaces, setLoadingPlaces] = useState(false);
+
   const [selectedMarker, setSelectedMarker] = useState<Place>(null);
-  const [query, setQuery] = useState("");
-  const [isSaving, setIsSaving] = useState(false);
 
-  const onMarkerPress = async (marker: any) => {
+  const searchSheetRef = useRef<TrueSheet>(null);
+  const placeSheetRef = useRef<TrueSheet>(null);
+
+  const onMarkerPress = async (marker: Place) => {
     setSelectedMarker(marker);
+    await placeSheetRef.current?.present();
   };
 
-  const handleFavorite = async () => {
-    if (!selectedMarker || isSaving) return;
-    setIsSaving(true);
-    try {
-      await addToWatchlist(selectedMarker.id);
-      Alert.alert("Saved", "Added to your watchlist for this device.");
-    } catch (error) {
-      console.error(error);
-      Alert.alert("Error", "Could not add to watchlist. Please try again.");
-    } finally {
-      setIsSaving(false);
-    }
+  const dismissSheet = async () => {
+    await placeSheetRef.current?.dismiss();
+    setSelectedMarker(null);
   };
+
+  useEffect(() => {
+    const loadNearby = async () => {
+      try {
+        setLoadingPlaces(true);
+
+        const results = await nearbyLocations(
+          44.2312,
+          -76.486
+        );
+
+        setPlaces(results);
+      } catch (err) {
+        console.error("Failed to load nearby places", err);
+      } finally {
+        setLoadingPlaces(false);
+      }
+    };
+
+    loadNearby();
+  }, []);
+
+  useFocusEffect(
+    React.useCallback(() => {
+      //TrueSheet.present('search');
+
+      return () => {
+        // 🔴 SCREEN BLURRED
+        TrueSheet.dismissAll();
+        setSelectedMarker(null);
+      };
+    }, [])
+  );
 
   return (
     <View style={{ flex: 1 }}>
       <MapView
+      showsPointsOfInterest={false}
         style={StyleSheet.absoluteFill}
         initialRegion={{
           latitude: 44.2312,
@@ -67,10 +73,9 @@ export default function Map() {
           latitudeDelta: 0.05,
           longitudeDelta: 0.05,
         }}
-        customMapStyle={MAP_STYLE}
         showsUserLocation
       >
-        {KINGSTON_MARKERS.map((place) => (
+        {places.map(place => (
           <CustomMarker
             key={place.id}
             latitude={place.latitude}
@@ -81,44 +86,14 @@ export default function Map() {
         ))}
       </MapView>
 
-      {/* Chat Button */}
-      <Pressable
-        style={{ position: "absolute", top: 100, right: 20 }}
-        onPress={() => router.push("/chat")}
-      >
-        <Ionicons name="chatbubbles" size={36} color="white" />
-      </Pressable>
-
-      {/* Favourites List Button */}
-      <Pressable
-        style={{ position: "absolute", top: 160, right: 20 }}
-        onPress={() => router.push("/favourites")}
-      >
-        <Ionicons name="star" size={36} color="white" />
-      </Pressable>
-      {/* TrueSheet */}
       <PlaceSheet
-        sheetRef={null}
+        sheetRef={placeSheetRef}
         place={selectedMarker}
-        onDismiss={() => console.log()}
-        onFavorite={handleFavorite}
-        isSaving={isSaving}
+        onDismiss={dismissSheet}
+        onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}
       />
+      <SearchSheet ref={searchSheetRef} places={[]} recentSearches={[]} onSelectPlace={(place: Place) => console.log(place)}/>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  sheetContent: {
-    padding: 16,
-  },
-  title: {
-    fontSize: 18,
-    fontWeight: "600",
-  },
-  description: {
-    marginTop: 6,
-    color: "#666",
-    fontSize: 14,
-  },
-});
