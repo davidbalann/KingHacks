@@ -24,7 +24,6 @@ export default function PlaceSheet({
     const getTime = async () => {
       const result = await getWalkingTimeEstimate({ latitude: 44.2312,
           longitude: -76.486}, {latitude: place.latitude, longitude: place.longitude})
-      console.log(result);
       setEstimate(result);
     }
     getTime();

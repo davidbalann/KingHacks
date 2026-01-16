@@ -45,7 +45,6 @@ export default function Map() {
   };
 
   const onFavorite = async () => {
-    console.log(selectedMarker);
     await savePlace(selectedMarker);
   }
 

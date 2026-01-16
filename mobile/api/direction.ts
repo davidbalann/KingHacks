@@ -10,7 +10,7 @@ export type WalkingTimeEstimate = {
   distanceValue: number;
 };
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyBZvqDDYUaoIJbylrHkOwhf2p_LFzN_MpY';
+const GOOGLE_MAPS_API_KEY = process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY;
 
 export async function getWalkingTimeEstimate(
   origin: LatLng,

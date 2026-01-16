@@ -34,7 +34,6 @@ export default function Favorites() {
     <SafeAreaView style={styles.container}>
       <FlatList
         data={places}
-        keyExtractor={(item) => item.id.toString()}
         contentContainerStyle={{ padding: 16 }}
         ItemSeparatorComponent={() => <View style={{ height: 12 }} />}
         renderItem={({ item }) => {
