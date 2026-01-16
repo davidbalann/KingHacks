@@ -19,19 +19,57 @@ export default function Map() {
 
   const [places, setPlaces] = useState<Place[]>([]);
   const [loadingPlaces, setLoadingPlaces] = useState(false);
+  const mapRef = useRef<MapView>(null);
+
+  const userRegionRef = useRef<{
+    latitude: number;
+    longitude: number;
+  }>({
+    latitude: 44.2312,
+    longitude: -76.486,
+  });
+
 
   const [selectedMarker, setSelectedMarker] = useState<Place>(null);
 
-  const onMarkerPress = async (marker: Place) => {
-    setSelectedMarker(marker);
-    
-    await TrueSheet.present('place');
-  };
-
   const onSelectPlace = async (place: Place) => {
-    setSelectedMarker(place);
+    newSetSelectedMarker(place);
     await TrueSheet.present('place');
   }
+
+  const newSetSelectedMarker = async (place: Place | null) => {
+    setSelectedMarker(place);
+
+    if (!mapRef.current) return;
+
+    if (!place) {
+      // 🔙 Zoom out to user's location
+      const { latitude, longitude } = userRegionRef.current;
+
+      mapRef.current.animateToRegion(
+        {
+          latitude,
+          longitude,
+          latitudeDelta: 0.05, // zoomed out
+          longitudeDelta: 0.05,
+        },
+        400
+      );
+
+      return;
+    }
+
+    // 🎯 Zoom into selected place
+    mapRef.current.animateToRegion(
+      {
+        latitude: place.latitude,
+        longitude: place.longitude,
+        latitudeDelta: 0.01,
+        longitudeDelta: 0.01,
+      },
+      350
+    );
+  };
 
   const onSelectCategory = async (category: string) => {
     const resultPlaces = await searchPlaces(category);
@@ -41,7 +79,7 @@ export default function Map() {
 
   const dismissSheet = async () => {
     await TrueSheet.dismiss('place');
-    setSelectedMarker(null);
+    await newSetSelectedMarker(null);
     await TrueSheet.present('search');
   };
 
@@ -96,7 +134,7 @@ export default function Map() {
           return;
         }
 
-        setSelectedMarker(place);
+        newSetSelectedMarker(place);
         await TrueSheet.present("place");
       };
 
@@ -114,7 +152,18 @@ export default function Map() {
   return (
     <View style={{ flex: 1 }}>
       <MapView
-      showsPointsOfInterest={false}
+        ref={mapRef}
+        showsUserLocation={true}
+        onUserLocationChange={(e) => {
+          const coordinate = e.nativeEvent.coordinate;
+          if (!coordinate) return;
+
+          const { latitude, longitude } = coordinate;
+
+          userRegionRef.current = { latitude, longitude };
+        }}
+
+        showsPointsOfInterest={false}
         style={StyleSheet.absoluteFill}
         initialRegion={{
           latitude: 44.2312,

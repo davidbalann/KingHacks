@@ -43,7 +43,7 @@ export default function Results({ query, onSelectPlace }: ResultsProps) {
     const runSearch = async () => {
       try {
         setError(null);
-        const data = await searchPlaces();
+        const data = await searchPlaces(query);
         if (!cancelled) setResults(data);
       } catch {
         if (!cancelled) setError("Something went wrong");
