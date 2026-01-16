@@ -42,6 +42,5 @@ export async function searchPlaces(
   }
   const data: Place[] = await res.json();
 
-  console.log(data)
   return data;
 }

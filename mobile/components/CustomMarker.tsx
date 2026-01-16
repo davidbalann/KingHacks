@@ -34,9 +34,6 @@ export default function CustomMarker({
   }, [selected]);
 
   const item = CATEGORIES.find((cat) => cat.id === place.category);
-  if (item === undefined) {
-    console.log(place.category);
-  }
   if (!item) return null;
 
   return (

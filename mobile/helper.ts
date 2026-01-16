@@ -2,7 +2,6 @@ export function getHoursColor(periods?: {
   open: { day: number; hour: number; minute: number };
   close?: { day: number; hour: number; minute: number };
 }[]) {
-    console.log(periods);
   if (!periods || periods.length === 0) {
     return "#9CA3AF"; // gray (no data)
   }
