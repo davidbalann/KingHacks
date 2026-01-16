@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-requests
-pydantic
-sqlite3
-backboard-sdk

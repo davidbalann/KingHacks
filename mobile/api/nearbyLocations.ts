@@ -1,12 +1,6 @@
 import { API_BASE_URL } from "@/constants";
 import { Place } from "@/types/place";
 
-export type SearchResponse = {
-  origin: SearchOrigin;
-  count: number;
-  results: Place[];
-};
-
 export type SearchOrigin = {
   latitude: number;
   longitude: number;
@@ -30,7 +24,7 @@ export async function nearbyLocations(
     throw new Error(`Search failed: ${res.status}`);
   }
 
-  const data: SearchResponse = await res.json();
+  const data: Place[] = await res.json();
 
-  return data.results;
+  return data;
 }

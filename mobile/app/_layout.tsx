@@ -1,4 +1,4 @@
-import { Feather, Ionicons } from '@expo/vector-icons';
+import { Feather, FontAwesome, Ionicons } from '@expo/vector-icons';
 import { router, Stack } from 'expo-router';
 import { Pressable } from 'react-native';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
@@ -14,10 +14,11 @@ export default function TabLayout() {
           </Pressable>,
           headerLeft: () => 
           <Pressable onPress={() => router.push('/favourites')}>
-            <Feather name='star' size={20} style={{ marginLeft: 8 }}/>  
+            <FontAwesome name='star-o' size={20} style={{ marginLeft: 8 }}/>  
           </Pressable> }} 
         />
-        <Stack.Screen name="chat" options={{ headerTransparent: true, headerTitle: '' }} />
+        <Stack.Screen name="chat" options={{ headerTransparent: true, headerTitle: 'Chat' }} />
+        <Stack.Screen name="favourites" options={{ headerTransparent: true, headerTitle: 'Favorites' }} />
       </Stack>
     </GestureHandlerRootView>
   );

@@ -10,6 +10,7 @@ import {
 import { Place } from "@/types/place";
 import { searchPlaces } from "@/api/search";
 import { useDebouncedValue } from "@/hooks/useDebouncedValue";
+import { TrueSheet } from "@lodev09/react-native-true-sheet";
 
 interface ResultsProps {
   query: string
@@ -87,7 +88,7 @@ export default function Results({ query, onSelectPlace }: ResultsProps) {
       renderItem={({ item }) => (
         <Pressable
           style={styles.item}
-          onPress={() => onSelectPlace(item)}
+          onPress={async () => {await TrueSheet.dismiss('search'); onSelectPlace(item)}}
         >
           <Text style={styles.name}>{item.name}</Text>
           <Text style={styles.meta}>

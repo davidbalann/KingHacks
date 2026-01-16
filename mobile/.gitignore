@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 node_modules/
 .expo/
-=======
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
@@ -45,4 +43,4 @@ app-example
 # generated native folders
 /ios
 /android
->>>>>>> e7ea18a011ad027793efb6d99ad17158055c022c
+.env

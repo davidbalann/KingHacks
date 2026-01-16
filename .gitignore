@@ -27,3 +27,4 @@ virtual-env/
 venv/
 __pycache__/
 *.py[co]
+.venv
