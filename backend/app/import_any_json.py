@@ -300,6 +300,21 @@ def upsert_listing(conn: sqlite3.Connection, record: Dict[str, Any]) -> int:
     return cur.fetchone()[0]
 
 
+def has_title_category_match(conn: sqlite3.Connection, name: str, category: str) -> bool:
+    cur = conn.cursor()
+    cur.execute(
+        """
+        SELECT 1
+        FROM listings
+        WHERE LOWER(name) = LOWER(?)
+          AND LOWER(category) = LOWER(?)
+        LIMIT 1;
+        """,
+        (name, category),
+    )
+    return cur.fetchone() is not None
+
+
 def parse_record(raw: Any, ingest_time_iso: str) -> Tuple[Optional[Dict[str, Any]], Optional[str]]:
     if not isinstance(raw, dict):
         return None, "not-a-dict"
@@ -384,11 +399,19 @@ def process_file(
 
     imported = skipped = 0
     skip_reasons: Dict[str, int] = {}
+    seen_title_categories: set[Tuple[str, str]] = set()
     for raw in iter_records_from_data(data):
         record, reason = parse_record(raw, ingest_time_iso)
         if not record:
             skipped += 1
             skip_reasons[reason or "unknown"] = skip_reasons.get(reason or "unknown", 0) + 1
+            continue
+        title_category_key = (norm_for_key(record["name"]), norm_for_key(record["category"]))
+        if title_category_key in seen_title_categories or has_title_category_match(
+            conn, record["name"], record["category"]
+        ):
+            skipped += 1
+            skip_reasons["duplicate-title-category"] = skip_reasons.get("duplicate-title-category", 0) + 1
             continue
         if record["source_key"] in seen_keys:
             skipped += 1
@@ -397,6 +420,7 @@ def process_file(
 
         listing_id = upsert_listing(conn, record)
         seen_keys.add(record["source_key"])
+        seen_title_categories.add(title_category_key)
         if record["category"]:
             cat_id = get_or_create_category(conn, record["category"])
             link_listing_category(conn, listing_id, cat_id)
