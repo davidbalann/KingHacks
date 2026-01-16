@@ -35,3 +35,10 @@ if not AUTO_INGEST_PATH.is_absolute():
 
 # If true: only ingest when places table is empty (best for --reload)
 AUTO_INGEST_IF_EMPTY = os.getenv("AUTO_INGEST_IF_EMPTY", "1").strip() in ("1", "true", "yes", "y")
+
+# --- Backboard ---
+BACKBOARD_API_KEY = os.getenv("BACKBOARD_API_KEY", "").strip()
+BACKBOARD_API_URL = os.getenv("BACKBOARD_API_URL", "https://app.backboard.io/api").strip()
+BACKBOARD_MODEL = os.getenv("BACKBOARD_MODEL", "gpt-4o").strip()
+BACKBOARD_MEMORY_ENABLED = os.getenv("BACKBOARD_MEMORY_ENABLED", "1").strip() in ("1", "true", "yes", "y")
+BACKBOARD_MEMORY_MAX_TOKENS = int(os.getenv("BACKBOARD_MEMORY_MAX_TOKENS", "1000"))
