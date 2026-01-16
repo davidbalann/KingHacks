@@ -33,7 +33,9 @@ export default function CustomMarker({
   }, [selected]);
 
   const item = CATEGORIES.find((cat) => cat.id === place.category);
-  console.log(item);
+  if (item === undefined) {
+    console.log(place.category);
+  }
   if (!item) return null;
 
   return (
@@ -42,12 +44,12 @@ export default function CustomMarker({
       onPress={onPress}
       tracksViewChanges={false}
     > 
-    <View style={styles.iconContainer}>
+    <View style={[styles.iconContainer, { backgroundColor: getHoursColor(place.hours) }]}>
       <CategoryIcon
         provider={item.provider}
         name={item.icon}
         size={15}
-        color={place.hours?.openNow ? "white" : "black"}
+        color="white"
       />
     </View>
     </Marker>
@@ -57,9 +59,35 @@ export default function CustomMarker({
 const styles = StyleSheet.create({
   iconContainer: {
     padding: 5,
-    backgroundColor: 'green',
     borderRadius: 30,
     alignItems: "center",
     marginRight: 12,
   }
 });
+
+function getHoursColor(hours?: {
+  openNow?: boolean;
+  nextCloseTime?: string;
+}) {
+  // Closed or missing data
+  if (!hours?.openNow) {
+    return "#9CA3AF"; // gray
+  }
+
+  // If we don't know the close time, treat as open
+  if (!hours.nextCloseTime) {
+    return "#16A34A"; // green
+  }
+
+  const now = new Date();
+  const closeTime = new Date(hours.nextCloseTime);
+
+  const minutesUntilClose =
+    (closeTime.getTime() - now.getTime()) / 1000 / 60;
+
+  if (minutesUntilClose <= 30 && minutesUntilClose > 0) {
+    return "#FACC15"; // yellow (closing soon)
+  }
+
+  return "#16A34A"; // green (open)
+}

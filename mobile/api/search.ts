@@ -11,7 +11,7 @@ type SearchResponse = {
 export async function searchPlaces(
   category?: string,
   page: number = 1,
-  limit: number = 20
+  limit: number = 200
 ): Promise<Place[]> {
   const params = new URLSearchParams({
     page: String(page),
