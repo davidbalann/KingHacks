@@ -17,7 +17,7 @@ export default function TabLayout() {
             <Feather name='star' size={20} style={{ marginLeft: 8 }}/>  
           </Pressable> }} 
         />
-        <Stack.Screen name="chat" options={{ headerShown: false }} />
+        <Stack.Screen name="chat" options={{ headerTransparent: true, headerTitle: '' }} />
       </Stack>
     </GestureHandlerRootView>
   );

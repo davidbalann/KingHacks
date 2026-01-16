@@ -89,29 +89,7 @@ export default function Index() {
       behavior={Platform.OS === "ios" ? "padding" : undefined}
     >
       <GestureDetector gesture={gestures}>
-        <View style={{ flex: 1, backgroundColor: "white" }}>
-          <View
-            style={{
-              flexDirection: "row",
-              alignItems: "center",
-              paddingHorizontal: 12,
-              paddingTop: 12,
-              paddingBottom: 10,
-              marginTop: 30,
-              borderBottomWidth: 1,
-              borderBottomColor: "#e5e7eb",
-            }}
-          >
-            <Pressable
-              onPress={goBack}
-              style={{ padding: 8, marginRight: 6 }}
-              hitSlop={10}
-            >
-              <Ionicons name="arrow-back" size={24} color="black" />
-            </Pressable>
-
-            <Text style={{ fontSize: titleSize, color: "black" }}>Chat</Text>
-          </View>
+        <View style={{ flex: 1, backgroundColor: "white", marginTop: 90, marginBottom: 10 }}>
 
           <View style={{ flex: 1, padding: 20 }}>
             <ScrollView
