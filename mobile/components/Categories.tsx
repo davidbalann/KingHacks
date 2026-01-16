@@ -1,52 +1,30 @@
 import React from "react";
 import { View, Text, FlatList, StyleSheet, Pressable } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
+import { CATEGORIES, CategoryIcon } from "./CategoryIcon";
 
-type Category = {
-  id: string;
-  name: string;
-  icon: keyof typeof Ionicons.glyphMap;
-};
+interface CategoryProps {
+  onSelectCategory: (category: string) => Promise<void>;
+}
 
-const CATEGORIES: Category[] = [
-  /*
-  Bakeries
-Charging Station
-Shelters
-Drop-in centers
-Meal programs
-Housing services
-Health Service
-Warm up/Cool down Sites
-Washroom/shower*/
-  { id: "1", name: "Restaurants", icon: "restaurant-outline" },
-  { id: "2", name: "Coffee", icon: "cafe-outline" },
-  { id: "3", name: "Bars", icon: "wine-outline" },
-  { id: "4", name: "Shopping", icon: "bag-outline" },
-  { id: "5", name: "Parks", icon: "leaf-outline" },
-  { id: "6", name: "Gyms", icon: "barbell-outline" },
-];
-
-export default function Categories() {
+export default function Categories({onSelectCategory}: CategoryProps) {
   return (
     <View style={styles.container}>
       <FlatList
         data={CATEGORIES}
-        keyExtractor={(item) => item.id}
+        keyExtractor={(item) => item.id.toString()}
         ItemSeparatorComponent={() => <View style={styles.separator} />}
         renderItem={({ item }) => (
-          <Pressable style={styles.row}>
+          <Pressable style={styles.row} onPress={() => onSelectCategory(item.id)}>
             <View style={styles.iconContainer}>
-              <Ionicons name={item.icon} size={20} color="#111" />
+              <CategoryIcon
+                provider={item.provider}
+                name={item.icon}
+                size={20}
+                color="white"
+              />
             </View>
 
             <Text style={styles.label}>{item.name}</Text>
-
-            <Ionicons
-              name="chevron-forward"
-              size={18}
-              color="#C7C7CC"
-            />
           </Pressable>
         )}
       />
@@ -66,7 +44,9 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
   },
   iconContainer: {
-    width: 32,
+    backgroundColor: 'green',
+    padding: 5,
+    borderRadius: 30,
     alignItems: "center",
     marginRight: 12,
   },

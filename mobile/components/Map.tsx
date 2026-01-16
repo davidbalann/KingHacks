@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
-import { View, StyleSheet } from "react-native";
-import MapView from "react-native-maps";
+import { View, StyleSheet, Keyboard } from "react-native";
+import MapView, { Marker } from "react-native-maps";
 import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
 import PlaceSheet from "./PlaceSheet";
@@ -9,25 +9,44 @@ import { useEffect } from "react";
 import { nearbyLocations } from "@/api/nearbyLocations";
 import SearchSheet from "./SearchSheet";
 import { useFocusEffect } from "@react-navigation/native";
+import { searchPlaces } from "@/api/search";
+import { savePlace } from "@/api/favourite";
+import { useLocalSearchParams } from "expo-router";
+import { getPlaceById } from "@/api/favourite";
 
 export default function Map() {
+  const { id } = useLocalSearchParams<{ id?: string }>();
+
   const [places, setPlaces] = useState<Place[]>([]);
   const [loadingPlaces, setLoadingPlaces] = useState(false);
 
   const [selectedMarker, setSelectedMarker] = useState<Place>(null);
 
-  const searchSheetRef = useRef<TrueSheet>(null);
-  const placeSheetRef = useRef<TrueSheet>(null);
-
   const onMarkerPress = async (marker: Place) => {
     setSelectedMarker(marker);
-    await placeSheetRef.current?.present();
+    await TrueSheet.present('place');
   };
 
+  const onSelectPlace = async (place: Place) => {
+    setSelectedMarker(place);
+    await TrueSheet.present('place');
+  }
+
+  const onSelectCategory = async (category: string) => {
+    const resultPlaces = await searchPlaces(category);
+    setPlaces(resultPlaces);
+    await dismissSheet();
+  }
+
   const dismissSheet = async () => {
-    await placeSheetRef.current?.dismiss();
+    await TrueSheet.dismiss('place');
     setSelectedMarker(null);
+    await TrueSheet.present('search');
   };
+
+  const onFavorite = async () => {
+    await savePlace(selectedMarker);
+  }
 
   useEffect(() => {
     const loadNearby = async () => {
@@ -52,19 +71,42 @@ export default function Map() {
 
   useFocusEffect(
     React.useCallback(() => {
-      try {
-        TrueSheet.present('search');
-      } catch {
-        console.log('error')
-      }
-        
+      let isActive = true;
+
+      const handleInitialPlace = async () => {
+        if (!id) {
+          // No param → normal behavior
+          await TrueSheet.present("search");
+          return;
+        }
+
+        const placeId = Number(id);
+        if (Number.isNaN(placeId)) {
+          await TrueSheet.present("search");
+          return;
+        }
+
+        const place = await getPlaceById(placeId);
+
+        if (!place || !isActive) {
+          await TrueSheet.present("search");
+          return;
+        }
+
+        setSelectedMarker(place);
+        await TrueSheet.present("place");
+      };
+
+      handleInitialPlace();
 
       return () => {
+        isActive = false;
         TrueSheet.dismissAll();
         setSelectedMarker(null);
       };
-    }, [])
+    }, [id])
   );
+
 
   return (
     <View style={{ flex: 1 }}>
@@ -77,26 +119,41 @@ export default function Map() {
           latitudeDelta: 0.05,
           longitudeDelta: 0.05,
         }}
-        showsUserLocation
       >
         {places.map(place => (
-          <CustomMarker
-            key={place.id}
-            latitude={place.latitude}
-            longitude={place.longitude}
-            selected={selectedMarker?.id === place.id}
-            onPress={() => onMarkerPress(place)}
-          />
+          <Marker icon={require('@/assets/images/markers/greenHouse.png')} onPress={onSelectPlace} key={place.id} coordinate={{latitude: place.latitude, longitude: place.longitude}} pinColor={"blue"}>
+
+          </Marker>
+
         ))}
       </MapView>
+      <TrueSheet name="place" detents={[0.35, 1]} onDidDismiss={() => TrueSheet.present('search')}>
+        <PlaceSheet
+          place={selectedMarker}
+          onDismiss={dismissSheet}
+          onFavorite={onFavorite}
+        />
+      </TrueSheet>
+      <TrueSheet
+        name="search"
+        scrollable
+        detents={[0.077, 1]}
+        dimmed={false}
+        initialDetentIndex={0}
+        onDetentChange={(event) => {
+          const index = event.nativeEvent.index;
+          const expanded = index > 0.5;
 
-      <PlaceSheet
-        sheetRef={placeSheetRef}
-        place={selectedMarker}
-        onDismiss={dismissSheet}
-        onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}
-      />
-      <SearchSheet ref={searchSheetRef} places={[]} recentSearches={[]} onSelectPlace={(place: Place) => console.log(place)}/>
+          //setSheetExpanded(expanded);
+
+          if (!expanded) {
+            //setQuery("");
+            Keyboard.dismiss();
+          }
+        }}
+      >
+        <SearchSheet onSelectPlace={onSelectPlace} onSelectCategory={onSelectCategory}/>
+      </TrueSheet>
     </View>
   );
 }

@@ -1,18 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, Pressable, Linking } from "react-native";
-import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import { Ionicons } from "@expo/vector-icons";
 import { Place } from "@/types/place";
+import { getWalkingTimeEstimate, LatLng } from "@/api/direction";
 
 type Props = {
-  sheetRef: React.RefObject<any>;
   place: Place | null;
   onDismiss: () => void;
   onFavorite: () => void;
 };
 
 export default function PlaceSheet({
-  sheetRef,
   place,
   onDismiss,
   onFavorite,
@@ -21,8 +19,18 @@ export default function PlaceSheet({
 
   const isOpen = place.hours?.openNow;
 
+  const [estimate, setEstimate] = useState<any>(null);
+  useEffect(() => {
+    const getTime = async () => {
+      const result = await getWalkingTimeEstimate({ latitude: 44.2312,
+          longitude: -76.486}, {latitude: place.latitude, longitude: place.longitude})
+      setEstimate(result);
+    }
+    getTime();
+  }, [])
+
   return (
-    <TrueSheet ref={sheetRef} detents={[0.35, 1]} onDismiss={onDismiss}>
+    <>
       <View style={styles.container}>
         {/* Header */}
         <View style={styles.header}>
@@ -40,7 +48,7 @@ export default function PlaceSheet({
         <View style={styles.actions}>
           <ActionButton
             icon="walk"
-            label={`${place.walkingTime ?? "—"} min`}
+            label={`${estimate?.durationText}`}
             onPress={() => {}}
             primary
           />
@@ -90,11 +98,10 @@ export default function PlaceSheet({
           <Text style={styles.favoriteText}>Add to Favorites</Text>
         </Pressable>
       </View>
-    </TrueSheet>
+    </>
   );
 }
 
-/* ---------- Small Action Button ---------- */
 
 function ActionButton({
   icon,

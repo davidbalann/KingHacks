@@ -1,23 +1,25 @@
 import React, { useEffect } from "react";
+import { View, StyleSheet } from "react-native";
 import { Marker } from "react-native-maps";
-import Animated, {
+import {
   useSharedValue,
-  useAnimatedStyle,
   withSpring,
 } from "react-native-reanimated";
+import { CATEGORIES, CategoryIcon } from "./CategoryIcon";
+import { Place } from "@/types/place";
 
 type CustomMarkerProps = {
+  place: Place;
   latitude: number;
   longitude: number;
-  color?: string;
   selected?: boolean;
   onPress?: () => void;
 };
 
 export default function CustomMarker({
+  place,
   latitude,
   longitude,
-  color = "#4F46E5",
   selected = false,
   onPress,
 }: CustomMarkerProps) {
@@ -30,26 +32,63 @@ export default function CustomMarker({
     });
   }, [selected]);
 
-  const animatedStyle = useAnimatedStyle(() => ({
-    transform: [{ scale: scale.value }],
-  }));
+  const item = CATEGORIES.find((cat) => cat.id === place.category);
+  if (item === undefined) {
+    console.log(place.category);
+  }
+  if (!item) return null;
 
   return (
     <Marker
       coordinate={{ latitude, longitude }}
       onPress={onPress}
       tracksViewChanges={false}
-    >
-      <Animated.Image
-        source={require("@/assets/images/markers/greenHouse.png")}
-        style={[
-          {
-            width: 40,
-            height: 40,
-            resizeMode: "contain",
-          },
-        ]}
+      key={place.id.toString()}
+    > 
+    <View style={[styles.iconContainer, { backgroundColor: getHoursColor(place.hours) }]}>
+      <CategoryIcon
+        provider={item.provider}
+        name={item.icon}
+        size={15}
+        color="white"
       />
+    </View>
     </Marker>
   );
+}
+
+const styles = StyleSheet.create({
+  iconContainer: {
+    padding: 5,
+    borderRadius: 30,
+    alignItems: "center",
+    marginRight: 12,
+  }
+});
+
+function getHoursColor(hours?: {
+  openNow?: boolean;
+  nextCloseTime?: string;
+}) {
+  // Closed or missing data
+  if (!hours?.openNow) {
+    return "#9CA3AF"; // gray
+  }
+
+  // If we don't know the close time, treat as open
+  if (!hours.nextCloseTime) {
+    return "#16A34A"; // green
+  }
+
+  const now = new Date();
+  const closeTime = new Date(hours.nextCloseTime);
+
+  const minutesUntilClose =
+    (closeTime.getTime() - now.getTime()) / 1000 / 60;
+
+  if (minutesUntilClose <= 30 && minutesUntilClose > 0) {
+    return "#FACC15"; // yellow (closing soon)
+  }
+
+  return "#16A34A"; // green (open)
 }
