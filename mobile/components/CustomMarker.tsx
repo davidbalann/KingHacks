@@ -72,7 +72,7 @@ function getHoursColor(hours?: {
 }) {
   // Closed or missing data
   if (!hours?.openNow) {
-    return "#9CA3AF"; // gray
+    return "#9CA3AF"; // gray (THIS NEEDS TO CHANGE COLOURS)
   }
 
   // If we don't know the close time, treat as open
