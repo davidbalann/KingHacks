@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet, Pressable, Linking } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Place } from "@/types/place";
-import { getWalkingTimeEstimate, LatLng } from "@/api/direction";
+import { getWalkingTimeEstimate } from "@/api/direction";
+import { getStatusForPlaceId, statusToColor, statusToLabel } from "@/components/placeStatus"; // Import helper functions
 
 type Props = {
   place: Place | null;
@@ -17,17 +18,21 @@ export default function PlaceSheet({
 }: Props) {
   if (!place) return null;
 
-  const isOpen = place.hours?.openNow;
+  const status = getStatusForPlaceId(place.id); // Get status for place
+  const hoursColor = statusToColor(status); // Get color based on status
+  const hoursLabel = statusToLabel(status); // Get label based on status
 
   const [estimate, setEstimate] = useState<any>(null);
   useEffect(() => {
     const getTime = async () => {
-      const result = await getWalkingTimeEstimate({ latitude: 44.2312,
-          longitude: -76.486}, {latitude: place.latitude, longitude: place.longitude})
+      const result = await getWalkingTimeEstimate(
+        { latitude: 44.2312, longitude: -76.486 }, // Example origin (user location)
+        { latitude: place.latitude, longitude: place.longitude }
+      );
       setEstimate(result);
-    }
+    };
     getTime();
-  }, [])
+  }, []);
 
   return (
     <>
@@ -57,7 +62,9 @@ export default function PlaceSheet({
             <ActionButton
               icon="call"
               label="Call"
-              onPress={() => {console.log(place.phone); Linking.openURL(`tel:${place.phone}`)}}
+              onPress={() => {
+                Linking.openURL(`tel:${place.phone}`);
+              }}
             />
           )}
 
@@ -72,15 +79,10 @@ export default function PlaceSheet({
 
         {/* Info Row */}
         <View style={styles.infoRow}>
-            <View>
+          <View>
             <Text>Hours</Text>
-            <Text
-                style={[
-                styles.infoText,
-                { color: isOpen ? "#2ecc71" : "#e74c3c" },
-                ]}
-            >
-                {isOpen ? "Open" : "Closed"}
+            <Text style={[styles.infoText, { color: hoursColor }]}>
+              {hoursLabel} {/* Display the status color and label */}
             </Text>
           </View>
 
@@ -102,7 +104,6 @@ export default function PlaceSheet({
   );
 }
 
-
 function ActionButton({
   icon,
   label,
@@ -117,22 +118,10 @@ function ActionButton({
   return (
     <Pressable
       onPress={onPress}
-      style={[
-        styles.actionButton,
-        primary && styles.primaryButton,
-      ]}
+      style={[styles.actionButton, primary && styles.primaryButton]}
     >
-      <Ionicons
-        name={icon}
-        size={20}
-        color={primary ? "#fff" : "#007AFF"}
-      />
-      <Text
-        style={[
-          styles.actionLabel,
-          primary && { color: "#fff" },
-        ]}
-      >
+      <Ionicons name={icon} size={20} color={primary ? "#fff" : "#007AFF"} />
+      <Text style={[styles.actionLabel, primary && { color: "#fff" }]}>
         {label}
       </Text>
     </Pressable>

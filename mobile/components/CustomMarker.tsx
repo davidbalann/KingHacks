@@ -1,13 +1,9 @@
 import React, { useEffect } from "react";
 import { View, StyleSheet } from "react-native";
 import { Marker } from "react-native-maps";
-import {
-  useSharedValue,
-  withSpring,
-} from "react-native-reanimated";
+import { useSharedValue, withSpring } from "react-native-reanimated";
 import { CATEGORIES, CategoryIcon } from "./CategoryIcon";
 import { Place } from "@/types/place";
-import { getHoursColor } from "@/helper";
 
 type CustomMarkerProps = {
   place: Place;
@@ -15,6 +11,7 @@ type CustomMarkerProps = {
   longitude: number;
   selected?: boolean;
   onPress: (place: Place) => Promise<void>;
+  color: string;  // Color passed as prop from Map.tsx
 };
 
 export default function CustomMarker({
@@ -23,7 +20,10 @@ export default function CustomMarker({
   longitude,
   selected = false,
   onPress,
+  color,
 }: CustomMarkerProps) {
+  if (!place) return null; // Handle case where place is null or undefined
+
   const scale = useSharedValue(1);
 
   useEffect(() => {
@@ -45,15 +45,10 @@ export default function CustomMarker({
       onPress={async () => await onPress(place)}
       tracksViewChanges={false}
       key={place.id.toString()}
-    > 
-    <View style={[styles.iconContainer, { backgroundColor: getHoursColor(place.hours?.periods) }]}>
-      <CategoryIcon
-        provider={item.provider}
-        name={item.icon}
-        size={15}
-        color="white"
-      />
-    </View>
+    >
+      <View style={[styles.iconContainer, { backgroundColor: color }]}>
+        <CategoryIcon provider={item.provider} name={item.icon} size={15} color="white" />
+      </View>
     </Marker>
   );
 }
