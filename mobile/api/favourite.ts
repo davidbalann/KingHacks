@@ -70,3 +70,22 @@ export async function deletePlaceById(placeId: number): Promise<void> {
     throw error;
   }
 }
+
+export async function getPlaceById(
+  placeId: number
+): Promise<Place | null> {
+  try {
+    const stored = await AsyncStorage.getItem(SAVED_PLACES_KEY);
+
+    if (!stored) {
+      return null;
+    }
+
+    const places: Place[] = JSON.parse(stored);
+
+    return places.find((p) => p.id === placeId) ?? null;
+  } catch (error) {
+    console.error("Failed to get place by id:", error);
+    return null;
+  }
+}

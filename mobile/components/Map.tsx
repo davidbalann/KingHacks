@@ -11,8 +11,12 @@ import SearchSheet from "./SearchSheet";
 import { useFocusEffect } from "@react-navigation/native";
 import { searchPlaces } from "@/api/search";
 import { savePlace } from "@/api/favourite";
+import { useLocalSearchParams } from "expo-router";
+import { getPlaceById } from "@/api/favourite";
 
 export default function Map() {
+  const { id } = useLocalSearchParams<{ id?: string }>();
+
   const [places, setPlaces] = useState<Place[]>([]);
   const [loadingPlaces, setLoadingPlaces] = useState(false);
 
@@ -68,19 +72,42 @@ export default function Map() {
 
   useFocusEffect(
     React.useCallback(() => {
-      try {
-        TrueSheet.present('search');
-      } catch {
-        console.log('error')
-      }
-        
+      let isActive = true;
+
+      const handleInitialPlace = async () => {
+        if (!id) {
+          // No param → normal behavior
+          await TrueSheet.present("search");
+          return;
+        }
+
+        const placeId = Number(id);
+        if (Number.isNaN(placeId)) {
+          await TrueSheet.present("search");
+          return;
+        }
+
+        const place = await getPlaceById(placeId);
+
+        if (!place || !isActive) {
+          await TrueSheet.present("search");
+          return;
+        }
+
+        setSelectedMarker(place);
+        await TrueSheet.present("place");
+      };
+
+      handleInitialPlace();
 
       return () => {
+        isActive = false;
         TrueSheet.dismissAll();
         setSelectedMarker(null);
       };
-    }, [])
+    }, [id])
   );
+
 
   return (
     <View style={{ flex: 1 }}>

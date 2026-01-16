@@ -1,5 +1,6 @@
-import { getSavedPlaces } from "@/api/favourite";
+import { deletePlaceById, getSavedPlaces } from "@/api/favourite";
 import { Place } from "@/types/place";
+import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import { useEffect, useState } from "react";
 import {
@@ -38,17 +39,34 @@ export default function Favorites() {
         ItemSeparatorComponent={() => <View style={{ height: 12 }} />}
         renderItem={({ item }) => {
           return (
-            <Pressable style={styles.card} onPress={() => {router.push('/')}}>
-              <View style={styles.header}>
-                <Text style={styles.name}>{item.name}</Text>
-              </View>
+          <Pressable
+            style={styles.card}
+            onPress={() => {
+              router.push({
+                pathname: "/",
+                params: { id: item.id.toString() },
+              });
+            }}
+          >
+            <View style={styles.header}>
+              <Text style={styles.name}>{item.name}</Text>
 
-              <Text style={styles.address}>{item.address}</Text>
+              <Pressable
+                hitSlop={10}
+                onPress={async (e) => {
+                  e.stopPropagation(); // 🚨 prevents navigation
+                  await deletePlaceById(item.id);
+                  setPlaces((prev) => prev.filter((p) => p.id !== item.id));
+                }}
+              >
+                <FontAwesome name="star" size={20} color="gold" />
+              </Pressable>
+            </View>
 
-              <Text style={styles.meta}>
-                {item.category}
-              </Text>
-            </Pressable>
+            <Text style={styles.address}>{item.address}</Text>
+            <Text style={styles.meta}>{item.category}</Text>
+          </Pressable>
+
           );
         }}
       />
