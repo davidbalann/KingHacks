@@ -1,0 +1,2709 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9771634,
+          -37.80506174
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "Field1": "Brotherhood of St Laurence - Coolibah Centre",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "67a Brunswick Street, Fitzroy, 3065",
+        "Opening_Hours": "Mon–Fri: 9am–3pm, Sunday & public holidays:10am–2pm (contact agency for schedule of activities) ",
+        "Breakfast": "Yes",
+        "Lunch": "Yes",
+        "Dinner": null,
+        "Conditions": "To participate in classes person must be a member of the Coolibah day service. Contact agency for schedule of fees. Consideration is given to those experiencing financial hardship (ring 9483 1323). ",
+        "Latitude": -37.80506174,
+        "Longitude": 144.9771634,
+        "Contact": "Robert Lorenzetto (Welfare Coordinator) Ph: 9483 1323 or 1300 147 147 Email: rlorenzetto@bsl.org.au ",
+        "Website": "https://www.bsl.org.au/",
+        "Comments": "Outside CoM, Cooking groups and gardening classes All classes have been temporarily suspended. Agency is now focussing on its Independent Living service providing lunch and dinner meals for members. Cooking groups Gardening Art & Craft Gentle exercise Coffee & chat Pool & table tennis Games Walking group Breakfast & lunch Computer use Movie matinee Accessibility: Ground floor venue without steps ",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9326891,
+          -37.7819022
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "Field1": "Flemington Farmers Market ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "169–175 Mount Alexander Road, Flemington, 3031",
+        "Opening_Hours": "Sun: 8.30am–12:30pm (closed over Christmas)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free entry",
+        "Latitude": -37.7819022,
+        "Longitude": 144.9326891,
+        "Contact": "Don Linke Ph: 0407 411 198 Email: info@flemingtonfarmersmarket.com.au ",
+        "Website": "http://flemingtonfarmersmarket.com.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0340089,
+          -37.74292773
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "Field1": "Ceres Fair Food ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "20 Water Road, Preston, 3072 ",
+        "Opening_Hours": "Online order only ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "See website for pricing. Minimum order spend is $40, with a delivery fee of $7.50. FREE delivery for orders over $75.",
+        "Latitude": -37.74292773,
+        "Longitude": 145.0340089,
+        "Contact": "Customer Service 8am to 4pm, Mon to Fri Ph: 03 8673 6288 Email: info@ceresfairfood.org.au ",
+        "Website": "http://ceresfairfood.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9800828,
+          -37.86277829
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "Field1": "Sacred Heart Mission - Community Meals ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "87 Grey Street, St Kilda, 3182 ",
+        "Opening_Hours": "Mon–Sun: 10am–1pm",
+        "Breakfast": "Yes",
+        "Lunch": "Yes",
+        "Dinner": null,
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.86277829,
+        "Longitude": 144.9800828,
+        "Contact": "Ph: 03 9537 1166 Email: info@sacredheartmission.org",
+        "Website": "http://sacredheartmission.org/",
+        "Comments": "Community meals",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9290363,
+          -37.7947776
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "Field1": "Salvation Army (Lighthouse Cafe) ",
+        "PropID": "662513",
+        "Neighbourhood": "CBD Hoddle Grid",
+        "Address": "69 Bourke Street, Melbourne, 3000 (ground floor)",
+        "Opening_Hours": "Mon–Fri: 9am–10.30am (breakfast), 11:30am–1pm (lunch), Mon–Sun: 5–7pm (dinner)",
+        "Breakfast": "Yes",
+        "Lunch": "Yes",
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.7947776,
+        "Longitude": 144.9290363,
+        "Contact": "Ph: 03 9653 3299 or 1800 266 686",
+        "Website": "http://salvationarmy.org.au",
+        "Comments": "Community meals",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9207514,
+          -37.7936389
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "Field1": "Kensington Community Garden ",
+        "PropID": "110059",
+        "Neighbourhood": "Kensington",
+        "Address": "Kensington Community Gardens, 118–128 Westbourne Road, Kensington, 3031",
+        "Opening_Hours": "Tue, Wed, Sun: open during daylight hours ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Kensington residents only. There is currently a waiting list for this garden. ",
+        "Latitude": -37.7936389,
+        "Longitude": 144.9207514,
+        "Contact": "Ph: 03 9376 1633 Email: kensington@ymca.org.au",
+        "Website": "http://kensington.ymca.org.au/",
+        "Comments": "Community Gardens",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": "Yes",
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9828168,
+          -37.7844952799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "Field1": "Community Food Pantry",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Bargoonga Nganjin North Fitzroy Library, 182–186 St Georges Rd, Fitzroy North, 3068",
+        "Opening_Hours": "Mon, Tue, Wed, Fri: 10am–5pm, Thu: 10am–8pm, Sat: 10am–4pm, Sun: 2pm–5pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Available for individuals and families experiencing disadvantage. ",
+        "Latitude": -37.78449528,
+        "Longitude": 144.9828168,
+        "Contact": "Ph: 1300 695 427 Email: yarralibraries@yarracity.vic.gov.au",
+        "Website": "www.yarralibraries.vic.gov.au",
+        "Comments": "Full wheelchair access",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": null,
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9828168,
+          -37.7844952799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "Field1": "Open Table ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Bargoonga Nganjin North Fitzroy Library, 182–186 St Georges Rd, Fitzroy North, 3068",
+        "Opening_Hours": "Sat: 1pm (except public holidays)",
+        "Breakfast": null,
+        "Lunch": "Yes",
+        "Dinner": null,
+        "Conditions": "Free",
+        "Latitude": -37.78449528,
+        "Longitude": 144.9828168,
+        "Contact": "Email: hello@open-table.org ",
+        "Website": "https://www.opentable.org/",
+        "Comments": "Located on level 2, lift access ",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9576558,
+          -37.84022236
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "Field1": "Parish of the Parks",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "St Silas Church Hall, 99 Bridport Street, Albert Park, 3206",
+        "Opening_Hours": "Sun: 4:30pm (closed over Christmas and New Years)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.84022236,
+        "Longitude": 144.9576558,
+        "Contact": "Ph: 9696 5116 Email: sundaysuppers@parishoftheparks.com.au ",
+        "Website": "http://parishoftheparks.com.au/",
+        "Comments": "We also have the team from OrangeSky there each Sunday with their washing van & their shower van for anyone to use",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9576558,
+          -37.84022236
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "Field1": "Parish of the Parks ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "St Silas Church Hall, 99 Bridport Street Albert Park, 3206",
+        "Opening_Hours": "Sun: 4:30pm–5:30pm (first Sunday of every month) ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Only for residents of Port Phillip Council who have a concession or Health Care Card. ",
+        "Latitude": -37.84022236,
+        "Longitude": 144.9576558,
+        "Contact": "Ph: 9696 5116 Email: sundaysuppers@parishoftheparks.com.au ",
+        "Website": "http://parishoftheparks.com.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.898342,
+          -37.80299618
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "Field1": "Asylum Seeker Resource Centre (ASRC)",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "214–218 Nicholson Street, Footscray, 3011",
+        "Opening_Hours": "Mon–Fri: 10:30am–3:30pm (contact ASRC for details on closure during public holidays and closure on last Wednesday of each month)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Open to persons seeking asylum and refugees who are members of the ASRC only. Visit the website or call the agency for the most up-todate information.",
+        "Latitude": -37.80299618,
+        "Longitude": 144.898342,
+        "Contact": "Ph: 9326 6066 Email: foodandgoods@asrc.org.au",
+        "Website": "https://asrc.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.898342,
+          -37.80299618
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "Field1": "Asylum Seeker Resource Centre (ASRC)",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "214–218 Nicholson Street, Footscray, 3011",
+        "Opening_Hours": "Mon–Fri: 12:30pm–1:15pm (Lunch based upon availability. Contact ASRC for details on closure during public holidays and closure on last Wednesday of each month)",
+        "Breakfast": null,
+        "Lunch": "Yes",
+        "Dinner": null,
+        "Conditions": "Free. Open to persons seeking asylum and refugees who are members of the ASRC only. Visit the website or call the agency for the most up-to-date information.",
+        "Latitude": -37.80299618,
+        "Longitude": 144.898342,
+        "Contact": "Ph: 9326 6066 Email: foodandgoods@asrc.org.au",
+        "Website": "https://asrc.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9707368,
+          -37.8182131
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "Field1": "The Big Umbrella ",
+        "PropID": "573333",
+        "Neighbourhood": "CBD Hoddle Grid",
+        "Address": " Federation Square, 2 Swanston Street, Melbourne, 3000",
+        "Opening_Hours": "Wed–Thu: 7:30pm– 8:45pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.8182131,
+        "Longitude": 144.9707368,
+        "Contact": "Email: info@thebigumbrella.org",
+        "Website": "https://thebigumbrellagau.com/elementor-14569/",
+        "Comments": "No prop ID for this one - just selects for Fed Square - Russell St extn of Fed Square",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9307877,
+          -37.78703639
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "Field1": "Presbyterian and Scots Church Joint Mission (Flemington Mission)",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "St Stephen’s Church Hall, 28 Norwood Street, Flemington, 3031",
+        "Opening_Hours": "Tue: 10am–1pm (closed public holidays and from Christmas to end of January)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.78703639,
+        "Longitude": 144.9307877,
+        "Contact": "Andrew Wong Ph: 03 9376 3777 Email: st.stephens@scotschurch.com",
+        "Website": "https://www.scotschurch.com/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9280326,
+          -37.7932366
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "Field1": "Kensington Neighbourhood House ",
+        "PropID": "615482",
+        "Neighbourhood": "Kensington",
+        "Address": "Kensington Neighbourhood House, 89 Mccracken Street, Kensington, 3031",
+        "Opening_Hours": "Open 24 hours, 7 days a week",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.7932366,
+        "Longitude": 144.9280326,
+        "Contact": "Ph: 03 9376 6366 Email: info@kenhouse.org.au ",
+        "Website": "http://kensingtonneighbourhoodhouse.com/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": "Yes",
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9280326,
+          -37.7932366
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "Field1": "McCracken St Food Share Pantry ",
+        "PropID": "615482",
+        "Neighbourhood": "Kensington",
+        "Address": "Kensington Neighbourhood House, 89 Mccracken Street, Kensington, 3031 (located on the veranda of Kensington Neighbourhood House)",
+        "Opening_Hours": "Open 24 hours, 7 days a week (first Tuesday of every month Market day with fresh produce donated from Kensington Stockyard Food Garden)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free",
+        "Latitude": -37.7932366,
+        "Longitude": 144.9280326,
+        "Contact": "Ph: 03 9376 6366 Search on Facebook for McCracken St Food Share Pantry for updates ",
+        "Website": "http://kensingtonneighbourhoodhouse.com/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9751511,
+          -37.8097721
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "Field1": "Anglicare - The Lazarus Centre ",
+        "PropID": "110699",
+        "Neighbourhood": "East Melbourne",
+        "Address": "St Peters Eastern Hill Church, 453 Albert Street, East Melbourne, 3002",
+        "Opening_Hours": "Mon–Sun: 7:30am– 9am (refer to website or contact agency directly for up-to-date information)",
+        "Breakfast": "Yes",
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Open to rough sleepers and people experiencing chronic homelessness. ",
+        "Latitude": -37.8097721,
+        "Longitude": 144.9751511,
+        "Contact": "Wayne Gleeson (Team Leader) Ph: 0427 054 758",
+        "Website": "http://anglicarevic.org.au/",
+        "Comments": "Community meals",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9817395,
+          -37.80168813
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "Field1": "Anglicare ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "St Marks Church Community Centre, 250 George Street, Fitzroy, 3065",
+        "Opening_Hours": "Mon–Fri: 11:30am–2:30pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Open to rough sleepers and people experiencing chronic homelessness. ",
+        "Latitude": -37.80168813,
+        "Longitude": 144.9817395,
+        "Contact": "Wayne Gleeson (Team Leader) Ph: 03 9419 3288 ",
+        "Website": "http://anglicarevic.org.au/",
+        "Comments": "Located on ground floor. Has 5 steps to building. Staff can provide provisions to those with a disability through side door (ring bell).",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9798445,
+          -37.8043726999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "Field1": "Anglicare ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Fitzroy Mission House, 118–120 Napier Street Fitzroy, 3065 (entry is off Little George Street)",
+        "Opening_Hours": "Tue–Fri: 10am–2pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Must live in the following postcodes: 3000, 3051, 3053, 3054, 3065, 3066, 3067, 3068 and 3070 and live in public housing and rental properties with a Health Care Card. ",
+        "Latitude": -37.8043727,
+        "Longitude": 144.9798445,
+        "Contact": "Ph: 03 9486 0445",
+        "Website": "http://anglicarevic.org.au/",
+        "Comments": "Located on ground floor. Front entrance has one small step. ",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9817395,
+          -37.80168813
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "Field1": "Anglicare ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "St Marks Church Community Centre, 250 George Street, Fitzroy, 3065",
+        "Opening_Hours": "Mon–Fri: 11:30am–2:30pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Open to rough sleepers and people experiencing chronic homelessness. Refer to the website or contact agency for more details. ",
+        "Latitude": -37.80168813,
+        "Longitude": 144.9817395,
+        "Contact": "Wayne Gleeson (Team Leader) Ph: 03 9419 3288 ",
+        "Website": "http://anglicarevic.org.au/",
+        "Comments": "Food bank, parcels and vouchers",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9923711,
+          -37.84632855
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "Field1": "Prahran Market",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "163 Commercial Road, South Yarra, 3141",
+        "Opening_Hours": "Tue, Thu, Fri, Sat: 7am–5pm, Sun: 10am–3pm (check website for public holiday closures)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free entry",
+        "Latitude": -37.84632855,
+        "Longitude": 144.9923711,
+        "Contact": "Ph: 8290 8220 Email: management@prahranmarket.com.au",
+        "Website": "https://www.prahranmarket.com.au/",
+        "Comments": "Fresh food and groceries",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9392234,
+          -37.7961902
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "Field1": "St Vincent de Paul Society Victoria Soup Van Program - Inner City Soup Van ",
+        "PropID": "106339",
+        "Neighbourhood": "North Melbourne",
+        "Address": "201–241 Macaulay Road, North Melbourne, 3051(Clayton Reserve dog park)",
+        "Opening_Hours": "Mon–Sat: 7:00pm ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free. Visit the website or contact the agency directly for the most up-to-date information.",
+        "Latitude": -37.7961902,
+        "Longitude": 144.9392234,
+        "Contact": "Melissa Walton (Soup Van Manager) Ph: 9895 5800 Email: soupvans@svdp-vic.org.au ",
+        "Website": "http://vinnies.org.au/soupvansvic ",
+        "Comments": "Community meals - Meals being provided through a nightly street stop service",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9786761,
+          -37.80213881
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "Field1": "St Vincent de Paul Society Victoria Soup Van Program - Inner City Soup Van ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "All Saints Parish Church, King William St, Fitzroy, 3065 (corner of Young St adjacent All Saints Parish Church)",
+        "Opening_Hours": "Mon–Sat: 7:30pm ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free. Visit the website or contact the agency directly for the most up-to-date information.",
+        "Latitude": -37.80213881,
+        "Longitude": 144.9786761,
+        "Contact": "Melissa Walton (Soup Van Manager) Ph: 9895 5800 Email: soupvans@svdp-vic.org.au",
+        "Website": "http://vinnies.org.au/soupvansvic ",
+        "Comments": "Community meals - Meals being provided through a nightly street stop service",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.965094,
+          -37.8182565
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "Field1": "St Vincent de Paul Society Victoria Soup Van Program - Inner City Soup Van ",
+        "PropID": "104034",
+        "Neighbourhood": "CBD Hoddle Grid",
+        "Address": "297 Flinders Street, Melbourne, 3000 (between Swanston St & Elizabeth St)",
+        "Opening_Hours": "Mon–Sat: 8:00pm ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free. Visit the website or contact the agency directly for the most up-to-date information.",
+        "Latitude": -37.8182565,
+        "Longitude": 144.965094,
+        "Contact": "Melissa Walton (Soup Van Manager) Ph: 9895 5800 Email: soupvans@svdp-vic.org.au",
+        "Website": "http://vinnies.org.au/soupvansvic ",
+        "Comments": "Community meals - Meals being provided through a nightly street stop service",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9392234,
+          -37.7961902
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "Field1": "St Vincent de Paul Society Victoria Soup Van Program - Pantry van service",
+        "PropID": "106339",
+        "Neighbourhood": "North Melbourne",
+        "Address": "201–241 Macaulay Road, North Melbourne, 3051(Clayton Reserve dog park)",
+        "Opening_Hours": " Mon: 2pm–3:30pm ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone and free. Visit the website or contact the agency directly for the most up-to-date information.",
+        "Latitude": -37.7961902,
+        "Longitude": 144.9392234,
+        "Contact": "Melissa Walton (Soup Van Manager) Ph: 9895 5800 Email: soupvans@svdp-vic.org.au",
+        "Website": "http://vinnies.org.au/soupvansvic ",
+        "Comments": "Community meals - North Melbourne Pantry van service",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8921183,
+          -37.78955481
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "Field1": "St Vincent de Paul Society Victoria Soup Van Program - Footscray Soup Van",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Heatley Reserve Playground, 13 Eldridge St, Footscray, 3011 ",
+        "Opening_Hours": ". Wed: 6:15pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free. Visit the website or contact the agency directly for the most up-to-date information.",
+        "Latitude": -37.78955481,
+        "Longitude": 144.8921183,
+        "Contact": "Melissa Walton (Soup Van Manager) Ph: 9895 5800 Email: soupvans@svdp-vic.org.au",
+        "Website": "http://vinnies.org.au/soupvansvic ",
+        "Comments": "Community meals - Meals being provided through a nightly street stop service",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8958917,
+          -37.7998636799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "Field1": "St Vincent de Paul Society Victoria Soup Van Program - Footscray Soup Van",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Footscray Library, 56 Paisley Street, Footscray, 3011 (Library carpark) ",
+        "Opening_Hours": " Wed: 6:45pm ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free. Visit the website or contact the agency directly for the most up-to-date information.",
+        "Latitude": -37.79986368,
+        "Longitude": 144.8958917,
+        "Contact": "Melissa Walton (Soup Van Manager) Ph: 9895 5800 Email: soupvans@svdp-vic.org.au",
+        "Website": "http://vinnies.org.au/soupvansvic ",
+        "Comments": "Community meals - Meals being provided through a nightly street stop service",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9059077,
+          -37.7961861599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "Field1": "St Vincent de Paul Society Victoria Soup Van Program - Footscray Soup Van",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "1A Munro Square, Footscray, 3011 ",
+        "Opening_Hours": " Thu: 6:45pm ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free. Visit the website or contact the agency directly for the most up-to-date information.",
+        "Latitude": -37.79618616,
+        "Longitude": 144.9059077,
+        "Contact": "Melissa Walton (Soup Van Manager) Ph: 9895 5800 Email: soupvans@svdp-vic.org.au",
+        "Website": "http://vinnies.org.au/soupvansvic ",
+        "Comments": "Community meals - Meals being provided through a nightly street stop service",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9063662,
+          -37.79777439
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "Field1": "St Vincent de Paul Society Victoria Soup Van Program - Footscray Soup Van",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "1 Swaby Square, Footscray, 3011",
+        "Opening_Hours": " Thu: 6:45pm ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free. Visit the website or contact the agency directly for the most up-to-date information.",
+        "Latitude": -37.79777439,
+        "Longitude": 144.9063662,
+        "Contact": "Melissa Walton (Soup Van Manager) Ph: 9895 5800 Email: soupvans@svdp-vic.org.au",
+        "Website": "http://vinnies.org.au/soupvansvic ",
+        "Comments": "Community meals - Meals being provided through a nightly street stop service",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8832895,
+          -37.80113349
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "Field1": "St Vincent de Paul Society Victoria Soup Van Program - Footscray Soup Van",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "20 Cross Street, West Footscray, 3011 (West Footscray train station carpark)",
+        "Opening_Hours": " Tue–Fri: 7:45pm, Sat: 5:45pm ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free. Visit the website or contact the agency directly for the most up-to-date information.",
+        "Latitude": -37.80113349,
+        "Longitude": 144.8832895,
+        "Contact": "Melissa Walton (Soup Van Manager) Ph: 9895 5800 Email: soupvans@svdp-vic.org.au",
+        "Website": "http://vinnies.org.au/soupvansvic ",
+        "Comments": "Community meals - Meals being provided through a nightly street stop service",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9829495,
+          -37.76563494
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "Field1": "Urban Orchard",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Stewart St & Roberts St, Brunswick East, 3057 (Table located outside CERES grocery) ",
+        "Opening_Hours": "Sat: 10am–1pm (when CERES market is open - table located outside CERES grocery)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. People leave their excess fruit, vegetables, herbs etc. on the swap table and take produce others have dropped off. No membershi p required. There is no requirement to leave produce on the same day. Visit the table on market day to get involved. ",
+        "Latitude": -37.76563494,
+        "Longitude": 144.9829495,
+        "Contact": "Email: urbanorchard@ceres.org.au ",
+        "Website": "https://www.facebook.com/urbanorchardbrunswick",
+        "Comments": "Accessible via ramp from the car park. Some uneven ground.",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9814024,
+          -37.8142758
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "Field1": "East Melbourne Community Garden",
+        "PropID": "103808",
+        "Neighbourhood": "East Melbourne",
+        "Address": "Sinclairs Cottage Fitzroy Gardens, Wellington Parade, East Melbourne, 3002 ",
+        "Opening_Hours": "Open during daylight hours",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Fees are set each year by the Committee of Management. Must be a resident of East Melbourne.",
+        "Latitude": -37.8142758,
+        "Longitude": 144.9814024,
+        "Contact": "Email: eastmelbcommgarden@gmail.com",
+        "Website": null,
+        "Comments": null,
+        "URL_popup": "",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": "Yes",
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9470827,
+          -37.83128873
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "Field1": "The Fr Bob Maguire Foundation ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "204 Gladstone Street, South Melbourne, 3205 (shop 2, enter from Boundary St)",
+        "Opening_Hours": "Mon, Tue, Thu, Fri: 10am–1pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Open to those with a Health Care Card, Pension Card or people in crisis requiring emergency support welcome.",
+        "Latitude": -37.83128873,
+        "Longitude": 144.9470827,
+        "Contact": "Ph: 9681 3255 Email: info@fatherbobs.com",
+        "Website": "https://www.fatherbobs.com/",
+        "Comments": "Pavement surface, no accessibilty restrictions ",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9905004,
+          -37.86087746
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "Field1": "Nourish/Temple Beth Israel (in conjunction with the Fr Bob Maguire Foundation)  ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "76 Alma Road, St Kilda, 3182",
+        "Opening_Hours": "Mon: 5:15pm–6:30pm ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Free",
+        "Latitude": -37.86087746,
+        "Longitude": 144.9905004,
+        "Contact": null,
+        "Website": "nourish – TBI Melbourne »",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9942112,
+          -37.8608392699999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "Field1": "Kehilat Nitzan (in conjunction with the Fr Bob Maguire Foundation)  ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Alma Park West,119A Alma Road, St Kilda East, 3183 (near the corner of Alma Road and Chapel Street) ",
+        "Opening_Hours": "Tue: 6pm–6:45pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Free",
+        "Latitude": -37.86083927,
+        "Longitude": 144.9942112,
+        "Contact": "Email: info@kehilatnitzan.org.au",
+        "Website": "kehilatnitzan.org.au",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9932193,
+          -37.85081338
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "Field1": "Uniting Prahran (Hartley's Meals)",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": " 211 Chapel Street, Prahran, 3181 ",
+        "Opening_Hours": "Mon–Fri: 11am–1:45pm",
+        "Breakfast": null,
+        "Lunch": "Yes",
+        "Dinner": null,
+        "Conditions": "Low cost. Free lunch meals available for people with a Health Care Card (conditions apply). ",
+        "Latitude": -37.85081338,
+        "Longitude": 144.9932193,
+        "Contact": "Ph: 03 9051 1400 ",
+        "Website": "http://www.unitingprahran.org.au/",
+        "Comments": "Ground floor, ramp access ",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9932193,
+          -37.85081338
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "Field1": "Uniting Prahran (Hartley's Meals)",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": " 211 Chapel Street, Prahran, 3181 ",
+        "Opening_Hours": "Mon–Fri: 7:30am–9;30am (Available April until the end of September)",
+        "Breakfast": "Yes",
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone. Gold coin donation appreciated for breakfast. ",
+        "Latitude": -37.85081338,
+        "Longitude": 144.9932193,
+        "Contact": "Ph: 03 9051 1400 ",
+        "Website": "http://www.unitingprahran.org.au/",
+        "Comments": "Ground floor, ramp access ",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.964255,
+          -37.8112144
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "Field1": "Returned & Services League of Australia, Victorian Branch ",
+        "PropID": "109303",
+        "Neighbourhood": "CBD Hoddle Grid",
+        "Address": "Vivian Bullwinkle Veterans and Veterans Families Wellbeing Centre, 289-299 Swanston Street, Melbourne, 3000 (Legacy House level 3)",
+        "Opening_Hours": "Mon–Fri: 9am–5pm (closed public holidays) ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Open to former or serving members of the Australian Defence Force or Allied Forces and for their dependants who are experiencing financial hardship. For information and to ascertain if you are eligible for assistance, please contact agency directly. ",
+        "Latitude": -37.8112144,
+        "Longitude": 144.964255,
+        "Contact": "Veteran Central Ph: 1300 645 838 Email: veterancentral@rslvic.com.au ",
+        "Website": "https://rslvic.com.au/",
+        "Comments": "Food banks, parcels and vouchers",
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": "Yes",
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9572068,
+          -37.8214055999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "Field1": "From Us 2 You",
+        "PropID": "646925",
+        "Neighbourhood": "CBD Hoddle Grid",
+        "Address": "2A Spencer Street, Melbourne, 3000 (at Batman Park, just down from Blue Tongue bike tours)",
+        "Opening_Hours": "Tue, Thu:1:30pm–3pm (until food is all gone), Sun: 9.30am–11am (until food is gone)",
+        "Breakfast": "Yes",
+        "Lunch": "Yes",
+        "Dinner": null,
+        "Conditions": "Free",
+        "Latitude": -37.8214056,
+        "Longitude": 144.9572068,
+        "Contact": null,
+        "Website": "https://www.facebook.com/groups/170327629970644/",
+        "Comments": "At Batman Park just down from Blue Tongue Bike Tours outdoors",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9794906,
+          -37.8039559599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "Field1": "Cultivating Community, Open Table and Yarra Libraries",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Fitzroy Community Food Centre, 125 Napier Street, Fitzroy, 3065",
+        "Opening_Hours": "Fri: 1pm–3pm (2nd Fri of the month)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free",
+        "Latitude": -37.80395596,
+        "Longitude": 144.9794906,
+        "Contact": "Peta Christensen Ph: 03 9429 3084 Email: peta@cultivatingcommunity.org.au ",
+        "Website": "https://www.cultivatingcommunity.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9794906,
+          -37.8039559599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "Field1": "Cultivating Community ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Fitzroy Community Food Centre, 125 Napier Street, Fitzroy, 3065",
+        "Opening_Hours": "Mon: community baking session, Thu: after school kids cooking class (Contact Peta Christensen for more information)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free",
+        "Latitude": -37.80395596,
+        "Longitude": 144.9794906,
+        "Contact": "Peta Christensen Ph: 03 9429 3084 Email: peta@cultivatingcommunity.org.au",
+        "Website": "https://www.cultivatingcommunity.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": "Yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.978457,
+          -37.80431163
+        ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "Field1": "Cultivating Community (Highrise Community Bakery)",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Fitzroy Community Food Centre, 125 Napier Street, Fitzroy, 3065",
+        "Opening_Hours": "Tue: 9am–1pm (Located at The Community Grocer Fitzroy market stall) ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Affordable breads and baked goods. ",
+        "Latitude": -37.80431163,
+        "Longitude": 144.978457,
+        "Contact": "Peta Christensen Ph: 03 9429 3084 Email: peta@cultivatingcommunity.org.au",
+        "Website": "https://www.cultivatingcommunity.org.au/highrise",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9774465,
+          -37.8100216999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "Field1": "CatholicCare Victoria",
+        "PropID": "110658",
+        "Neighbourhood": "East Melbourne",
+        "Address": "St Patricks Cathedral, 383 Albert Street, East Melbourne, 3002",
+        "Opening_Hours": "Mon–Fri: 9::30am–3:30pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free ",
+        "Latitude": -37.8100217,
+        "Longitude": 144.9774465,
+        "Contact": "Emergency Relief Program across inner Melbourne line Ph: 0456 948 664",
+        "Website": "www.catholiccarevic.org.au",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": "Yes",
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9710897,
+          -37.83172151
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "Field1": "Viva A Vida Foundation",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Suite 219/370 St Kilda Road, Melbourne, 3004",
+        "Opening_Hours": "Saturday Register to an online calendar to get a schedule.",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.83172151,
+        "Longitude": 144.9710897,
+        "Contact": "Email: help@vivaavidafoundation.com ",
+        "Website": "https://vivaavidafoundation.com/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9540358,
+          -37.8350057399999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "Field1": "Emerald Hill Mission",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "377 Dorcas St, South Melbourne, 3205 (rear of 377 Dorcas St)",
+        "Opening_Hours": "Mon–Thu: 9:30am–12pm (hot meal and food parcels); Fri: 11am–2pm (hot lunch)",
+        "Breakfast": "Yes",
+        "Lunch": "Yes",
+        "Dinner": null,
+        "Conditions": "Open to everyone and free.",
+        "Latitude": -37.83500574,
+        "Longitude": 144.9540358,
+        "Contact": "Email: maryannenunan@optusnet.com.au",
+        "Website": "https://www.emeraldhillmission.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.973059,
+          -37.86165507
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "Field1": "Emerald Hill Mission",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Cleve Gardens, Cnr Beaconsfield Pde and Fitzroy St, St Kilda West, 3182",
+        "Opening_Hours": "Wed: 5:15pm:, Fri: 7 pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free.",
+        "Latitude": -37.86165507,
+        "Longitude": 144.973059,
+        "Contact": "Email: maryannenunan@optusnet.com.au",
+        "Website": "https://www.emeraldhillmission.org.au/",
+        "Comments": "Food Van visits Cleve Gardens, Fitzroy Street, St Kilda West",
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9559317,
+          -37.8208903
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "Field1": "The Humble Mission ",
+        "PropID": "623351",
+        "Neighbourhood": "CBD Hoddle Grid",
+        "Address": "5 Norval Place, Melbourne, 3000",
+        "Opening_Hours": "Pickup on request",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone and free. Long life food and toiletries available on an individual basis with pickup on case by case basis. ",
+        "Latitude": -37.8208903,
+        "Longitude": 144.9559317,
+        "Contact": "Direct message @thehumblemission on Instagram or Facebook ",
+        "Website": "www.thehumblemission.com",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9559317,
+          -37.8208903
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "Field1": "The Humble Mission (meals and pop up pantry)",
+        "PropID": "623351",
+        "Neighbourhood": "CBD Hoddle Grid",
+        "Address": "5 Norval Place, Melbourne, 3000",
+        "Opening_Hours": "Sat: 1:30pm–3:00pm",
+        "Breakfast": null,
+        "Lunch": "Yes",
+        "Dinner": null,
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.8208903,
+        "Longitude": 144.9559317,
+        "Contact": "Direct message @thehumblemission on Instagram or Facebook ",
+        "Website": "www.thehumblemission.com",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9688674,
+          -37.79570847
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "Field1": "Church of All Natiions Community Support Centre",
+        "PropID": "576051",
+        "Neighbourhood": "Carlton",
+        "Address": "Community Support Centre, 180 Palmerston St, Carlton, 3053 ",
+        "Opening_Hours": "Thu: 10am start food market (line up out the back of the building, market finishes when food is exhausted); Pantry is open by appointment only on Tue, Wed, Thu every three weeks ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Open to those living in Parkville, Carlton, Carlton North, Melbourne CBD, North Melbourne, West Melbourne, Fitzroy and Fitzroy North or with no fixed address. Concession or Health Care Card required. Pantry is available by appointment only.",
+        "Latitude": -37.79570847,
+        "Longitude": 144.9688674,
+        "Contact": "Grace Ph: 9347 7077 or 0484 062 862 (emergency relief mobile) Email: admin@cancarlton.org.au",
+        "Website": "https://cancommunitysupport.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9480406,
+          -37.80356682
+        ]
+      },
+      "properties": {
+        "OBJECTID": 50,
+        "Field1": "Hotham Mission North Melbourne ",
+        "PropID": "527016",
+        "Neighbourhood": "North Melbourne",
+        "Address": "2 Elm St, North Melbourne, 3051 ",
+        "Opening_Hours": "Mon–Fri (call ahead to arrange pickup of a bag of nonperishable food items to last 1 week)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone and free. However note that the service is most suitable for individuals living near North Melbourne. Please call ahead and arrange pickup of the food parcel in advance.",
+        "Latitude": -37.80356682,
+        "Longitude": 144.9480406,
+        "Contact": "Ph: 9326 8245 (Mon–Fri 9am–5pm) Email: programs@hothammission.org.au",
+        "Website": "https://hothammission.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9761164,
+          -37.86335232
+        ]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "Field1": "Christ Church Mission Community Centre (Food parcels)",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Christ Church Mission Community Centre, 14 Acland St, St Kilda, 3182 ",
+        "Opening_Hours": "Mon–Fri: 10:30am–1:30pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.86335232,
+        "Longitude": 144.9761164,
+        "Contact": "Ph: 9534 9250 Email: communitycentre@ccm.org.au",
+        "Website": "https://www.ccm.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9761164,
+          -37.86335232
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "Field1": "Christ Church Mission Community Centre (The Little Pantry)",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Christ Church Mission Community Centre, 14 Acland St, St Kilda, 3182 ",
+        "Opening_Hours": "24 hours 7 days a week ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.86335232,
+        "Longitude": 144.9761164,
+        "Contact": "Ph: 9534 9250 Email: communitycentre@ccm.org.au",
+        "Website": "https://www.ccm.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": null,
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9761164,
+          -37.86335232
+        ]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "Field1": "Christ Church Mission Community Centre (Open House)",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Christ Church Mission Community Centre, 14 Acland St, St Kilda, 3182 ",
+        "Opening_Hours": "Thu: 5:30pm–6:45pm ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.86335232,
+        "Longitude": 144.9761164,
+        "Contact": "Ph: 9534 9250 Email: communitycentre@ccm.org.au",
+        "Website": "https://www.ccm.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.965652,
+          -37.81419787
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "Field1": "Hare Krishna Food for Life ",
+        "PropID": "109276",
+        "Neighbourhood": "CBD Hoddle Grid",
+        "Address": "Crossways,147 Swanston Street, Melbourne, 3000 ",
+        "Opening_Hours": "Mon–Sat:11:30am-8pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Full price $9.50 (concession $7.50) for all you can eat. Add $0.50 for take-away. ",
+        "Latitude": -37.81419787,
+        "Longitude": 144.965652,
+        "Contact": "Ph: 9650 2939 Email: crosswaysfoodforlife@gmail.com",
+        "Website": "https://www.crosswaysfoodforlife.com.au/about-us/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.954364,
+          -37.84794013
+        ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "Field1": "Hare Krishna Food for Life ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Prasadam Hall,197 Danks Street, Albert Park, 3206",
+        "Opening_Hours": "Daily: 9am (breakfast), 1pm (lunch), Mon–Fri: 5:30pm (dinner), Sat–-Sun: 6pm (dinner)",
+        "Breakfast": "Yes",
+        "Lunch": "Yes",
+        "Dinner": "Yes",
+        "Conditions": "Open to everyone and free ",
+        "Latitude": -37.84794013,
+        "Longitude": 144.954364,
+        "Contact": "Ph: 9699 5122 Email: info@harekrishnamelbourne.co m.au",
+        "Website": "https://www.harekrishnamelbourne.com.au/food-for-life/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": "Yes",
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": null,
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0030397,
+          -37.80249501
+        ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "Field1": "Melbourne Farmers Markets Abbotsford",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Abbotsford Convent, St Heliers Street, Abbotsford, 3067 ",
+        "Opening_Hours": "Sat: 8am–1pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Entry by voluntary $2 donation (card only)",
+        "Latitude": -37.80249501,
+        "Longitude": 145.0030397,
+        "Contact": "Ph: 0499 448 860",
+        "Website": "https://mfm.com.au/pages/abbotsford-farmers-market",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9729091,
+          -37.79089945
+        ]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "Field1": "Melbourne Farmers Markets Carlton North ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Carlton North Primary School, Cnr Canning and O’Grady Streets, Carlton North, 3054 ",
+        "Opening_Hours": "Sun: 9am–1pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Entry by voluntary $2 donation (card only)",
+        "Latitude": -37.79089945,
+        "Longitude": 144.9729091,
+        "Contact": "Ph: 0499 448 860",
+        "Website": "www.mfm.com.au/pages/carlton-farmers-market",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9570532,
+          -37.80744415
+        ]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "Field1": "Queen Victoria Market",
+        "PropID": "108118",
+        "Neighbourhood": "CBD Hoddle Grid",
+        "Address": "Cnr Victoria Street and Elizabeth Street, Melbourne, 3000",
+        "Opening_Hours": "Tue, Thu, Fri: 6am–3pm, Sat: 6am–4pm, Sun: 9am–4pm (Check website for public holiday closures and Winter Markets on Wednesday nights)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free entry. Online ordering available for delivery or click and collect. Delivery is charged at $15 per order.",
+        "Latitude": -37.80744415,
+        "Longitude": 144.9570532,
+        "Contact": "Ph: 9320 5822",
+        "Website": "www.qvm.com.au",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9844075,
+          -37.79978001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "Field1": "Friends of the Earth Co-op Cafe",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "312 Smith Street, Collingwood, 3066",
+        "Opening_Hours": "Mon–Sat: 10am–5pm (Check website for closures on public holidays)",
+        "Breakfast": null,
+        "Lunch": "Yes",
+        "Dinner": null,
+        "Conditions": "Low cost foods and meals. Annual membership for coop is available. Members get a 5% discount off their shopping in the coop. ",
+        "Latitude": -37.79978001,
+        "Longitude": 144.9844075,
+        "Contact": "Ph: 9417 4382 Email: food@foe.org.au",
+        "Website": "https://www.foe.org.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": "Yes",
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9563683,
+          -37.83195176
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "Field1": "South Melbourne Market ",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Cnr Coventry and Cecil Streets, South Melbourne, 3205",
+        "Opening_Hours": "Wed, Sat, Sun: 8am–4pm, Fri: 8am–5pm (check website for public holiday closures)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free entry",
+        "Latitude": -37.83195176,
+        "Longitude": 144.9563683,
+        "Contact": "Ph: 9209 6295",
+        "Website": "www.southmelbournemarket.com.au/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9290363,
+          -37.7947776
+        ]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "Field1": "Salvation Army (The Marketplace)",
+        "PropID": "101114",
+        "Neighbourhood": "CBD Hoddle Grid",
+        "Address": "69 Bourke Street, Melbourne, 3000 (level 1)",
+        "Opening_Hours": "Mon–Thu: 9:30am–12:30pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free. Open to those experiencing homelessness or disadvantage. Current health care card is required. ",
+        "Latitude": -37.7947776,
+        "Longitude": 144.9290363,
+        "Contact": "Ph: 9653 3299 or 1800 266 686",
+        "Website": "The Marketplace | Melbourne 614 | The Salvation Army Australia",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9927681,
+          -37.84637091
+        ]
+      },
+      "properties": {
+        "OBJECTID": 62,
+        "Field1": "Prahran Market",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "163 Commercial Road, South Yarra, 3141 ",
+        "Opening_Hours": "Tue–Sat: 7am–5pm, Sun: 10am–3pm (check website for public holiday closures)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free entry",
+        "Latitude": -37.84637091,
+        "Longitude": 144.9927681,
+        "Contact": "Ph: 8290 8220",
+        "Website": "management@prahranmarket.com.au",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8814164,
+          -37.7952473899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 63,
+        "Field1": "Slow Food Melbourne North Footscray",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Barrett Reserve 55-57 Essex St, West Footscray, 3012 ",
+        "Opening_Hours": "Sat: 9am–1pm (2nd Saturday of the month, check website for details)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free entry",
+        "Latitude": -37.79524739,
+        "Longitude": 144.8814164,
+        "Contact": "Ph: 0438318319 Email: contact@slowfoodmelbourne.com.au",
+        "Website": "https://www.slowfoodmelbourne.com.au/farmers-markets/.",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.978457,
+          -37.80431163
+        ]
+      },
+      "properties": {
+        "OBJECTID": 64,
+        "Field1": "The Community Grocer Fitzroy",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Atherton Gardens Estate 90 Brunswick Street, Fitzroy, 3065 ",
+        "Opening_Hours": "Tue: 9am–1pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Affordable fresh fruit and vegetables",
+        "Latitude": -37.80431163,
+        "Longitude": 144.978457,
+        "Contact": null,
+        "Website": "https://www.thecommunitygrocer.com.au/fitzroy",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0572552,
+          -37.77093196
+        ]
+      },
+      "properties": {
+        "OBJECTID": 65,
+        "Field1": "The Community Grocer Carlton",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "Carlton Public Housing Estate 478 Drummond St, Carlton, 3053 ",
+        "Opening_Hours": "Fri: 8am–12pm",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Affordable fresh fruit and produce",
+        "Latitude": -37.77093196,
+        "Longitude": 145.0572552,
+        "Contact": null,
+        "Website": "https://www.thecommunitygrocer.com.au/carlton",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9342447,
+          -37.79876332
+        ]
+      },
+      "properties": {
+        "OBJECTID": 66,
+        "Field1": "The One Box Group ",
+        "PropID": "501542",
+        "Neighbourhood": "Kensington",
+        "Address": "1/ 358 Arden Street, Kensington, 3031",
+        "Opening_Hours": "Tue, Fri: Free delivery available for City of Melbourne council residents or choose Click & Collect Tue to Thu 9am – 12pm from Kensington 3031. Bulk delivery for charities & community organisations is also available. Delivery is free with a 10 box minimum for areas outside City of Melbourne. ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Starting from $8.50 for boxes of affordable fresh produce and staples. ",
+        "Latitude": -37.79876332,
+        "Longitude": 144.9342447,
+        "Contact": "Ph: 1300 294 466 Email: freshfoodproject@theonebox.org.au ",
+        "Website": "http://theonebox.org.au",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": "Yes",
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9248834,
+          -37.78858853
+        ]
+      },
+      "properties": {
+        "OBJECTID": 67,
+        "Field1": "Kensington Stockyard Community Garden",
+        "PropID": "no prop id",
+        "Neighbourhood": "Kensington",
+        "Address": "Cnr of Bluestone and Serong St, Kensington, 3031",
+        "Opening_Hours": "Tue, Wed, Sun: Open during daylight hours",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Kensington residents only. There is currently a waiting list for this garden. ",
+        "Latitude": -37.78858853,
+        "Longitude": 144.9248834,
+        "Contact": "Email: hello@kensingtonstockyardfoodgarden.org ",
+        "Website": "https://kensingtonstockyardfoodgarden.org/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": "Yes",
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.934932,
+          -37.79936718
+        ]
+      },
+      "properties": {
+        "OBJECTID": 68,
+        "Field1": "Kensington Neighbourhood House community garden",
+        "PropID": "100487",
+        "Neighbourhood": "Kensington",
+        "Address": "321 Arden Street, Kensington, 3031 ",
+        "Opening_Hours": "Garden is open 24 hours, 7 days a week",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone and free",
+        "Latitude": -37.79936718,
+        "Longitude": 144.934932,
+        "Contact": "Ph: 9376 6366 Email: info@kenhouse.org.au ",
+        "Website": "Kensington Neighbourhood House",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": "Yes",
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9285677,
+          -37.79302062
+        ]
+      },
+      "properties": {
+        "OBJECTID": 69,
+        "Field1": "Kensington Neighbourhood House - McCracken St Food Share Garden",
+        "PropID": "615482",
+        "Neighbourhood": "Kensington",
+        "Address": "89 McCracken Street, Kensington, 3031 (located behid and down the side of the Christ Church Kensington)",
+        "Opening_Hours": "Open 24 hours, 7 days a week ",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Open to everyone and free. 16 raised garden beds with freshly grown herbs and vegetables accessible to all with principles of accessing food fairly and as you need. ",
+        "Latitude": -37.79302062,
+        "Longitude": 144.9285677,
+        "Contact": "Ph: 9376 6366 Email: info@kenhouse.org.au ",
+        "Website": "http://kensingtonneighbourhoodhouse.com/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": "Yes",
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9344599,
+          -37.79926545
+        ]
+      },
+      "properties": {
+        "OBJECTID": 70,
+        "Field1": "Kensington Community Garden ",
+        "PropID": "110059",
+        "Neighbourhood": "Kensington",
+        "Address": "118-128 Westbourne Road, Kensington, 3031",
+        "Opening_Hours": "Contact agency for more information",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Kensington residents only. There is currently a waiting list for this garden. ",
+        "Latitude": -37.79926545,
+        "Longitude": 144.9344599,
+        "Contact": "Ph: 9376 1633 Email: kensington@ymca.org.au ",
+        "Website": null,
+        "Comments": null,
+        "URL_popup": "",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": null,
+        "foodbankPantry": null,
+        "freshProduce": "Yes",
+        "longlifeFood": null,
+        "communityGarden": "Yes",
+        "foodEducation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9988351,
+          -37.82177646
+        ]
+      },
+      "properties": {
+        "OBJECTID": 71,
+        "Field1": "Richmond Churches Food Centre",
+        "PropID": null,
+        "Neighbourhood": null,
+        "Address": "St Ignatius Church, 326 Church St, Richmond, 3121 (located behind the church)",
+        "Opening_Hours": "Mon: 10am – 12pm (closed public holidays)",
+        "Breakfast": null,
+        "Lunch": null,
+        "Dinner": null,
+        "Conditions": "Free",
+        "Latitude": -37.82177646,
+        "Longitude": 144.9988351,
+        "Contact": "Francis Flood Ph: 0493104144 Email: rfoodcentre@gmail.com",
+        "Website": "http://www.richmondchurches.weebly.com/",
+        "Comments": null,
+        "URL_popup": "Visit website",
+        "communityMeal": null,
+        "takeawayMeal": null,
+        "foodParcel": null,
+        "foodVoucher": "Yes",
+        "foodbankPantry": "Yes",
+        "freshProduce": "Yes",
+        "longlifeFood": "Yes",
+        "communityGarden": null,
+        "foodEducation": null
+      }
+    }
+  ]
+}

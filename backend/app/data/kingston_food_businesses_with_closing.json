@@ -1,0 +1,6794 @@
+{
+  "generated_at": 1768357306.7019012,
+  "places": [
+    {
+      "id": "ChIJRdb1xJKr0kwRshW09EPRSnA",
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "156 Division St, Kingston, ON K7L 3M6, Canada",
+      "location": {
+        "latitude": 44.2326771,
+        "longitude": -76.4930316
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 4,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 4,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 12:00 AM",
+          "Tuesday: 11:00 AM – 3:00 AM",
+          "Wednesday: 11:00 AM – 12:00 AM",
+          "Thursday: 11:00 AM – 3:00 AM",
+          "Friday: 11:00 AM – 4:00 AM",
+          "Saturday: 11:00 AM – 4:00 AM",
+          "Sunday: 11:00 AM – 12:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T08:00:00Z"
+      },
+      "displayName": {
+        "text": "Philthy Philly's Kingston",
+        "languageCode": "en"
+      },
+      "primaryType": "american_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T08:00:00Z",
+        "nextCloseLocal": "2026-01-14T03:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJic3Gbler0kwRtNyB8dGFzUs",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "495 Princess St Unit A, Kingston, ON K7L 1C5, Canada",
+      "location": {
+        "latitude": 44.2348706,
+        "longitude": -76.4960588
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 2,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 2:00 AM",
+          "Tuesday: 11:00 AM – 2:00 AM",
+          "Wednesday: 11:00 AM – 2:00 AM",
+          "Thursday: 11:00 AM – 2:00 AM",
+          "Friday: 11:00 AM – 2:00 AM",
+          "Saturday: 11:00 AM – 2:00 AM",
+          "Sunday: 11:00 AM – 2:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T07:00:00Z"
+      },
+      "displayName": {
+        "text": "Meltwich Food Co",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T07:00:00Z",
+        "nextCloseLocal": "2026-01-14T02:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJkUpVIfOr0kwRHjV7dXL_UYg",
+      "types": [
+        "hamburger_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "505 Princess St, Kingston, ON K7L 1C5, Canada",
+      "location": {
+        "latitude": 44.234958,
+        "longitude": -76.49627100000001
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 12:00 AM",
+          "Tuesday: 11:00 AM – 12:00 AM",
+          "Wednesday: 11:00 AM – 12:00 AM",
+          "Thursday: 11:00 AM – 12:00 AM",
+          "Friday: 11:00 AM – 12:00 AM",
+          "Saturday: 11:00 AM – 12:00 AM",
+          "Sunday: 11:00 AM – 12:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T05:00:00Z"
+      },
+      "displayName": {
+        "text": "Big Smoke Burger",
+        "languageCode": "en"
+      },
+      "primaryType": "hamburger_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T05:00:00Z",
+        "nextCloseLocal": "2026-01-14T00:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ_zz-YAer0kwROaDB9FqnSLw",
+      "types": [
+        "fast_food_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "183 Division St, Kingston, ON K7L 3M8, Canada",
+      "location": {
+        "latitude": 44.233796999999996,
+        "longitude": -76.49304939999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 4,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 4,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 2:00 AM",
+          "Tuesday: 11:00 AM – 2:00 AM",
+          "Wednesday: 11:00 AM – 2:00 AM",
+          "Thursday: 11:00 AM – 2:00 AM",
+          "Friday: 11:00 AM – 4:00 AM",
+          "Saturday: 11:00 AM – 4:00 AM",
+          "Sunday: 11:00 AM – 12:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T07:00:00Z"
+      },
+      "displayName": {
+        "text": "Smoke's Poutinerie Kingston",
+        "languageCode": "en"
+      },
+      "primaryType": "fast_food_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T07:00:00Z",
+        "nextCloseLocal": "2026-01-14T02:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ5apNWwCr0kwR5uCEEpvH8IY",
+      "types": [
+        "restaurant",
+        "fast_food_restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "397 Princess St, Kingston, ON K7L 5C9, Canada",
+      "location": {
+        "latitude": 44.2333159,
+        "longitude": -76.4922176
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 2,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 2:00 AM",
+          "Tuesday: 11:00 AM – 2:00 AM",
+          "Wednesday: 11:00 AM – 2:00 AM",
+          "Thursday: 11:00 AM – 2:00 AM",
+          "Friday: 11:00 AM – 2:00 AM",
+          "Saturday: 11:00 AM – 2:00 AM",
+          "Sunday: 11:00 AM – 2:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T07:00:00Z"
+      },
+      "displayName": {
+        "text": "Popeyes Louisiana Kitchen",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T07:00:00Z",
+        "nextCloseLocal": "2026-01-14T02:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJgZFhvOyr0kwRZtUtepqh-T0",
+      "types": [
+        "fast_food_restaurant",
+        "american_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "meal_delivery",
+        "food_delivery",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "formattedAddress": "349 Princess St, Kingston, ON K7L 1B7, Canada",
+      "location": {
+        "latitude": 44.2328711,
+        "longitude": -76.4902841
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 4:00 PM – 2:00 AM",
+          "Tuesday: 4:00 PM – 2:00 AM",
+          "Wednesday: 4:00 PM – 2:00 AM",
+          "Thursday: 4:00 PM – 3:00 AM",
+          "Friday: 4:00 PM – 3:00 AM",
+          "Saturday: 4:00 PM – 3:00 AM",
+          "Sunday: 4:00 PM – 2:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T07:00:00Z"
+      },
+      "displayName": {
+        "text": "Loaded Pierogi",
+        "languageCode": "en"
+      },
+      "primaryType": "fast_food_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T07:00:00Z",
+        "nextCloseLocal": "2026-01-14T02:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJm_-4Nv-q0kwREz5HQl3XnSc",
+      "types": [
+        "pizza_restaurant",
+        "fast_food_restaurant",
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "349 King St E, Kingston, ON K7L 3B5, Canada",
+      "location": {
+        "latitude": 44.231009199999995,
+        "longitude": -76.4809129
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 12:00 AM",
+          "Tuesday: 11:00 AM – 12:00 AM",
+          "Wednesday: 11:00 AM – 12:00 AM",
+          "Thursday: 11:00 AM – 1:00 AM",
+          "Friday: 11:00 AM – 3:00 AM",
+          "Saturday: 11:00 AM – 3:00 AM",
+          "Sunday: Closed"
+        ],
+        "nextCloseTime": "2026-01-14T05:00:00Z"
+      },
+      "displayName": {
+        "text": "Original Bubba's",
+        "languageCode": "en"
+      },
+      "primaryType": "pizza_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T05:00:00Z",
+        "nextCloseLocal": "2026-01-14T00:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJoT0LwkSr0kwRFfArAenHHQE",
+      "types": [
+        "fast_food_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "401 Princess St, Kingston, ON K7L 5C9, Canada",
+      "location": {
+        "latitude": 44.2333662,
+        "longitude": -76.49237889999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 30
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:30 AM – 1:30 AM",
+          "Tuesday: 11:30 AM – 3:00 AM",
+          "Wednesday: 11:30 AM – 3:00 AM",
+          "Thursday: 11:30 AM – 3:00 AM",
+          "Friday: 11:30 AM – 3:30 AM",
+          "Saturday: 11:30 AM – 3:30 AM",
+          "Sunday: 11:30 AM – 3:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T08:00:00Z"
+      },
+      "displayName": {
+        "text": "Mr. Poutine",
+        "languageCode": "en"
+      },
+      "primaryType": "fast_food_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T08:00:00Z",
+        "nextCloseLocal": "2026-01-14T03:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJPeI14rKr0kwR8S_bGvcQoJc",
+      "types": [
+        "restaurant",
+        "sandwich_shop",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "292 Princess St, Kingston, ON K7L 1B4, Canada",
+      "location": {
+        "latitude": 44.2324229,
+        "longitude": -76.4885985
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 3:00 AM",
+          "Tuesday: 11:00 AM – 3:00 AM",
+          "Wednesday: 11:00 AM – 3:00 AM",
+          "Thursday: 11:00 AM – 3:00 AM",
+          "Friday: 11:00 AM – 3:00 AM",
+          "Saturday: 11:00 AM – 3:00 AM",
+          "Sunday: 11:00 AM – 3:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T08:00:00Z"
+      },
+      "displayName": {
+        "text": "Melt & Grill",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T08:00:00Z",
+        "nextCloseLocal": "2026-01-14T03:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJUx_86W2r0kwRRjYTmdX6J9o",
+      "types": [
+        "middle_eastern_restaurant",
+        "mediterranean_restaurant",
+        "fast_food_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "575 Princess St Unit 107, Kingston, ON K7L 1E1, Canada",
+      "location": {
+        "latitude": 44.2362013,
+        "longitude": -76.49938639999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 2,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 2:00 AM",
+          "Tuesday: 11:00 AM – 2:00 AM",
+          "Wednesday: 11:00 AM – 2:00 AM",
+          "Thursday: 11:00 AM – 2:00 AM",
+          "Friday: 11:00 AM – 2:00 AM",
+          "Saturday: 11:00 AM – 2:00 AM",
+          "Sunday: 11:00 AM – 2:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T07:00:00Z"
+      },
+      "displayName": {
+        "text": "Shelby's Legendary Shawarma",
+        "languageCode": "en"
+      },
+      "primaryType": "middle_eastern_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T07:00:00Z",
+        "nextCloseLocal": "2026-01-14T02:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJdVnCjmWr0kwRZ2n_ckK3rAE",
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "formattedAddress": "127 Princess St, Kingston, ON K7L 1A8, Canada",
+      "location": {
+        "latitude": 44.2318401,
+        "longitude": -76.48338559999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 12:00 AM",
+          "Tuesday: 11:00 AM – 12:00 AM",
+          "Wednesday: 11:00 AM – 12:00 AM",
+          "Thursday: 11:00 AM – 12:00 AM",
+          "Friday: 11:00 AM – 3:00 AM",
+          "Saturday: 11:00 AM – 3:00 AM",
+          "Sunday: 11:00 AM – 12:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T05:00:00Z"
+      },
+      "displayName": {
+        "text": "Fresh Burrito",
+        "languageCode": "en"
+      },
+      "primaryType": "mexican_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T05:00:00Z",
+        "nextCloseLocal": "2026-01-14T00:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJMzKjmC6t0kwRXHHrBUm5F5s",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "2796 Princess St, Kingston, ON K7P 1W9, Canada",
+      "location": {
+        "latitude": 44.260067899999996,
+        "longitude": -76.581971
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 12:00 AM",
+          "Tuesday: 11:00 AM – 12:00 AM",
+          "Wednesday: 11:00 AM – 12:00 AM",
+          "Thursday: 11:00 AM – 12:00 AM",
+          "Friday: 11:00 AM – 1:00 AM",
+          "Saturday: 11:00 AM – 1:00 AM",
+          "Sunday: 11:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T05:00:00Z"
+      },
+      "displayName": {
+        "text": "Rooster Shack",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T05:00:00Z",
+        "nextCloseLocal": "2026-01-14T00:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJr6IJSs-r0kwR4aFPwVbfdpc",
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "formattedAddress": "575 Princess St UNIT 101, Kingston, ON K7L 1E1, Canada",
+      "location": {
+        "latitude": 44.236705,
+        "longitude": -76.50050740000002
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 1:00 AM",
+          "Tuesday: 11:00 AM – 1:00 AM",
+          "Wednesday: 11:00 AM – 1:00 AM",
+          "Thursday: 11:00 AM – 3:00 AM",
+          "Friday: 11:00 AM – 3:00 AM",
+          "Saturday: 11:00 AM – 3:00 AM",
+          "Sunday: 11:00 AM – 1:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T06:00:00Z"
+      },
+      "displayName": {
+        "text": "WINGSTOP KINGSTON",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T06:00:00Z",
+        "nextCloseLocal": "2026-01-14T01:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJzcVTWger0kwRBt4PCNqhGiw",
+      "types": [
+        "pizza_restaurant",
+        "fast_food_restaurant",
+        "meal_delivery",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "401 Princess St, Kingston, ON K7L 5C9, Canada",
+      "location": {
+        "latitude": 44.2333662,
+        "longitude": -76.49237889999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 2,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 2,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 1,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 30
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:30 AM – 1:30 AM",
+          "Tuesday: 11:30 AM – 2:30 AM",
+          "Wednesday: 11:30 AM – 1:30 AM",
+          "Thursday: 11:30 AM – 3:00 AM",
+          "Friday: 11:30 AM – 3:30 AM",
+          "Saturday: 11:30 AM – 3:30 AM",
+          "Sunday: 11:30 AM – 2:30 AM"
+        ],
+        "nextCloseTime": "2026-01-14T07:30:00Z"
+      },
+      "displayName": {
+        "text": "Bubbas Pizzeria",
+        "languageCode": "en"
+      },
+      "primaryType": "pizza_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T07:30:00Z",
+        "nextCloseLocal": "2026-01-14T02:30:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJBzAiFZur0kwRv1PNNU6lIvY",
+      "types": [
+        "seafood_restaurant",
+        "fast_food_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "kingston Centre, 1046 Princess St Unit C5, Kingston, ON K7L 1H2, Canada",
+      "location": {
+        "latitude": 44.2426331,
+        "longitude": -76.51617490000001
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:30 AM – 11:00 PM",
+          "Tuesday: 10:30 AM – 11:00 PM",
+          "Wednesday: 10:30 AM – 11:00 PM",
+          "Thursday: 10:30 AM – 11:00 PM",
+          "Friday: 10:30 AM – 11:00 PM",
+          "Saturday: 10:30 AM – 11:00 PM",
+          "Sunday: 10:30 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Popeyes Louisiana Kitchen",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJpTs7ceir0kwRdM4iLvu8TDI",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "1141 Division St, Kingston, ON K7K 5W3, Canada",
+      "location": {
+        "latitude": 44.2634408,
+        "longitude": -76.4976913
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 2,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:30 AM – 2:00 AM",
+          "Tuesday: 10:30 AM – 2:00 AM",
+          "Wednesday: 10:30 AM – 2:00 AM",
+          "Thursday: 10:30 AM – 2:00 AM",
+          "Friday: 10:30 AM – 2:00 AM",
+          "Saturday: 10:30 AM – 2:00 AM",
+          "Sunday: 10:30 AM – 2:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T07:00:00Z"
+      },
+      "displayName": {
+        "text": "Harvey's",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T07:00:00Z",
+        "nextCloseLocal": "2026-01-14T02:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJn3mLKZ-r0kwR1ezfgtHRdQM",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "890 Princess St, Kingston, ON K7L 1H1, Canada",
+      "location": {
+        "latitude": 44.2401218,
+        "longitude": -76.5099618
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:00 AM – 3:00 AM",
+          "Tuesday: 10:00 AM – 3:00 AM",
+          "Wednesday: 10:00 AM – 3:00 AM",
+          "Thursday: 10:00 AM – 3:00 AM",
+          "Friday: 10:00 AM – 3:00 AM",
+          "Saturday: 10:00 AM – 3:00 AM",
+          "Sunday: 10:30 AM – 3:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T08:00:00Z"
+      },
+      "displayName": {
+        "text": "Harvey's",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T08:00:00Z",
+        "nextCloseLocal": "2026-01-14T03:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJtzebdf-q0kwRGt4N8eN9CDk",
+      "types": [
+        "mexican_restaurant",
+        "fast_food_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "119 Princess St, Kingston, ON K7L 1A8, Canada",
+      "location": {
+        "latitude": 44.2318214,
+        "longitude": -76.4831337
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 11:00 PM",
+          "Tuesday: 11:00 AM – 11:00 PM",
+          "Wednesday: 11:00 AM – 11:00 PM",
+          "Thursday: 11:00 AM – 11:00 PM",
+          "Friday: 11:00 AM – 11:00 PM",
+          "Saturday: 11:00 AM – 11:00 PM",
+          "Sunday: 11:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Quesada Burritos & Tacos",
+        "languageCode": "en"
+      },
+      "primaryType": "mexican_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJiezBpV-r0kwRtZ3_wAtposU",
+      "types": [
+        "mexican_restaurant",
+        "sandwich_shop",
+        "fast_food_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "170 Division St, Kingston, ON K7L 3M8, Canada",
+      "location": {
+        "latitude": 44.2331055,
+        "longitude": -76.4931507
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 1:00 AM",
+          "Tuesday: 11:00 AM – 3:00 AM",
+          "Wednesday: 11:00 AM – 1:00 AM",
+          "Thursday: 11:00 AM – 3:00 AM",
+          "Friday: 11:00 AM – 3:00 AM",
+          "Saturday: 11:00 AM – 3:00 AM",
+          "Sunday: 11:00 AM – 1:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T08:00:00Z"
+      },
+      "displayName": {
+        "text": "Fat Bastard Burrito Co.",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T08:00:00Z",
+        "nextCloseLocal": "2026-01-14T03:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ83GTtg6t0kwRzrs9ueuoSOA",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "830 Norwest Rd, Kingston, ON K7P 2N4, Canada",
+      "location": {
+        "latitude": 44.2582508,
+        "longitude": -76.5760422
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 30
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:30 AM – 10:30 PM",
+          "Tuesday: 10:30 AM – 10:30 PM",
+          "Wednesday: 10:30 AM – 10:30 PM",
+          "Thursday: 10:30 AM – 10:30 PM",
+          "Friday: 10:30 AM – 10:30 PM",
+          "Saturday: 10:30 AM – 10:30 PM",
+          "Sunday: 10:30 AM – 10:30 PM"
+        ],
+        "nextCloseTime": "2026-01-14T03:30:00Z"
+      },
+      "displayName": {
+        "text": "Harvey's",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T03:30:00Z",
+        "nextCloseLocal": "2026-01-13T22:30:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJtZcIOOar0kwRl4VvuxvyDIc",
+      "types": [
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "Hickson Ave, Kingston, ON K7L 1H2, Canada",
+      "location": {
+        "latitude": 44.2530813,
+        "longitude": -76.48701539999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 2,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:00 AM – 2:00 AM",
+          "Tuesday: 10:00 AM – 2:00 AM",
+          "Wednesday: 10:00 AM – 2:00 AM",
+          "Thursday: 10:00 AM – 2:00 AM",
+          "Friday: 10:00 AM – 2:00 AM",
+          "Saturday: 10:00 AM – 2:00 AM",
+          "Sunday: 10:00 AM – 2:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T07:00:00Z"
+      },
+      "displayName": {
+        "text": "Gateaux By Tanu",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "nextCloseTime": "2026-01-14T07:00:00Z",
+        "nextCloseLocal": "2026-01-14T02:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ6YwUNf-q0kwRZMOzmbLXMWw",
+      "types": [
+        "bakery",
+        "brunch_restaurant",
+        "breakfast_restaurant",
+        "cafe",
+        "food_store",
+        "catering_service",
+        "store",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "44 Princess St, Kingston, ON K7L 1A4, Canada",
+      "location": {
+        "latitude": 44.231113,
+        "longitude": -76.480497
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 15,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 17,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 5:00 PM",
+          "Tuesday: 8:00 AM – 5:00 PM",
+          "Wednesday: 8:00 AM – 5:00 PM",
+          "Thursday: 8:00 AM – 5:00 PM",
+          "Friday: 8:00 AM – 5:00 PM",
+          "Saturday: 8:00 AM – 5:00 PM",
+          "Sunday: 8:00 AM – 3:00 PM"
+        ],
+        "nextOpenTime": "2026-01-14T13:00:00Z"
+      },
+      "displayName": {
+        "text": "Pan Chancho Bakery & Café",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJB0fUYfOs0kwRCiL20k-RKyk",
+      "types": [
+        "bakery",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "1530 Bath Rd, Kingston, ON K7M 4X6, Canada",
+      "location": {
+        "latitude": 44.2374571,
+        "longitude": -76.55890579999999
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 15,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 16,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: 8:00 AM – 5:00 PM",
+          "Thursday: 8:00 AM – 5:00 PM",
+          "Friday: 8:00 AM – 5:00 PM",
+          "Saturday: 8:00 AM – 4:00 PM",
+          "Sunday: 8:00 AM – 3:00 PM"
+        ],
+        "nextOpenTime": "2026-01-14T13:00:00Z"
+      },
+      "displayName": {
+        "text": "Bread & Butter Bakery",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJCSTIPqWr0kwRd6II0mFjCLs",
+      "types": [
+        "donut_shop",
+        "coffee_shop",
+        "cafe",
+        "dessert_shop",
+        "confectionery",
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "472 Division St, Kingston, ON K7K 4B1, Canada",
+      "location": {
+        "latitude": 44.242320899999996,
+        "longitude": -76.4953405
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 11:00 PM",
+          "Tuesday: 6:00 AM – 11:00 PM",
+          "Wednesday: 6:00 AM – 11:00 PM",
+          "Thursday: 6:00 AM – 11:00 PM",
+          "Friday: 6:00 AM – 11:00 PM",
+          "Saturday: 6:00 AM – 11:00 PM",
+          "Sunday: 6:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Coffee Way Donuts",
+        "languageCode": "en"
+      },
+      "primaryType": "donut_shop",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJM_YEjf-q0kwRbzGIcwE9OEQ",
+      "types": [
+        "bakery",
+        "tea_house",
+        "gift_shop",
+        "catering_service",
+        "food_delivery",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "home_goods_store",
+        "store",
+        "wholesaler",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "115 Princess St, Kingston, ON K7L 1A8, Canada",
+      "location": {
+        "latitude": 44.231836,
+        "longitude": -76.48299399999999
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 16,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 16,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 17,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 9:00 AM – 4:00 PM",
+          "Tuesday: 8:00 AM – 5:00 PM",
+          "Wednesday: 8:00 AM – 5:00 PM",
+          "Thursday: 8:00 AM – 5:00 PM",
+          "Friday: 8:00 AM – 5:00 PM",
+          "Saturday: 9:00 AM – 5:00 PM",
+          "Sunday: 11:00 AM – 4:00 PM"
+        ],
+        "nextOpenTime": "2026-01-14T13:00:00Z"
+      },
+      "displayName": {
+        "text": "Card's Bakery And Goods",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJkQdJbDur0kwR9kxrK8MNN1I",
+      "types": [
+        "cafe",
+        "pizza_restaurant",
+        "breakfast_restaurant",
+        "hamburger_restaurant",
+        "ice_cream_shop",
+        "sandwich_shop",
+        "convenience_store",
+        "middle_eastern_restaurant",
+        "wholesaler",
+        "dessert_shop",
+        "confectionery",
+        "bakery",
+        "american_restaurant",
+        "food_store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "formattedAddress": "252 Ontario St, Kingston, ON K7L 5P7, Canada",
+      "location": {
+        "latitude": 44.2308849,
+        "longitude": -76.4796918
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 21,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 9:00 PM",
+          "Tuesday: 11:00 AM – 9:00 PM",
+          "Wednesday: 11:00 AM – 9:00 PM",
+          "Thursday: 11:00 AM – 9:00 PM",
+          "Friday: 11:00 AM – 9:00 PM",
+          "Saturday: 11:00 AM – 9:00 PM",
+          "Sunday: 11:00 AM – 9:00 PM"
+        ],
+        "nextOpenTime": "2026-01-14T16:00:00Z"
+      },
+      "displayName": {
+        "text": "M & J Cakes & Cookies",
+        "languageCode": "en"
+      },
+      "primaryType": "cafe",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJTXZtTt2r0kwRKqgAnNjo2K4",
+      "types": [
+        "bakery",
+        "food_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "formattedAddress": "82 Ontario St, Kingston, ON K7L 5M2, Canada",
+      "location": {
+        "latitude": 44.2264477,
+        "longitude": -76.48363119999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 18,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 18,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 18,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 18,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 18,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 – 10:00 PM",
+          "Tuesday: 6:00 – 10:00 PM",
+          "Wednesday: 6:00 – 10:00 PM",
+          "Thursday: 6:00 – 10:00 PM",
+          "Friday: 6:00 – 10:00 PM",
+          "Saturday: 9:00 AM – 10:00 PM",
+          "Sunday: 9:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T03:00:00Z"
+      },
+      "displayName": {
+        "text": "Monish's Mango Mousse",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "nextCloseTime": "2026-01-14T03:00:00Z",
+        "nextCloseLocal": "2026-01-13T22:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJj0sEUYYHvIoRN4zX15dTYI8",
+      "types": [
+        "bakery",
+        "donut_shop",
+        "catering_service",
+        "food_delivery",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "2792 Princess St, Kingston, ON K7P 1W9, Canada",
+      "location": {
+        "latitude": 44.2600574,
+        "longitude": -76.5818297
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 15,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 16,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 16,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 16,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 16,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: 8:00 AM – 4:00 PM",
+          "Thursday: 8:00 AM – 4:00 PM",
+          "Friday: 8:00 AM – 4:00 PM",
+          "Saturday: 9:00 AM – 4:00 PM",
+          "Sunday: 9:00 AM – 3:00 PM"
+        ],
+        "nextOpenTime": "2026-01-14T13:00:00Z"
+      },
+      "displayName": {
+        "text": "MAC'S CHOCOLATE & BAKESHOP LTD.",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJPxjo3AU0sgcRpQJU7_1dqRM",
+      "types": [
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "1316 Princess St, Kingston, ON K7M 3E2, Canada",
+      "location": {
+        "latitude": 44.247911,
+        "longitude": -76.5265144
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 30
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 5:00 AM – 11:30 PM",
+          "Tuesday: 5:00 AM – 11:30 PM",
+          "Wednesday: 5:00 AM – 11:30 PM",
+          "Thursday: 5:00 AM – 11:30 PM",
+          "Friday: 5:00 AM – 11:30 PM",
+          "Saturday: 5:00 AM – 11:30 PM",
+          "Sunday: 7:00 AM – 11:30 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:30:00Z"
+      },
+      "displayName": {
+        "text": "Custom Cakes Kingston",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:30:00Z",
+        "nextCloseLocal": "2026-01-13T23:30:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJW-leXpKr0kwRMTrIYy_hRw8",
+      "types": [
+        "bagel_shop",
+        "bakery",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "306 Bagot St, Kingston, ON K7K 3B4, Canada",
+      "location": {
+        "latitude": 44.232428899999995,
+        "longitude": -76.4842274
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 14,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 14,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 14,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 14,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: 11:00 AM – 2:00 PM",
+          "Thursday: 11:00 AM – 2:00 PM",
+          "Friday: 11:00 AM – 2:00 PM",
+          "Saturday: 11:00 AM – 2:00 PM",
+          "Sunday: Closed"
+        ],
+        "nextOpenTime": "2026-01-14T16:00:00Z"
+      },
+      "displayName": {
+        "text": "NOSH",
+        "languageCode": "en"
+      },
+      "primaryType": "bagel_shop",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJYTsS3imr0kwRu8mxJRUZUIE",
+      "types": [
+        "confectionery",
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "60 Brock St, Kingston, ON K7L 1R9, Canada",
+      "location": {
+        "latitude": 44.230429799999996,
+        "longitude": -76.4818368
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 16,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 18,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: 10:00 AM – 6:00 PM",
+          "Wednesday: 10:00 AM – 6:00 PM",
+          "Thursday: 10:00 AM – 6:00 PM",
+          "Friday: 10:00 AM – 6:00 PM",
+          "Saturday: 10:00 AM – 6:00 PM",
+          "Sunday: 10:00 AM – 4:00 PM"
+        ],
+        "nextOpenTime": "2026-01-14T15:00:00Z"
+      },
+      "displayName": {
+        "text": "23&co.",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJfVWw6v-q0kwRHAYp9DjEdf4",
+      "types": [
+        "coffee_shop",
+        "breakfast_restaurant",
+        "bakery",
+        "catering_service",
+        "food_delivery",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "cafe",
+        "wholesaler",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "166 Princess St, Kingston, ON K7L 3G5, Canada",
+      "location": {
+        "latitude": 44.2317688,
+        "longitude": -76.48472249999999
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 20,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 7:30 AM – 8:00 PM",
+          "Tuesday: 7:30 AM – 8:00 PM",
+          "Wednesday: 7:30 AM – 8:00 PM",
+          "Thursday: 7:30 AM – 8:00 PM",
+          "Friday: 7:30 AM – 8:00 PM",
+          "Saturday: 7:30 AM – 8:00 PM",
+          "Sunday: 7:30 AM – 8:00 PM"
+        ],
+        "nextOpenTime": "2026-01-14T12:30:00Z"
+      },
+      "displayName": {
+        "text": "CRAVE Coffee House & Bakery",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJLenA9qyr0kwRy9n_vu8pqZI",
+      "types": [
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "96 Yonge St, Kingston, ON K7M 1E7, Canada",
+      "location": {
+        "latitude": 44.22024510000001,
+        "longitude": -76.51802049999999
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 16,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 16,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 16,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 16,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 15,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: 8:00 AM – 4:00 PM",
+          "Wednesday: 8:00 AM – 4:00 PM",
+          "Thursday: 8:00 AM – 4:00 PM",
+          "Friday: 8:00 AM – 4:00 PM",
+          "Saturday: 9:00 AM – 3:00 PM",
+          "Sunday: Closed"
+        ],
+        "nextOpenTime": "2026-01-14T13:00:00Z"
+      },
+      "displayName": {
+        "text": "Wheat Kings",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJi4eGgvWr0kwRo0yeMs49d5s",
+      "types": [
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "1296 Bath Rd, Kingston, ON K7M 4X3, Canada",
+      "location": {
+        "latitude": 44.2392032,
+        "longitude": -76.5436048
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 18,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 7:00 AM – 6:00 PM",
+          "Tuesday: 7:00 AM – 6:00 PM",
+          "Wednesday: 7:00 AM – 6:00 PM",
+          "Thursday: 7:00 AM – 6:00 PM",
+          "Friday: 7:00 AM – 6:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "nextOpenTime": "2026-01-14T12:00:00Z"
+      },
+      "displayName": {
+        "text": "Bread-Man & Catering",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJlZLHWgCr0kwRA1A-PiS9_D0",
+      "types": [
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "Kingston, ON K7L 1B8, Canada",
+      "location": {
+        "latitude": 44.233440099999996,
+        "longitude": -76.49302949999999
+      },
+      "displayName": {
+        "text": "Stuffed to Bliss",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": null
+      }
+    },
+    {
+      "id": "ChIJvTu3CHmr0kwRqBsgiHL5d0Y",
+      "types": [
+        "bakery",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "wholesaler",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "1493 Sierra Ave, Kingston, ON K7P 3H4, Canada",
+      "location": {
+        "latitude": 44.274633699999995,
+        "longitude": -76.577727
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 19,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:00 AM – 7:00 PM",
+          "Tuesday: 10:00 AM – 7:00 PM",
+          "Wednesday: 10:00 AM – 7:00 PM",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 10:00 AM – 7:00 PM",
+          "Saturday: 10:00 AM – 7:00 PM",
+          "Sunday: 11:00 AM – 6:00 PM"
+        ],
+        "nextOpenTime": "2026-01-14T15:00:00Z"
+      },
+      "displayName": {
+        "text": "Warrior Cakes",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJi3vOuFer0kwRLuT-JHs45D4",
+      "types": [
+        "dessert_shop",
+        "ice_cream_shop",
+        "confectionery",
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "495 Princess St, Kingston, ON K7L 0G4, Canada",
+      "location": {
+        "latitude": 44.2346194,
+        "longitude": -76.4956194
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 1:00 AM",
+          "Tuesday: 11:00 AM – 1:00 AM",
+          "Wednesday: 11:00 AM – 1:00 AM",
+          "Thursday: 11:00 AM – 3:00 AM",
+          "Friday: 11:00 AM – 3:00 AM",
+          "Saturday: 12:00 PM – 3:00 AM",
+          "Sunday: 12:00 PM – 1:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T06:00:00Z"
+      },
+      "displayName": {
+        "text": "Insomnia Cookies",
+        "languageCode": "en"
+      },
+      "primaryType": "dessert_shop",
+      "computed": {
+        "nextCloseTime": "2026-01-14T06:00:00Z",
+        "nextCloseLocal": "2026-01-14T01:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJMVQqbSOr0kwRGSZfvpRUxn8",
+      "types": [
+        "dessert_shop",
+        "candy_store",
+        "confectionery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "569 Princess St, Kingston, ON K7L 1C8, Canada",
+      "location": {
+        "latitude": 44.235988,
+        "longitude": -76.4987262
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:30 AM – 10:00 PM",
+          "Tuesday: 11:30 AM – 10:00 PM",
+          "Wednesday: 11:30 AM – 10:00 PM",
+          "Thursday: 11:30 AM – 10:00 PM",
+          "Friday: 11:30 AM – 10:00 PM",
+          "Saturday: 11:30 AM – 10:00 PM",
+          "Sunday: 11:30 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T03:00:00Z"
+      },
+      "displayName": {
+        "text": "Aladdin Sweets and Juices",
+        "languageCode": "en"
+      },
+      "primaryType": "dessert_shop",
+      "computed": {
+        "nextCloseTime": "2026-01-14T03:00:00Z",
+        "nextCloseLocal": "2026-01-13T22:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJXyOMChyr0kwRxfa3vRpNe44",
+      "types": [
+        "bakery",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "Strathcona Park Neighborhood, Kingston, ON K7M 6N7, Canada",
+      "location": {
+        "latitude": 44.2561682,
+        "longitude": -76.5246329
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 9,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 9,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 9,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 9,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 17,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 5:00 PM",
+          "Tuesday: 9:30 AM – 5:00 PM",
+          "Wednesday: 9:30 AM – 5:00 PM",
+          "Thursday: 9:30 AM – 5:00 PM",
+          "Friday: 9:30 AM – 5:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "nextOpenTime": "2026-01-14T14:30:00Z"
+      },
+      "displayName": {
+        "text": "AllerGlee: Allergy Friendly Baking",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJB0wEkRSr0kwRWBV305MCxFs",
+      "types": [
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "54 Mulcaster St, Kingston, ON K7M 2V5, Canada",
+      "location": {
+        "latitude": 44.234663999999995,
+        "longitude": -76.5255188
+      },
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 15,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 15,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 15,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 15,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: 10:00 AM – 3:00 PM",
+          "Wednesday: 10:00 AM – 3:00 PM",
+          "Thursday: 10:00 AM – 3:00 PM",
+          "Friday: 10:00 AM – 3:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "nextOpenTime": "2026-01-14T15:00:00Z"
+      },
+      "displayName": {
+        "text": "Oyatsu Bakery",
+        "languageCode": "en"
+      },
+      "primaryType": "bakery",
+      "computed": {
+        "openNow": false
+      }
+    },
+    {
+      "id": "ChIJHwbVOACr0kwRTU0BVTfCf1o",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "125 Brock St, Kingston, ON K7L 5N6, Canada",
+      "location": {
+        "latitude": 44.2309583,
+        "longitude": -76.4837804
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: 4:00 – 11:00 PM",
+          "Wednesday: 4:00 – 11:00 PM",
+          "Thursday: 4:00 – 11:00 PM",
+          "Friday: 4:00 – 11:00 PM",
+          "Saturday: 11:30 AM – 11:00 PM",
+          "Sunday: 11:30 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Mercury Bar & Lounge",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ53tIzROr0kwR4OVwnr3TtUQ",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "178 Ontario St, Kingston, ON K7L 2Y8, Canada",
+      "location": {
+        "latitude": 44.2287706,
+        "longitude": -76.48126549999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 12:00 AM",
+          "Tuesday: 11:00 AM – 12:00 AM",
+          "Wednesday: 11:00 AM – 12:00 AM",
+          "Thursday: 11:00 AM – 12:00 AM",
+          "Friday: 11:00 AM – 1:00 AM",
+          "Saturday: 11:00 AM – 1:00 AM",
+          "Sunday: 11:00 AM – 12:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T05:00:00Z"
+      },
+      "displayName": {
+        "text": "Chuck's Roadhouse Bar & Grill",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T05:00:00Z",
+        "nextCloseLocal": "2026-01-14T00:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJC-hKzOur0kwR-h1MtiQfNMQ",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "345 King St E, Kingston, ON K7L 3B5, Canada",
+      "location": {
+        "latitude": 44.2309719,
+        "longitude": -76.48092849999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 16,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 16,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 16,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 16,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 16,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 16,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 4:30 – 10:00 PM",
+          "Tuesday: 4:30 – 10:00 PM",
+          "Wednesday: 4:30 – 11:00 PM",
+          "Thursday: Closed",
+          "Friday: 4:30 PM – 12:00 AM",
+          "Saturday: 4:30 PM – 12:00 AM",
+          "Sunday: 4:30 – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T03:00:00Z"
+      },
+      "displayName": {
+        "text": "Le Jardin",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T03:00:00Z",
+        "nextCloseLocal": "2026-01-13T22:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJDU2qgo-r0kwR-CK-KUr6R30",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "177 Princess St, Kingston, ON K7L 1A9, Canada",
+      "location": {
+        "latitude": 44.232095400000006,
+        "longitude": -76.48502309999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 11:00 PM",
+          "Tuesday: 11:00 AM – 11:00 PM",
+          "Wednesday: 11:00 AM – 11:00 PM",
+          "Thursday: 11:00 AM – 11:00 PM",
+          "Friday: 11:00 AM – 12:00 AM",
+          "Saturday: 9:00 AM – 12:00 AM",
+          "Sunday: 9:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "The Caesar Company",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ4SUm4uCr0kwR5pFT46Lz5Cc",
+      "types": [
+        "chinese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "120 Princess St, Kingston, ON K7L 5M6, Canada",
+      "location": {
+        "latitude": 44.2314146,
+        "longitude": -76.48330349999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 11:00 PM",
+          "Tuesday: 11:00 AM – 11:00 PM",
+          "Wednesday: 11:00 AM – 11:00 PM",
+          "Thursday: 11:00 AM – 11:00 PM",
+          "Friday: 11:00 AM – 11:00 PM",
+          "Saturday: 11:00 AM – 11:00 PM",
+          "Sunday: 11:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Hakka Himalaya : House of MO:MO",
+        "languageCode": "en"
+      },
+      "primaryType": "chinese_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJmS9GaRGr0kwR3OB_mFCCIyw",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "184 Princess St, Kingston, ON K7L 1B1, Canada",
+      "location": {
+        "latitude": 44.2319149,
+        "longitude": -76.48533309999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 4:00 – 11:00 PM",
+          "Tuesday: 4:00 – 11:00 PM",
+          "Wednesday: 4:00 PM – 12:00 AM",
+          "Thursday: 4:00 PM – 12:00 AM",
+          "Friday: 11:00 AM – 1:00 AM",
+          "Saturday: 11:00 AM – 1:00 AM",
+          "Sunday: 11:00 AM – 9:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Union Kitchen + Cocktails",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJDWPGNvmq0kwR9UB6zRMi0-k",
+      "types": [
+        "pub",
+        "barbecue_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "34 Clarence St, Kingston, ON K7L 1W9, Canada",
+      "location": {
+        "latitude": 44.229229,
+        "longitude": -76.48126979999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:30 AM – 12:00 AM",
+          "Tuesday: 11:30 AM – 12:00 AM",
+          "Wednesday: 11:30 AM – 12:00 AM",
+          "Thursday: 11:30 AM – 12:00 AM",
+          "Friday: 11:30 AM – 1:00 AM",
+          "Saturday: 11:30 AM – 1:00 AM",
+          "Sunday: 11:30 AM – 12:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T05:00:00Z"
+      },
+      "displayName": {
+        "text": "The Kingston Brewing Company",
+        "languageCode": "en"
+      },
+      "primaryType": "pub",
+      "computed": {
+        "nextCloseTime": "2026-01-14T05:00:00Z",
+        "nextCloseLocal": "2026-01-14T00:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ43q-uf6q0kwReUjQmk9nNgQ",
+      "types": [
+        "pub",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "265 King St E, Kingston, ON K7L 3B1, Canada",
+      "location": {
+        "latitude": 44.2288831,
+        "longitude": -76.48233429999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 12:00 PM – 12:00 AM",
+          "Tuesday: 12:00 PM – 12:00 AM",
+          "Wednesday: 12:00 PM – 12:00 AM",
+          "Thursday: 12:00 PM – 12:00 AM",
+          "Friday: 12:00 PM – 12:00 AM",
+          "Saturday: 12:00 PM – 12:00 AM",
+          "Sunday: 12:00 PM – 12:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T05:00:00Z"
+      },
+      "displayName": {
+        "text": "Pilot House of Kingston",
+        "languageCode": "en"
+      },
+      "primaryType": "pub",
+      "computed": {
+        "nextCloseTime": "2026-01-14T05:00:00Z",
+        "nextCloseLocal": "2026-01-14T00:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJTSOc5_Kt0kwRRZWYuaVmF7A",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "2376 Princess St, Kingston, ON K7M 3G4, Canada",
+      "location": {
+        "latitude": 44.258725299999995,
+        "longitude": -76.55530019999999
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 12:00 AM",
+          "Tuesday: 11:00 AM – 12:00 AM",
+          "Wednesday: 11:00 AM – 12:00 AM",
+          "Thursday: 11:00 AM – 12:00 AM",
+          "Friday: 11:00 AM – 1:00 AM",
+          "Saturday: 11:00 AM – 1:00 AM",
+          "Sunday: 11:00 AM – 12:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T05:00:00Z"
+      },
+      "displayName": {
+        "text": "Chuck's Roadhouse Bar & Grill",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T05:00:00Z",
+        "nextCloseLocal": "2026-01-14T00:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ4c9xyf6q0kwRr2KTizNqLMI",
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "285 King St E, Kingston, ON K7L 3B1, Canada",
+      "location": {
+        "latitude": 44.229215700000005,
+        "longitude": -76.4817667
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 7:00 AM – 11:00 PM",
+          "Tuesday: 7:00 AM – 11:00 PM",
+          "Wednesday: 7:00 AM – 11:00 PM",
+          "Thursday: 7:00 AM – 11:00 PM",
+          "Friday: 7:00 AM – 11:00 PM",
+          "Saturday: 7:00 AM – 11:00 PM",
+          "Sunday: 7:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Academy Food + Drink",
+        "languageCode": "en"
+      },
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJB5bNLP-q0kwRrPWF3Y7WwQs",
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "35 Brock St, Kingston, ON K7L 3B5, Canada",
+      "location": {
+        "latitude": 44.2305187,
+        "longitude": -76.480749
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:30 AM – 11:00 PM",
+          "Tuesday: 11:30 AM – 11:00 PM",
+          "Wednesday: 11:30 AM – 11:00 PM",
+          "Thursday: 11:30 AM – 11:00 PM",
+          "Friday: 11:30 AM – 11:00 PM",
+          "Saturday: 11:30 AM – 11:00 PM",
+          "Sunday: 3:00 – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Casa Domenico",
+        "languageCode": "en"
+      },
+      "primaryType": "italian_restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJd8eyGyCr0kwRsUxQlcm56Jo",
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "417 Weller Ave, Kingston, ON K7K 6K3, Canada",
+      "location": {
+        "latitude": 44.2630695,
+        "longitude": -76.4977304
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 11:00 PM",
+          "Tuesday: 11:00 AM – 11:00 PM",
+          "Wednesday: 11:00 AM – 11:00 PM",
+          "Thursday: 11:00 AM – 11:00 PM",
+          "Friday: 11:00 AM – 12:00 AM",
+          "Saturday: 11:00 AM – 12:00 AM",
+          "Sunday: 11:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "One Eyed Jack Restaurant + Bar Kingston",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJD6rISP-q0kwRpt51dCvK0GY",
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "369 King St E, Kingston, ON K7K 2Y1, Canada",
+      "location": {
+        "latitude": 44.231625,
+        "longitude": -76.4807028
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 2,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:30 AM – 2:00 AM",
+          "Tuesday: 11:30 AM – 2:00 AM",
+          "Wednesday: 11:30 AM – 2:00 AM",
+          "Thursday: 11:30 AM – 2:00 AM",
+          "Friday: 11:30 AM – 2:00 AM",
+          "Saturday: 11:30 AM – 2:00 AM",
+          "Sunday: 11:30 AM – 2:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T07:00:00Z"
+      },
+      "displayName": {
+        "text": "Red House",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T07:00:00Z",
+        "nextCloseLocal": "2026-01-14T02:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ03acL_-q0kwR4ubMkiezpgs",
+      "types": [
+        "bar_and_grill",
+        "hamburger_restaurant",
+        "american_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "330 King St E, Kingston, ON K7L 1R8, Canada",
+      "location": {
+        "latitude": 44.230688,
+        "longitude": -76.481343
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 11:00 PM",
+          "Tuesday: 11:00 AM – 11:00 PM",
+          "Wednesday: 11:00 AM – 11:00 PM",
+          "Thursday: 11:00 AM – 12:00 AM",
+          "Friday: 11:00 AM – 1:00 AM",
+          "Saturday: 11:00 AM – 1:00 AM",
+          "Sunday: 11:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Jack's Kingston",
+        "languageCode": "en"
+      },
+      "primaryType": "bar_and_grill",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ3zHg2War0kwRlXaUHi3JFPc",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "125 Brock St, Kingston, ON K7L 5N6, Canada",
+      "location": {
+        "latitude": 44.2309583,
+        "longitude": -76.4837804
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 16,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 4:00 – 11:00 PM",
+          "Tuesday: 4:00 – 11:00 PM",
+          "Wednesday: 4:00 – 11:00 PM",
+          "Thursday: 4:00 – 11:00 PM",
+          "Friday: 4:00 – 11:00 PM",
+          "Saturday: 11:30 AM – 11:00 PM",
+          "Sunday: 11:30 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Dosa House",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJ4YWusQCr0kwRMciu3FVG6lA",
+      "types": [
+        "diner",
+        "breakfast_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "377 Princess St, Kingston, ON K7L 1B9, Canada",
+      "location": {
+        "latitude": 44.2330573,
+        "longitude": -76.4912227
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 2,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 2,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 2:00 AM",
+          "Tuesday: 8:00 AM – 2:00 AM",
+          "Wednesday: 8:00 AM – 2:00 AM",
+          "Thursday: 8:00 AM – 2:00 AM",
+          "Friday: 8:00 AM – 2:00 AM",
+          "Saturday: 8:00 AM – 2:00 AM",
+          "Sunday: 8:00 AM – 2:00 AM"
+        ],
+        "nextCloseTime": "2026-01-14T07:00:00Z"
+      },
+      "displayName": {
+        "text": "Tommy's",
+        "languageCode": "en"
+      },
+      "primaryType": "diner",
+      "computed": {
+        "nextCloseTime": "2026-01-14T07:00:00Z",
+        "nextCloseLocal": "2026-01-14T02:00:00-05:00",
+        "openNow": true
+      }
+    },
+    {
+      "id": "ChIJdweLIwCt0kwRbji5kHvZULA",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "Gardiners Town Centre, Gardiners Rd, Kingston, ON K7M 7W9, Canada",
+      "location": {
+        "latitude": 44.2363096,
+        "longitude": -76.5665092
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 11:00 AM – 11:00 PM",
+          "Tuesday: 11:00 AM – 11:00 PM",
+          "Wednesday: 11:00 AM – 11:00 PM",
+          "Thursday: 11:00 AM – 11:00 PM",
+          "Friday: 11:00 AM – 12:00 AM",
+          "Saturday: 11:00 AM – 12:00 AM",
+          "Sunday: 11:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-01-14T04:00:00Z"
+      },
+      "displayName": {
+        "text": "Mac N' Wings",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "computed": {
+        "nextCloseTime": "2026-01-14T04:00:00Z",
+        "nextCloseLocal": "2026-01-13T23:00:00-05:00",
+        "openNow": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1731 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.50154026650411,
+          44.23710022925244
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "PROVIDER": "Martha's Table",
+        "PROGRAM_NAME": "Martha's Table",
+        "TYPE": "Meal Program",
+        "DESCRIPTION": "A Space that offers meals and referrals to community supports",
+        "ADDRESS": "629 Princess St",
+        "PHONE_NUM": "613-546-0320",
+        "HOURS": "Indoor dining available; Mon – Fri: 9 – 11am + 12pm (noon) – 2pm and 3pm – 5pm ",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759684844000,
+        "COMPILE_WHO": null,
+        "COMPILE_WHEN": null,
+        "GLOBALID": "{06894EB6-C229-4EB1-8D74-5144BD98495C}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48334923120257,
+          44.229689684124544
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "PROVIDER": "Outreach St. George's Kingston",
+        "PROGRAM_NAME": "Lunch by George",
+        "TYPE": "Meal Program",
+        "DESCRIPTION": "Provides breakfast and lunch. Take out only.",
+        "ADDRESS": "129 Wellington St",
+        "PHONE_NUM": "613-548-4617 ext. 30",
+        "HOURS": "Mon - Fri: 9:30am - 10:15am + 11:15am - 12:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759685028000,
+        "COMPILE_WHO": null,
+        "COMPILE_WHEN": null,
+        "GLOBALID": "{B2790AF9-79F8-43F4-B63F-36FFB1E6104F}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 334,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.51479484577827,
+          44.23995714290243
+        ]
+      },
+      "properties": {
+        "OBJECTID": 334,
+        "PROVIDER": "Kingston Alliance Church",
+        "PROGRAM_NAME": "Storehouse of Hope",
+        "TYPE": "Clothing",
+        "DESCRIPTION": "Clothing",
+        "ADDRESS": "540 Palace Rd",
+        "PHONE_NUM": "613-546-2143",
+        "HOURS": "Mondays from 10:30 a.m. – 1:00 p.m. (excluding statutory holidays)",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "portaladmin",
+        "ENTRY_WHEN": 1759523168000,
+        "COMPILE_WHO": null,
+        "COMPILE_WHEN": null,
+        "GLOBALID": "{85EF6FF3-CB11-436B-825A-D5990EC54AB2}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3522,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.57127625740179,
+          44.25601580254756
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3522,
+        "PROVIDER": "Cataraqui Centre",
+        "PROGRAM_NAME": "Cataraqui Centre",
+        "TYPE": "Washroom",
+        "DESCRIPTION": "A place to go when it’s too cold, too hot, or if there is unsafe air quality. Locations are good for a quick warm-up or cool-down, but they might not have many extra services. Please call ahead if possible.",
+        "ADDRESS": "945 Gardiners Rd",
+        "PHONE_NUM": null,
+        "HOURS": "Mon-Fri 10am-8pm. Sat 10am-6pm. Sun 11am-5pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759687510000,
+        "COMPILE_WHO": "GISDATA",
+        "COMPILE_WHEN": 1757440029000,
+        "GLOBALID": "{072C2AC3-AEF9-4248-AC24-C9DD71165267}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3523,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.480797631675,
+          44.23007133674341
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3523,
+        "PROVIDER": "City of Kingston",
+        "PROGRAM_NAME": "City Hall (Market Wing Washrooms)",
+        "TYPE": "Washroom",
+        "DESCRIPTION": null,
+        "ADDRESS": "216 Ontario St.",
+        "PHONE_NUM": null,
+        "HOURS": "Daily: 7 a.m. - 7 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764598600000,
+        "COMPILE_WHO": "GISDATA",
+        "COMPILE_WHEN": 1757440029000,
+        "GLOBALID": "{89EC4530-F7D0-486E-AA7C-7FD27BFA4E2A}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3525,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48805899997396,
+          44.24130018171045
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3525,
+        "PROVIDER": "City of Kingston",
+        "PROGRAM_NAME": "Housing & Social Services",
+        "TYPE": "Washroom",
+        "DESCRIPTION": null,
+        "ADDRESS": "362 Montreal St",
+        "PHONE_NUM": "613-546-0000",
+        "HOURS": "Mon - Fri: 8:30am - 4:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759688499000,
+        "COMPILE_WHO": "GISDATA",
+        "COMPILE_WHEN": 1757440029000,
+        "GLOBALID": "{4B289C3C-2C89-43F3-9363-C09D750E51BA}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3526,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48609700050993,
+          44.24877018102369
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3526,
+        "PROVIDER": "Integrated Care Hub",
+        "PROGRAM_NAME": "Access + Support Centre",
+        "TYPE": "Shower",
+        "DESCRIPTION": "Access to showers available. First-come, first served. Shower items can be provided on a donation basis.",
+        "ADDRESS": "661 Montreal St.",
+        "PHONE_NUM": "613-329-6417",
+        "HOURS": "Shower access available everyday from 8:30 am - 6:30 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764855035000,
+        "COMPILE_WHO": "GISDATA",
+        "COMPILE_WHEN": 1757440029000,
+        "GLOBALID": "{5449AE02-6A0A-4126-A827-184485CE642D}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3529,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.50130903816898,
+          44.23624388125327
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3529,
+        "PROVIDER": "Kingston Home Base Housing",
+        "PROGRAM_NAME": "One Roof - Youth Services",
+        "TYPE": "Shower",
+        "DESCRIPTION": "Shower only available to youth 16 - 24yrs of age. Shower items can be provided on a donation basis. Use of showers are subject to change. Call ahead or attend in person.",
+        "ADDRESS": "622 Princess St.",
+        "PHONE_NUM": "613-542-6672 ext. 4",
+        "HOURS": "Mon - Fri: 10:30am - 2:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759436500000,
+        "COMPILE_WHO": "GISDATA",
+        "COMPILE_WHEN": 1757440029000,
+        "GLOBALID": "{A757D4CC-969B-4A43-A450-C176486A7929}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3532,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48900030450544,
+          44.23136183758615
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3532,
+        "PROVIDER": "St. Mary's Cathedral",
+        "PROGRAM_NAME": "St. Mary's Drop-In Centre",
+        "TYPE": "Shower",
+        "DESCRIPTION": "Shower open during drop-in hours. First-come, first served. Shower items can be provided on a donation basis.",
+        "ADDRESS": "260 Brock St.",
+        "PHONE_NUM": null,
+        "HOURS": "Mon - Fri: 1pm - 3:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759431266000,
+        "COMPILE_WHO": "GISDATA",
+        "COMPILE_WHEN": 1757440029000,
+        "GLOBALID": "{F95B8FF1-67EB-44D8-9381-E59AF010C057}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3536,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.56876437540255,
+          44.27523265181296
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3536,
+        "PROVIDER": "City of Kingston",
+        "PROGRAM_NAME": "Invista Centre Washroom",
+        "TYPE": "Washroom",
+        "DESCRIPTION": null,
+        "ADDRESS": "1350 Gardiners Rd",
+        "PHONE_NUM": null,
+        "HOURS": "Mon - Fri - 6am - 9pm. Sat - 7am-8pm. Sun - 8am-8pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759686298000,
+        "COMPILE_WHO": "GISDATA",
+        "COMPILE_WHEN": 1757440029000,
+        "GLOBALID": "{275DA99F-BE53-4101-A7B9-5CAD00179CDB}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3538,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4589499785371,
+          44.25455697228462
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3538,
+        "PROVIDER": "City of Kingston",
+        "PROGRAM_NAME": "Kingston East Community Centre",
+        "TYPE": "Washroom",
+        "DESCRIPTION": null,
+        "ADDRESS": "779 Hwy 15",
+        "PHONE_NUM": null,
+        "HOURS": "Mon-Fri 6am-9pm\r\nSat & Sun 8am-8pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759688317000,
+        "COMPILE_WHO": "GISDATA",
+        "COMPILE_WHEN": 1757440029000,
+        "GLOBALID": "{E05D3AD2-752F-4993-84F3-7DFFB1FABEB8}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3541,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48609700050993,
+          44.24877018102369
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3541,
+        "PROVIDER": "Integrated Care Hub",
+        "PROGRAM_NAME": "Access + Support Centre",
+        "TYPE": "Meal Program",
+        "DESCRIPTION": "Limited amount of meals provided for breakfast, lunch and dinner. Snacks provided throughout day.",
+        "ADDRESS": "661 Montreal St.",
+        "PHONE_NUM": "613-329-6417",
+        "HOURS": "7 days per week 8:30 a.m. – 6:30 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764855054000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758047935000,
+        "GLOBALID": "{AB80B762-4112-487E-86E1-5760C2115579}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3542,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4922247427044,
+          44.240732749301635
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3542,
+        "PROVIDER": "Lion Hearts Inc.",
+        "PROGRAM_NAME": "Adelaide St. Shelter",
+        "TYPE": "Meal Program",
+        "DESCRIPTION": "Washrooms, meals, programming & activities, computer access,",
+        "ADDRESS": "38 Cowdy St.",
+        "PHONE_NUM": "613-483-8580",
+        "HOURS": "7 days per week 10 a.m. – 9:00 p.m. ",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759432166000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758048030000,
+        "GLOBALID": "{64A6E750-9023-4969-862C-88245C3FF43B}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3543,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.50130903816898,
+          44.23624388125327
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3543,
+        "PROVIDER": "Home Base Housing",
+        "PROGRAM_NAME": "One Roof - Youth Services",
+        "TYPE": "Washroom",
+        "DESCRIPTION": "Available to youth ages 16 - 24yrs.",
+        "ADDRESS": "620 Princess St.",
+        "PHONE_NUM": "613-542-6672 ext. 4",
+        "HOURS": "Mon - Fri 10:30 a.m. – 3:30p.m.  ",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759436431000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758048363000,
+        "GLOBALID": "{DA7D8A6B-72D9-40ED-AFA4-54CA7B64AF3F}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3544,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48900030450544,
+          44.23136183758615
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3544,
+        "PROVIDER": "St. Mary's Cathedral",
+        "PROGRAM_NAME": "St. Mary's Drop-In Centre",
+        "TYPE": "Washroom",
+        "DESCRIPTION": "Has washrooms, showers, lunch, coffee and clothing donation.",
+        "ADDRESS": "260 Brock St.",
+        "PHONE_NUM": null,
+        "HOURS": "Mon - Fri: 1pm-3:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759431612000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758049114000,
+        "GLOBALID": "{9EF88E82-7913-48FD-BFC2-062EA205C387}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3545,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48182103710123,
+          44.232244818021506
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3545,
+        "PROVIDER": "Kingston Peer Support Centre",
+        "PROGRAM_NAME": "Peers of the Round Table",
+        "TYPE": "Drop-In Centre",
+        "DESCRIPTION": "Has washrooms, lunch and coffee, free laundry, computer access and activities.",
+        "ADDRESS": "60 Queen St.",
+        "PHONE_NUM": null,
+        "HOURS": "Mon - Sat 9 a.m. – 3 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764699971000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758049181000,
+        "GLOBALID": "{10C731A2-F838-4071-AE15-3244D5187A95}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3546,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48313023589688,
+          44.233727101592166
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3546,
+        "PROVIDER": "Kingston Community Health Centres (KCHC)",
+        "PROGRAM_NAME": "Street Health",
+        "TYPE": "Health Service",
+        "DESCRIPTION": "Provides health care and substance involved programming to individuals experiencing homelessness",
+        "ADDRESS": "115 Barrack St.",
+        "PHONE_NUM": "613-549-1440",
+        "HOURS": "Mon - Fri: 9:00 a.m. - 4:00 p.m. (closed noon - 1 p.m.) and Sat-Sun 9:00 a.m. - Noon",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1760554956000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758049334000,
+        "GLOBALID": "{F001B3CF-8BBA-4A9F-A2EB-AC6B36D1C950}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3547,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48609700050993,
+          44.24877018102369
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3547,
+        "PROVIDER": "Kingston Community Health Centres (KCHC)",
+        "PROGRAM_NAME": "Consumption Treatment Service (CTS)",
+        "TYPE": "Health Service",
+        "DESCRIPTION": "A safe, supportive, and non-judgmental space where individuals can use substances and have access to post consumption monitoring treatment services",
+        "ADDRESS": "661 Montreal St.",
+        "PHONE_NUM": "613-329-6417",
+        "HOURS": "7 days week 9 a.m. - 8 p.m.",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764854941000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758049418000,
+        "GLOBALID": "{F479F928-65FF-4D4B-A01F-1AA44ADDCEF6}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3548,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 3548,
+        "PROVIDER": null,
+        "PROGRAM_NAME": "Hep C Popup Testing Clinic",
+        "TYPE": "Health Service",
+        "DESCRIPTION": "Rotating Pop Up Clinics hosted by Street Health.",
+        "ADDRESS": "Various Locations",
+        "PHONE_NUM": "613-549-1440",
+        "HOURS": null,
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "akeeping",
+        "ENTRY_WHEN": 1761318165000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758049671000,
+        "GLOBALID": "{3113444E-B904-45C4-B3BC-F3CFD6EBBF47}",
+        "SHAPE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3549,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.49175662900983,
+          44.26261655315021
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3549,
+        "PROVIDER": "Kingston Community Health Centres (KCHC)",
+        "PROGRAM_NAME": "Weller Clinic",
+        "TYPE": "Health Service",
+        "DESCRIPTION": "Offers wide range of programs and services offering care and supports to individuals and families",
+        "ADDRESS": "263 Weller Ave.",
+        "PHONE_NUM": "613-542-2949",
+        "HOURS": "Mon - Fri: 9:00 a.m. - 4:00 p.m. (closed noon - 1 p.m.)",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759684422000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758049755000,
+        "GLOBALID": "{FF161A61-2588-42F4-B1E1-EF4406DE5B76}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3550,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48609700050993,
+          44.24877018102369
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3550,
+        "PROVIDER": "Integrated Care Hub",
+        "PROGRAM_NAME": "Access + Support Centre",
+        "TYPE": "Washroom",
+        "DESCRIPTION": null,
+        "ADDRESS": "661 Montreal St.",
+        "PHONE_NUM": null,
+        "HOURS": "7 days per week 8:30 a.m. – 6:30 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764855076000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758050070000,
+        "GLOBALID": "{BDF43B29-E66B-4C92-9E95-A280659FA1DD}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3551,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4922247427044,
+          44.240732749301635
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3551,
+        "PROVIDER": "Lion Hearts Inc.",
+        "PROGRAM_NAME": "Adelaide St. Shelter",
+        "TYPE": "Washroom",
+        "DESCRIPTION": null,
+        "ADDRESS": "38 Cowdy St.",
+        "PHONE_NUM": "613-483-8580",
+        "HOURS": "Daily: 10am - 9pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759432201000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758050169000,
+        "GLOBALID": "{09D7D3F3-80BC-4468-B6B9-2DF131DA2E65}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3553,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.50130903816898,
+          44.23624388125327
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3553,
+        "PROVIDER": "Home Base Housing",
+        "PROGRAM_NAME": "One Roof - Youth Services",
+        "TYPE": "Meal Program",
+        "DESCRIPTION": "Kitchen available for youth and staff to prepare meals and provide food programing / education.",
+        "ADDRESS": "620 Princess St.",
+        "PHONE_NUM": "613-542-6672 ext. 4",
+        "HOURS": "Mon - Fri: 10:30am - 3:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759436389000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758050295000,
+        "GLOBALID": "{82385E0C-FEA0-452D-95E7-16CBC1F324A0}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3554,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48900030450544,
+          44.23136183758615
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3554,
+        "PROVIDER": "St. Mary's Cathedral",
+        "PROGRAM_NAME": "St. Mary's Drop-In Centre",
+        "TYPE": "Meal Program",
+        "DESCRIPTION": "Serves lunch, snacks and coffee.",
+        "ADDRESS": "260 Brock St.",
+        "PHONE_NUM": null,
+        "HOURS": "Mon - Fri: 1pm-3:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759431358000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758050355000,
+        "GLOBALID": "{DFAAA171-39C7-41C3-AE8D-838FA37D04F5}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3555,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48182103710123,
+          44.232244818021506
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3555,
+        "PROVIDER": "Kingston Peer Support Centre",
+        "PROGRAM_NAME": "Peers of the Round Table",
+        "TYPE": "Meal Program",
+        "DESCRIPTION": "A Space that offers meals and referrals to community supports. Indoor Dining available.",
+        "ADDRESS": "60 Queen St.",
+        "PHONE_NUM": "613-549-4964",
+        "HOURS": "Mon - Sat 10:00 a.m. – 3:00 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759503353000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758050432000,
+        "GLOBALID": "{AC398C64-7154-412B-B6CA-C9835209951D}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3556,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48609700050993,
+          44.24877018102369
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3556,
+        "PROVIDER": "Integrated Care Hub",
+        "PROGRAM_NAME": "Access + Support Centre",
+        "TYPE": "Drop-In Centre",
+        "DESCRIPTION": "Has mental health supports, meals, showers, bathrooms, computer access and referrals to community supports.",
+        "ADDRESS": "661 Montreal St.",
+        "PHONE_NUM": "613-329-6417",
+        "HOURS": "7 days per week 8:30 a.m. – 6:30 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764854987000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758117981000,
+        "GLOBALID": "{DC93F85E-4F8F-4B82-B92D-C4D18DF9D3CC}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3557,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4922247427044,
+          44.240732749301635
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3557,
+        "PROVIDER": "Lion Hearts Inc.",
+        "PROGRAM_NAME": "Adelaide St. Shelter",
+        "TYPE": "Drop-In Centre",
+        "DESCRIPTION": "Has washrooms, meals, programming & activities and computer access.",
+        "ADDRESS": "38 Cowdy St.",
+        "PHONE_NUM": "613-483-8580",
+        "HOURS": "Daily: 10am - 9pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759432236000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758118069000,
+        "GLOBALID": "{9BCD8ABB-739F-4D41-BFD0-242075822EB6}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3559,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.50130903816898,
+          44.23624388125327
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3559,
+        "PROVIDER": "Home Base Housing",
+        "PROGRAM_NAME": "One Roof - Youth Services",
+        "TYPE": "Drop-In Centre",
+        "DESCRIPTION": "A community hub: youth-serving agencies provide wraparound services for youth aged 16 to 24.",
+        "ADDRESS": "622 Princess St.",
+        "PHONE_NUM": "613-542-6672 ext. 4",
+        "HOURS": "Mon - Fri: 10:30am - 3:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759436348000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758118133000,
+        "GLOBALID": "{12E300F2-4B93-449B-BC37-60536826E5FA}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3560,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48900030450544,
+          44.23136183758615
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3560,
+        "PROVIDER": "St. Mary's Cathedral",
+        "PROGRAM_NAME": "St. Mary's Drop-In Centre",
+        "TYPE": "Drop-In Centre",
+        "DESCRIPTION": "Washrooms, showers, lunch and coffee, clothing donation ",
+        "ADDRESS": "260 Brock St.",
+        "PHONE_NUM": null,
+        "HOURS": "Mon - Fri: 1pm-3:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759431387000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758118211000,
+        "GLOBALID": "{971BF6D5-247A-4A3A-A320-A5D133DD0BD0}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3841,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.56876437540255,
+          44.27523265181296
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3841,
+        "PROVIDER": "City of Kingston",
+        "PROGRAM_NAME": "INVISTA Centre",
+        "TYPE": "Warm Up / Cool Down Location",
+        "DESCRIPTION": "A place to go when it’s too cold, too hot, or if there is unsafe air quality. Locations are good for a quick warm-up or cool-down, but they might not have many extra services. Please call ahead if possible.",
+        "ADDRESS": "1350 Gardiners Rd.",
+        "PHONE_NUM": "613-546-0000",
+        "HOURS": "Mon - Fri:  6 a.m. - 9 p.m.\nSat: 7 a.m. - 8 p.m.\nSun: 8 a.m. - 8 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759686242000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758125238000,
+        "GLOBALID": "{C13B0716-FA25-4274-A660-3B9F0918E267}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3842,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.51772586806874,
+          44.2387255631986
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3842,
+        "PROVIDER": "Kingston Frontenac Public Library",
+        "PROGRAM_NAME": "Calvin Park Library Branch",
+        "TYPE": "Warm Up / Cool Down Location",
+        "DESCRIPTION": "A place to go when it’s too cold, too hot, or if there is unsafe air quality. Locations are good for a quick warm-up or cool-down, but they might not have many extra services. Please call ahead if possible.",
+        "ADDRESS": "88 Wright Cres.",
+        "PHONE_NUM": null,
+        "HOURS": "Mon - Thurs: 9 a.m. – 8 p.m.                 \nFri - Sat: 9 a.m. – 5 p.m. ",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759687434000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758125516000,
+        "GLOBALID": "{A783FC50-224E-41C1-8097-9107AD2B2608}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3844,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4849633848036,
+          44.22979058663093
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3844,
+        "PROVIDER": "Kingston Frontenac Public Library",
+        "PROGRAM_NAME": "Central Library Branch",
+        "TYPE": "Warm Up / Cool Down Location",
+        "DESCRIPTION": "A place to go when it’s too cold, too hot, or if there is unsafe air quality. Locations are good for a quick warm-up or cool-down, but they might not have many extra services. Please call ahead if possible.",
+        "ADDRESS": "130 Johnson St.",
+        "PHONE_NUM": "613-549-8888",
+        "HOURS": "Mon - Thurs : 9 a.m - 8 p.m. Fri - Sat : 9 a.m. - 5 p.m. Sun : 1 p.m. - 5 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1761138399000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758125762000,
+        "GLOBALID": "{1DD2E1D1-5206-4F28-B588-3F451C49EB0D}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3845,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4589499785371,
+          44.25455697228462
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3845,
+        "PROVIDER": "City of Kingston",
+        "PROGRAM_NAME": "Kingston East Community Centre",
+        "TYPE": "Warm Up / Cool Down Location",
+        "DESCRIPTION": null,
+        "ADDRESS": "779 Hwy 15",
+        "PHONE_NUM": null,
+        "HOURS": "Mon-Fri: 6am - 9pm Sat & Sun: 8am - 8pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759688300000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758125870000,
+        "GLOBALID": "{45CBE7F3-1BAC-4D0A-A544-15FD67982369}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3846,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.46119945614882,
+          44.25958832125816
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3846,
+        "PROVIDER": "Kingston Frontenac Public Library",
+        "PROGRAM_NAME": "Pittsburgh Library Branch",
+        "TYPE": "Warm Up / Cool Down Location",
+        "DESCRIPTION": "A place to go when it’s too cold, too hot, or if there is unsafe air quality. Locations are good for a quick warm-up or cool-down, but they might not have many extra services. Please call ahead if possible.",
+        "ADDRESS": "80 Gore Rd.",
+        "PHONE_NUM": "613-549-8888",
+        "HOURS": "Mon: 9 a.m. - 1 p.m. Tues: 12 p.m. - 8 p.m. Wed: 10 a.m. - 6 p.m. Thurs: 12 p.m. - 8 p.m. Fri: 1 p.m. - 5 p.m. Sat: 9 a.m. - 5 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759688376000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758125907000,
+        "GLOBALID": "{5786B07A-3DC3-4519-BA76-D9A0C7BA7DA8}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3847,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48263607594983,
+          44.265231287694306
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3847,
+        "PROVIDER": "Kingston Frontenac Public Library",
+        "PROGRAM_NAME": "Rideau Heights Library Branch",
+        "TYPE": "Warm Up / Cool Down Location",
+        "DESCRIPTION": "A place to go when it’s too cold, too hot, or if there is unsafe air quality. Locations are good for a quick warm-up or cool-down, but they might not have many extra services. Please call ahead if possible.",
+        "ADDRESS": "85 MacCauley St.",
+        "PHONE_NUM": "613-549-8888",
+        "HOURS": "Mon : 10 a.m. - 8 p.m. Tues : 10 a.m. - 2 p.m. Wed : 10 a.m. - 8 p.m. Thurs: 10 a.m. - 2 p.m. Fri, Sat: 9 a.m. - 5 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1761138313000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758126102000,
+        "GLOBALID": "{A3DF8996-D560-421A-AC52-3D8212958BC5}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3848,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48805899997396,
+          44.24130018171045
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3848,
+        "PROVIDER": "City of Kingston",
+        "PROGRAM_NAME": "Housing & Social Services",
+        "TYPE": "Warm Up / Cool Down Location",
+        "DESCRIPTION": "A place to go when it’s too cold, too hot, or if there is unsafe air quality. Locations are good for a quick warm-up or cool-down, but they might not have many extra services. Please call ahead if possible.",
+        "ADDRESS": "362 Montreal St",
+        "PHONE_NUM": "613-546-0000",
+        "HOURS": "Mon -Fri: 8:30am - 4:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759688526000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1758126191000,
+        "GLOBALID": "{4ED9103F-D9D8-4FE1-B17A-DE8EB1A7FAB7}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3850,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48899948536517,
+          44.23135199712016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3850,
+        "PROVIDER": "St. Mary's Cathedral",
+        "PROGRAM_NAME": "St. Mary's Drop-In Centre",
+        "TYPE": "Clothing",
+        "DESCRIPTION": "Receives clothing donations on ongoing basis. Call ahead if you wish to donate items. Attend in person if you are in need of clothing.",
+        "ADDRESS": "260 Brock St.",
+        "PHONE_NUM": null,
+        "HOURS": "Mon - Fri: 1pm - 3:30pm",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759431589000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759431507000,
+        "GLOBALID": "{66D45D87-D273-42F2-B60E-0E64F84EA684}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3851,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.54872772865893,
+          44.2586198508601
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3851,
+        "PROVIDER": "Dawn House",
+        "PROGRAM_NAME": "Dawn House Shelter for Women",
+        "TYPE": "Emergency Shelter",
+        "DESCRIPTION": "24/hr emergency shelter for women or those identifying as women 18yrs +.",
+        "ADDRESS": "2320 Princess St.",
+        "PHONE_NUM": "613-929-3440",
+        "HOURS": "7 days per week, 24 hours",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1762352700000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759432696000,
+        "GLOBALID": "{374A2293-0DC5-4985-8616-0D41391DCA12}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3852,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.50130950041871,
+          44.236253539049365
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3852,
+        "PROVIDER": "Home Base Housing",
+        "PROGRAM_NAME": "One Roof - Youth Services",
+        "TYPE": "Clothing",
+        "DESCRIPTION": "Receives clothing donations on ongoing basis. Call ahead if you wish to donate items. Attend in person if you are in need of clothing.",
+        "ADDRESS": "620 Princess St.",
+        "PHONE_NUM": "613-542-6672 ext. 4",
+        "HOURS": "Mon - Fri: 10:30am - 3:30pm",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759436579000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759436579000,
+        "GLOBALID": "{3A77646A-C3B1-4DA9-B2B3-AFB0F3AF81AE}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48903234291973,
+          44.231349113611536
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4161,
+        "PROVIDER": "St. Mary's Cathedral",
+        "PROGRAM_NAME": "Veronica's Veil",
+        "TYPE": "Seasonal Shelter",
+        "DESCRIPTION": "Emergency shelter for men.",
+        "ADDRESS": "260 Brock St.",
+        "PHONE_NUM": null,
+        "HOURS": "January 12, 2026 - April 30, 2026  Daily: 9pm - 8am",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1767648141000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759431573000,
+        "GLOBALID": "{754977C0-F6D7-45CB-ABA8-9002159D2679}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4922240518867,
+          44.24073276823087
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4177,
+        "PROVIDER": "Lion Hearts Inc.",
+        "PROGRAM_NAME": "Adelaide St. Shelter",
+        "TYPE": "Clothing",
+        "DESCRIPTION": "Receives clothing donations on ongoing basis. Call ahead if you wish to donate items. Attend in person if you are in need of clothing.",
+        "ADDRESS": "38 Cowdy St.",
+        "PHONE_NUM": "613-483-8580",
+        "HOURS": "Daily: 10am - 9pm",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759432314000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759432314000,
+        "GLOBALID": "{EBE26B75-5616-46F7-8269-14F0CE05419B}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48766591067807,
+          44.24587775634733
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4179,
+        "PROVIDER": "Home Base Housing",
+        "PROGRAM_NAME": "Housing Help Centre",
+        "TYPE": "Clothing",
+        "DESCRIPTION": "Receives clothing donations on ongoing basis. Call ahead if you wish to donate items. Attend in person if you are in need of clothing.",
+        "ADDRESS": "540 Montreal St.",
+        "PHONE_NUM": "613-542-6672 ext. 1",
+        "HOURS": "Mon - Fri: 8:30am - 4pm",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759436231000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759436231000,
+        "GLOBALID": "{D15EFE1C-0AB3-44C6-B6BC-58CF96A2512B}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4193,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4922240518867,
+          44.24073276823087
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4193,
+        "PROVIDER": "Lion Hearts Inc.",
+        "PROGRAM_NAME": "Adelaide St. Shelter",
+        "TYPE": "Emergency Shelter",
+        "DESCRIPTION": "Co-ed shelter for adults 25yrs +.",
+        "ADDRESS": "38 Cowdy St.",
+        "PHONE_NUM": "613-483-8580",
+        "HOURS": "Daily: 9pm - 8:30am",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759432383000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759432383000,
+        "GLOBALID": "{09E9E7AD-8934-49EE-8993-13947D4F939E}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4194,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48609681792628,
+          44.24877516567728
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4194,
+        "PROVIDER": "Integrated Care Hub",
+        "PROGRAM_NAME": "Rest Zone",
+        "TYPE": "Emergency Shelter",
+        "DESCRIPTION": "Co-ed shelter for adults 18yrs +. Bed sign up happens every morning at 9 a.m.",
+        "ADDRESS": "661 Montreal St",
+        "PHONE_NUM": "613-329-6417",
+        "HOURS": "Daily: 6:30 p.m. - 8:30 a.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764854856000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759432607000,
+        "GLOBALID": "{7A69A7E7-1D5B-4E64-9157-46F37000FE50}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4195,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.50173250034969,
+          44.25289585067426
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4195,
+        "PROVIDER": "Home Base Housing",
+        "PROGRAM_NAME": "Lily's Place",
+        "TYPE": "Family Shelter",
+        "DESCRIPTION": "24/hr family shelter for single parents or couples with children.",
+        "ADDRESS": "333 Kingscourt Ave.",
+        "PHONE_NUM": "613-542-6672 ext. 3",
+        "HOURS": "7 days per week, 24 hours",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759432922000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759432922000,
+        "GLOBALID": "{D4DEE79F-01F3-45BD-99D0-051E2A6BDE1B}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4209,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48767000013424,
+          44.245888693985734
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4209,
+        "PROVIDER": "Home Base Housing",
+        "PROGRAM_NAME": "In From The Cold",
+        "TYPE": "Emergency Shelter",
+        "DESCRIPTION": "24/hr co-ed housing focused shelter for adults 25yrs+.",
+        "ADDRESS": "540 Montreal St",
+        "PHONE_NUM": "613-542-6672 ext. 2",
+        "HOURS": "7 days per week, 24 hours",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759432512000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759432512000,
+        "GLOBALID": "{3DA5E18B-AE92-4872-BC16-A7E375DCFF51}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4225,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.50193117012078,
+          44.24179452787208
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4225,
+        "PROVIDER": null,
+        "PROGRAM_NAME": "Kingston Youth Shelter",
+        "TYPE": "Youth Shelter",
+        "DESCRIPTION": "24/hr co-ed shelter for individuals 16 - 24yrs of age.",
+        "ADDRESS": "365 Nelson St.",
+        "PHONE_NUM": "613-549-4236",
+        "HOURS": "7 days per week, 24 hours",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1768322357000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759433061000,
+        "GLOBALID": "{BBE3C6A8-14F4-4FF0-9B17-298089C59F42}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4226,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48611559353121,
+          44.248779008745025
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4226,
+        "PROVIDER": "Integrated Care Hub",
+        "PROGRAM_NAME": "Access + Support Centre",
+        "TYPE": "Clothing",
+        "DESCRIPTION": "Receives clothing donations on ongoing basis. Call ahead if you wish to donate items. Attend in person if you are in need of clothing.",
+        "ADDRESS": "661 Montreal St",
+        "PHONE_NUM": "613-329-6417",
+        "HOURS": "Daily: 8:30 a.m. - 6:30 p.m.",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764855121000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759436082000,
+        "GLOBALID": "{CD4EB654-4A72-4337-8C0C-A03FAD2F0102}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4481,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.51479028201798,
+          44.23995849897031
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4481,
+        "PROVIDER": "Kingston Alliance Church",
+        "PROGRAM_NAME": "Storehouse of Hope",
+        "TYPE": "Drop-In Centre",
+        "DESCRIPTION": "A welcoming café atmosphere for coffee, snakcs and lunch.",
+        "ADDRESS": null,
+        "PHONE_NUM": null,
+        "HOURS": "Mondays: 10:30am - 1pm (excluding statutory holidays)",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759503248000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759503248000,
+        "GLOBALID": "{EAA68B68-D010-4891-BA92-BC036B882832}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4497,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.49383586379628,
+          44.25214500857162
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4497,
+        "PROVIDER": null,
+        "PROGRAM_NAME": "Partners in Mission Foodbank",
+        "TYPE": "Food Bank",
+        "DESCRIPTION": "No referrals are necessary – clients are required to come in or call to arrange a time for an intake interview. The appointments are scheduled and take approximately 15 minutes. Once completed,  approximately one weeks’ worth of groceries will be provided.",
+        "ADDRESS": "4 Harvey St.",
+        "PHONE_NUM": "613-544-4100",
+        "HOURS": "\"Mon - Thurs: 8:30am - 4:30pm (closed 12pm - 1pm) Fri: 8:30am - 4pm (closed 12pm - 1pm)\"",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "portaladmin",
+        "ENTRY_WHEN": 1759523206000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759503520000,
+        "GLOBALID": "{FA6AA98F-0A9F-4254-9C49-05672AE5016A}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4801,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.49117779126395,
+          44.24568066264316
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4801,
+        "PROVIDER": "The Salvation Army Community Services",
+        "PROGRAM_NAME": "Community Choice Pantry",
+        "TYPE": "Food Bank",
+        "DESCRIPTION": "Enables individuals to select their own food. Contact for more details.",
+        "ADDRESS": "342 Patrick St.",
+        "PHONE_NUM": "613-548-4411",
+        "HOURS": "Mon - Tues: 8:30am - 4:30pm Wed: 1pm - 4:30pm Thurs - Fri: 8:30am - 4:30pm",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759684225000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759684225000,
+        "GLOBALID": "{229464EA-3BD2-430F-8A91-794341B3FF9A}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4802,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.50879852326105,
+          44.240051936520786
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4802,
+        "PROVIDER": "Kingston Community Health Centres (KCHC)",
+        "PROGRAM_NAME": "Immigrant Services Kingston and Area (ISKA)",
+        "TYPE": "Housing Services",
+        "DESCRIPTION": "Provides Prevention Diversion Services to individuals and families at imminent risk of homelessness to divert them from entering the shelter system through housing support services.",
+        "ADDRESS": "Unit 201 - 837 Princess St.",
+        "PHONE_NUM": "613-544-4661",
+        "HOURS": "Mon - Fri: 8:30 am - 4:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759684756000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759684756000,
+        "GLOBALID": "{11D7C696-A2BA-478E-B164-9436031D4342}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4803,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4808362293986,
+          44.23107600807663
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4803,
+        "PROVIDER": "Downtown Business Improvement Area (DBIA)",
+        "PROGRAM_NAME": "Welcoming Streets",
+        "TYPE": "Street Outreach",
+        "DESCRIPTION": "Street Outreach Workers will check on individuals’ wellbeing and encourage people living outside to come indoors. Outreach staff also hand out blankets, sleeping bags and warm winter clothing all winter long as supplies permit.",
+        "ADDRESS": "353 King St. E, Suite 200",
+        "PHONE_NUM": "613-583-5008",
+        "HOURS": "Daily: 9am - 5pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759686144000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759686144000,
+        "GLOBALID": "{E12A7074-6547-4D9B-9960-C3713F5177F9}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4804,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.57128266512599,
+          44.25601901219168
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4804,
+        "PROVIDER": "Cataraqui Centre",
+        "PROGRAM_NAME": "Cataraqui Centre",
+        "TYPE": "Warm Up / Cool Down Location",
+        "DESCRIPTION": "A place to go when it’s too cold, too hot, or if there is unsafe air quality. Locations are good for a quick warm-up or cool-down, but they might not have many extra services. Please call ahead if possible.",
+        "ADDRESS": "945 Gardiners Rd",
+        "PHONE_NUM": null,
+        "HOURS": "\"Mon-Fri: 10am - 8pm Sat: 10am - 6pm Sun: 11am - 5pm\"",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759688161000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759688161000,
+        "GLOBALID": "{0FC83206-4944-4199-8F4F-017237CBC324}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4817,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48766999970958,
+          44.24588485149552
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4817,
+        "PROVIDER": "Home Base Housing",
+        "PROGRAM_NAME": "Housing Help Centre",
+        "TYPE": "Housing Services",
+        "DESCRIPTION": "Provides Prevention Diversion Services to individuals and families at imminent risk of homelessness to divert them from entering the shelter system through housing support services.",
+        "ADDRESS": "540 Montreal St.",
+        "PHONE_NUM": "613-542-6672 ext. 1",
+        "HOURS": "Mon - Fri: 8:30 am - 4pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759684587000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759684587000,
+        "GLOBALID": "{10E9D16D-873F-4437-8CEC-D8AE3EF215BA}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4818,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.49117296503842,
+          44.24569655299338
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4818,
+        "PROVIDER": "The Salvation Army Community Services",
+        "PROGRAM_NAME": "Housing Resource Centre",
+        "TYPE": "Housing Services",
+        "DESCRIPTION": "Provides Prevention Diversion Services to individuals and families at imminent risk of homelessness to divert them from entering the shelter system through housing support services.",
+        "ADDRESS": "342 Patrick St.",
+        "PHONE_NUM": "613 548-4411",
+        "HOURS": "Mon - Fri: 8:30 am - 4:30pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1759684670000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759684670000,
+        "GLOBALID": "{4002BB9E-743F-43A9-B7AB-8BB3FF99C683}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4833,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48504488117817,
+          44.2401691532934
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4833,
+        "PROVIDER": "St. Vincent de Paul Society of Kingston",
+        "PROGRAM_NAME": "Loretta Hospitality & Meal Program",
+        "TYPE": "Meal Program",
+        "DESCRIPTION": "Provides Dine-in meals.",
+        "ADDRESS": "595 Bagot St.",
+        "PHONE_NUM": "613-766-8432",
+        "HOURS": "Mon - Fri: 9 a.m. - 1 p.m.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764598740000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759684943000,
+        "GLOBALID": "{4A294FFB-D2BF-4FD0-8FE4-A2E209E5253C}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4849,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48767133824599,
+          44.2458826022075
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4849,
+        "PROVIDER": "Home Base Housing",
+        "PROGRAM_NAME": "Street Outreach Team",
+        "TYPE": "Street Outreach",
+        "DESCRIPTION": "Street Outreach Workers will check on individuals’ wellbeing and encourage people living outside to come indoors. Outreach staff also hand out blankets, sleeping bags and warm winter clothing all winter long as supplies permit.",
+        "ADDRESS": "540 Montreal St.",
+        "PHONE_NUM": "613-542-6672 ext. 130",
+        "HOURS": "\"Mon – Fri: 8:30am - 10pm. Sat – Sun: 8:30am - 6pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1760554713000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759685997000,
+        "GLOBALID": "{AA68357A-0786-4447-BBC5-876AD6154096}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4865,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48614750683639,
+          44.248781211562736
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4865,
+        "PROVIDER": "Addiction and Mental Health Services (AMHS)",
+        "PROGRAM_NAME": "Street Outreach Case Management",
+        "TYPE": "Street Outreach",
+        "DESCRIPTION": "Street Outreach Case Managers supports referred individuals who are experiencing homelessness across the city and want to engage in mental health and community supports.",
+        "ADDRESS": "661 Montreal St.",
+        "PHONE_NUM": "613-544-1356",
+        "HOURS": "Mon - Fri: 8am - 4pm",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1764600110000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1759686075000,
+        "GLOBALID": "{A4C66A37-2151-45D5-BD83-15833F9F61D9}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5441,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4911969581906,
+          44.245706065640434
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5441,
+        "PROVIDER": "The Salvation Army Community Services",
+        "PROGRAM_NAME": "Community Services",
+        "TYPE": "Shower",
+        "DESCRIPTION": "Daily shower sign up available at Adelaide St. Shelter (38 Cowdy St.)",
+        "ADDRESS": "342 Patrick St",
+        "PHONE_NUM": null,
+        "HOURS": "Mon - Fri: 8am - 4pm Shower by appointment only, sign up at Adelaide St. Shelter located at 38 Cowdy St.",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "nbulleeraz",
+        "ENTRY_WHEN": 1760107099000,
+        "COMPILE_WHO": "nbulleeraz",
+        "COMPILE_WHEN": 1760107099000,
+        "GLOBALID": "{9CCA6F12-C504-4AC0-B51C-EEB65E31E023}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5761,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 5761,
+        "PROVIDER": null,
+        "PROGRAM_NAME": "Kingston Interval House",
+        "TYPE": "Emergency Shelter",
+        "DESCRIPTION": "24/hr. emergency shelter for women and their children who have experienced violence. Crisis Line available 24 hours per day",
+        "ADDRESS": null,
+        "PHONE_NUM": "613-546-1777 or 1-800-267-9445",
+        "HOURS": "7 days per week, 24 hours",
+        "WINTER_RESPONSE": "Yes",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "ZS_GISEDITOR",
+        "ENTRY_WHEN": 1760556669000,
+        "COMPILE_WHO": "ZS_GISEDITOR",
+        "COMPILE_WHEN": 1760554181000,
+        "GLOBALID": "{4776DC28-33DD-4DFC-8294-4B21F3BAB3A0}",
+        "SHAPE": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6081,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48503499303702,
+          44.25323056104408
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6081,
+        "PROVIDER": "Change Health Care Inc",
+        "PROGRAM_NAME": "Change Health Care",
+        "TYPE": "Health Service",
+        "DESCRIPTION": "Provides opioid substitution therapy to individuals effected from opioid dependence. Staff also work to make referrals to community services.",
+        "ADDRESS": "7 Hickson Ave.",
+        "PHONE_NUM": "613-549-6060",
+        "HOURS": "Mon - Fri: 6:30 a.m. - 4 p.m. Sat: 8 a.m. - 12 p.m. Sun: 9 a.m. - 12 p.m.",
+        "WINTER_RESPONSE": "No",
+        "SHOW_ON_PUBLIC_APP": "Yes",
+        "ENTRY_WHO": "mrberry",
+        "ENTRY_WHEN": 1761137443000,
+        "COMPILE_WHO": "mrberry",
+        "COMPILE_WHEN": 1760986076000,
+        "GLOBALID": "{BB8ADD89-4E69-43BC-8D23-5BFB228BF494}"
+      }
+    }
+  ]
+}
