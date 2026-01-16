@@ -7,6 +7,7 @@ import {
 } from "react-native-reanimated";
 import { CATEGORIES, CategoryIcon } from "./CategoryIcon";
 import { Place } from "@/types/place";
+import { getHoursColor } from "@/helper";
 
 type CustomMarkerProps = {
   place: Place;
@@ -45,7 +46,7 @@ export default function CustomMarker({
       tracksViewChanges={false}
       key={place.id.toString()}
     > 
-    <View style={[styles.iconContainer, { backgroundColor: getHoursColor(place.hours) }]}>
+    <View style={[styles.iconContainer, { backgroundColor: getHoursColor(place.hours?.periods) }]}>
       <CategoryIcon
         provider={item.provider}
         name={item.icon}
@@ -72,7 +73,7 @@ function getHoursColor(hours?: {
 }) {
   // Closed or missing data
   if (!hours?.openNow) {
-    return "#9CA3AF"; // gray
+    return "#9CA3AF"; // gray (THIS NEEDS TO CHANGE COLOURS)
   }
 
   // If we don't know the close time, treat as open
@@ -92,3 +93,4 @@ function getHoursColor(hours?: {
 
   return "#16A34A"; // green (open)
 }
+});

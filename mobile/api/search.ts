@@ -2,6 +2,7 @@ import { API_BASE_URL } from "@/constants";
 import { Place } from "@/types/place";
 
 export async function searchPlaces(
+  name?: string,
   category?: string,
   page: number = 1,
   limit: number = 100
@@ -14,8 +15,11 @@ export async function searchPlaces(
   if (category != null) {
     params.append("category", category);
   }
+  if (name != null) {
+    params.append("name", name);
+  }
 
-  const url = `${API_BASE_URL}/search?${params.toString()}`;
+  const url = `${API_BASE_URL}/search?${params.toString()}&limit=200`;
 
   const res = await fetch(url, {
     method: "GET",

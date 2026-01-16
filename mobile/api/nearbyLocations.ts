@@ -11,7 +11,7 @@ export async function nearbyLocations(
   latitude: number,
   longitude: number
 ): Promise<Place[]> {
-  const url = `${API_BASE_URL}/location/nearby?latitude=${latitude}&longitude=${longitude}`;
+  const url = `${API_BASE_URL}/location/nearby?latitude=${latitude}&longitude=${longitude}&limit=200&radius_km=200`;
 
   const res = await fetch(url, {
     method: "GET",
