@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import {
   View,
   Text,
@@ -10,120 +10,76 @@ import {
   StyleSheet,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { router } from "expo-router";
-
-type WatchItem = { id: string; name: string };
-type WatchDetail = { id: string; name: string; hours: string[] };
-
-const API_BASE = "http://YOUR_IP:8000"; // <-- change to your backend (same WiFi)
+import { useFocusEffect } from "expo-router";
+import {
+  getFavourites,
+  removeFavourite,
+  FavouritePlace,
+} from "@/storage/favourites";
 
 export default function Favourites() {
-  const [items, setItems] = useState<WatchItem[]>([]);
+  const [items, setItems] = useState<FavouritePlace[]>([]);
   const [loading, setLoading] = useState(true);
+  const [selected, setSelected] = useState<FavouritePlace | null>(null);
 
-  const [selectedId, setSelectedId] = useState<string | null>(null);
-  const [detail, setDetail] = useState<WatchDetail | null>(null);
-  const [detailLoading, setDetailLoading] = useState(false);
-
-  // per-row fade animation values
   const fadeMap = useRef<Record<string, Animated.Value>>({}).current;
 
-  function getFade(id: string) {
+  function fadeFor(id: string) {
     if (!fadeMap[id]) fadeMap[id] = new Animated.Value(1);
     return fadeMap[id];
   }
 
   async function loadList() {
+    setLoading(true);
     try {
-      setLoading(true);
-      const res = await fetch(`${API_BASE}/watchlist`);
-      const data: WatchItem[] = await res.json();
+      const data = await getFavourites();
       setItems(data);
-    } catch (e) {
-      setItems([
-    {
-      id: 5184,
-      name: "23&co.",
-      category: "bakery",
-      address: "60 Brock St, Kingston, ON K7L 1R9, Canada",
-      latitude: 44.230429799999996,
-      longitude: -76.4818368,
-      phone: "+1 613-544-2344",
-      website: "https://23andco.ca/",
-      longitude: -76.481583,
-      phone: "+1 613-766-0786",
-      website: "https://web.aw.ca/",
-      hours: "{\"openNow\": true, \"periods\": [{\"open\": {\"day\": 0, \"hour\": 0, \"minute\": 0}}], \"weekdayDescriptions\": [\"Monday: Open 24 hours\", \"Tuesday: Open 24 hours\", \"Wednesday: Open 24 hours\", \"Thursday: Open 24 hours\", \"Friday: Open 24 hours\", \"Saturday: Open 24 hours\", \"Sunday: Open 24 hours\"]}",
-      last_verified: "2026-01-15T04:33:16.334043+00:00"
-    }]);
     } finally {
       setLoading(false);
     }
   }
 
-  async function openDetails(id: string) {
-    setSelectedId(id);
-    setDetail(null);
-    setDetailLoading(true);
-    try {
-      const res = await fetch(`${API_BASE}/watchlist/${id}`);
-      const data: WatchDetail = await res.json();
-      setDetail(data);
-    } catch (e) {
-      setDetail(null);
-    } finally {
-      setDetailLoading(false);
-    }
+  function openDetails(place: FavouritePlace) {
+    setSelected(place);
   }
 
   function closeDetails() {
-    setSelectedId(null);
-    setDetail(null);
+    setSelected(null);
+  }
+
+  function getWeekdayDescriptions(place: FavouritePlace): string[] {
+    if (!place.hours) return [];
+    try {
+      const obj = JSON.parse(place.hours);
+      return obj.weekdayDescriptions ?? [];
+    } catch {
+      return [];
+    }
   }
 
   async function removeWithFade(id: string) {
-    // optimistic fade + remove
-    Animated.timing(getFade(id), {
+    Animated.timing(fadeFor(id), {
       toValue: 0,
       duration: 220,
       useNativeDriver: true,
     }).start(() => {
-      setItems((prev) => prev.filter((x) => x.id !== id));
+      setItems((prev) => prev.filter((x) => String(x.id) !== id));
       delete fadeMap[id];
     });
 
-    // call backend (best effort)
-    try {
-      await fetch(`${API_BASE}/watchlist/${id}`, { method: "DELETE" });
-    } catch (e) {
-      // if backend fails, you could reload list instead:
-      // loadList();
-    }
+    await removeFavourite(Number(id));
 
-    if (selectedId === id) closeDetails();
+    if (selected && String(selected.id) === id) closeDetails();
   }
 
-  useEffect(() => {
-    loadList();
-  }, []);
-
-  const empty = useMemo(() => {
-    if (loading) return null;
-    return (
-      <View style={styles.emptyWrap}>
-        <Ionicons name="star-outline" size={28} color="#6b7280" />
-        <Text style={styles.emptyTitle}>No favourites yet</Text>
-        <Text style={styles.emptySub}>
-          Star places on the map to add them here.
-        </Text>
-      </View>
-    );
-  }, [loading]);
+  useFocusEffect(
+    React.useCallback(() => {
+      loadList();
+    }, [])
+  );
 
   return (
     <View style={styles.screen}>
-
-      {/* List */}
       {loading ? (
         <View style={styles.center}>
           <ActivityIndicator />
@@ -132,45 +88,62 @@ export default function Favourites() {
       ) : (
         <FlatList
           data={items}
-          keyExtractor={(x) => x.id}
+          keyExtractor={(x) => String(x.id)}
+          showsVerticalScrollIndicator={false}
           contentContainerStyle={{ padding: 16, paddingBottom: 24, flexGrow: 1 }}
-          ListEmptyComponent={empty}
-          renderItem={({ item }) => (
-            <Animated.View style={{ opacity: getFade(item.id) }}>
-              <Pressable
-                onPress={() => openDetails(item.id)}
-                style={styles.card}
-              >
-                <View style={{ flex: 1 }}>
-                  <Text style={styles.placeName} numberOfLines={1}>
-                    {item.name}
-                  </Text>
-                  <Text style={styles.placeSub}>Tap to view hours</Text>
-                </View>
+          ListEmptyComponent={
+            <View style={styles.center}>
+              <Ionicons name="star-outline" size={28} color="#6b7280" />
+              <Text style={styles.emptyTitle}>No favourites yet</Text>
+              <Text style={styles.emptySub}>
+                Star places on the map to add them here.
+              </Text>
+            </View>
+          }
+          renderItem={({ item }) => {
+            const idStr = String(item.id);
+            return (
+              <Animated.View style={{ opacity: fadeFor(idStr) }}>
+                <Pressable onPress={() => openDetails(item)} style={styles.card}>
+                  <View style={{ flex: 1 }}>
+                    <Text style={styles.placeName} numberOfLines={1}>
+                      {item.name}
+                    </Text>
+                    <Text style={styles.placeSub}>Tap to view hours</Text>
+                  </View>
 
-                <Ionicons name="chevron-forward" size={20} color="#9ca3af" />
-              </Pressable>
-            </Animated.View>
-          )}
+                  <Pressable
+                    onPress={() => removeWithFade(idStr)}
+                    hitSlop={10}
+                    style={{ padding: 6 }}
+                  >
+                    <Ionicons name="star" size={20} color="#f59e0b" />
+                  </Pressable>
+                </Pressable>
+              </Animated.View>
+            );
+          }}
         />
       )}
 
-      {/* Details Modal */}
-      <Modal visible={selectedId !== null} animationType="slide" transparent>
+      <Modal visible={!!selected} animationType="slide" transparent>
         <View style={styles.modalBackdrop}>
           <View style={styles.modalCard}>
             <View style={styles.modalHeader}>
-              <Pressable onPress={closeDetails} hitSlop={10} style={{ padding: 6 }}>
+              <Pressable
+                onPress={closeDetails}
+                hitSlop={10}
+                style={{ padding: 6 }}
+              >
                 <Ionicons name="close" size={22} color="#111827" />
               </Pressable>
 
               <Text style={styles.modalTitle} numberOfLines={1}>
-                {detail?.name ?? "Details"}
+                {selected?.name ?? "Details"}
               </Text>
 
-              {/* Unstar button */}
               <Pressable
-                onPress={() => selectedId && removeWithFade(selectedId)}
+                onPress={() => selected && removeWithFade(String(selected.id))}
                 hitSlop={10}
                 style={{ padding: 6 }}
               >
@@ -179,30 +152,23 @@ export default function Favourites() {
             </View>
 
             <View style={{ padding: 16 }}>
-              {detailLoading ? (
-                <View style={styles.center}>
-                  <ActivityIndicator />
-                  <Text style={{ marginTop: 10, color: "#6b7280" }}>
-                    Loading hours…
-                  </Text>
-                </View>
-              ) : detail?.hours?.length ? (
-                <>
-                  <Text style={styles.sectionTitle}>Hours of operation</Text>
-                  {detail.hours.map((line, idx) => (
+              <Text style={styles.sectionTitle}>Hours of operation</Text>
+
+              {selected ? (
+                getWeekdayDescriptions(selected).length ? (
+                  getWeekdayDescriptions(selected).map((line, idx) => (
                     <Text key={idx} style={styles.hoursLine}>
                       {line}
                     </Text>
-                  ))}
-                  <Text style={styles.tip}>
-                    Tap the star to remove from favourites.
-                  </Text>
-                </>
-              ) : (
-                <Text style={{ color: "#6b7280" }}>
-                  No hours available.
-                </Text>
-              )}
+                  ))
+                ) : (
+                  <Text style={{ color: "#6b7280" }}>No hours available.</Text>
+                )
+              ) : null}
+
+              <Text style={styles.tip}>
+                Tap the star to remove from favourites.
+              </Text>
             </View>
           </View>
         </View>
@@ -213,24 +179,6 @@ export default function Favourites() {
 
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: "white" },
-
-  header: {
-    flexDirection: "row",
-    alignItems: "center",
-    paddingTop: 42,
-    paddingBottom: 12,
-    paddingHorizontal: 12,
-    borderBottomWidth: 1,
-    borderBottomColor: "#e5e7eb",
-  },
-  backBtn: { padding: 8 },
-  refreshBtn: { padding: 8, marginLeft: "auto" },
-  headerTitle: {
-    marginLeft: 6,
-    fontSize: 20,
-    fontWeight: "700",
-    color: "#111827",
-  },
 
   card: {
     flexDirection: "row",
@@ -246,10 +194,19 @@ const styles = StyleSheet.create({
   placeSub: { marginTop: 4, color: "#6b7280", fontSize: 13 },
 
   center: { flex: 1, alignItems: "center", justifyContent: "center" },
-
-  emptyWrap: { flex: 1, alignItems: "center", justifyContent: "center" },
-  emptyTitle: { marginTop: 10, fontSize: 16, fontWeight: "700", color: "#111827" },
-  emptySub: { marginTop: 6, fontSize: 13, color: "#6b7280", textAlign: "center", paddingHorizontal: 30 },
+  emptyTitle: {
+    marginTop: 10,
+    fontSize: 16,
+    fontWeight: "700",
+    color: "#111827",
+  },
+  emptySub: {
+    marginTop: 6,
+    fontSize: 13,
+    color: "#6b7280",
+    textAlign: "center",
+    paddingHorizontal: 30,
+  },
 
   modalBackdrop: {
     flex: 1,
@@ -278,7 +235,12 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     color: "#111827",
   },
-  sectionTitle: { fontSize: 14, fontWeight: "800", color: "#111827", marginBottom: 10 },
+  sectionTitle: {
+    fontSize: 14,
+    fontWeight: "800",
+    color: "#111827",
+    marginBottom: 10,
+  },
   hoursLine: { fontSize: 14, color: "#111827", paddingVertical: 3 },
   tip: { marginTop: 12, fontSize: 12, color: "#6b7280" },
 });

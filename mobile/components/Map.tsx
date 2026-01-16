@@ -1,21 +1,24 @@
-import React, { useRef, useState } from "react";
-import { View, StyleSheet } from "react-native";
+import React, { useEffect, useRef, useState } from "react";
+import { View, StyleSheet, Alert } from "react-native";
 import MapView from "react-native-maps";
 import { TrueSheet } from "@lodev09/react-native-true-sheet";
+
 import CustomMarker from "./CustomMarker";
 import PlaceSheet from "./PlaceSheet";
-import { Place } from "@/types/place";
-import { useEffect } from "react";
-import { nearbyLocations } from "@/api/nearbyLocations";
 import SearchSheet from "./SearchSheet";
+
+import { Place } from "@/types/place";
+import { nearbyLocations } from "@/api/nearbyLocations";
 import { useFocusEffect } from "@react-navigation/native";
-import { addToWatchlist } from "@/api/watchlist";
+import { API_BASE_URL } from "@/constants";
+
+import { addFavourite } from "@/storage/favourites";
 
 export default function Map() {
   const [places, setPlaces] = useState<Place[]>([]);
   const [loadingPlaces, setLoadingPlaces] = useState(false);
 
-  const [selectedMarker, setSelectedMarker] = useState<Place>(null);
+  const [selectedMarker, setSelectedMarker] = useState<Place | null>(null);
 
   const searchSheetRef = useRef<TrueSheet>(null);
   const placeSheetRef = useRef<TrueSheet>(null);
@@ -30,16 +33,32 @@ export default function Map() {
     setSelectedMarker(null);
   };
 
+  async function addPlaceToWatchlist(place: Place) {
+    const payload = {
+      service_id: String(place.id),
+      name: (place as any).title ?? (place as any).name ?? "Unknown place",
+      latitude: (place as any).latitude,
+      longitude: (place as any).longitude,
+      hours: (place as any).hours ?? null, // can be object OR string, favourites can parse
+    };
+
+    const res = await fetch(`${API_BASE_URL}/watchlist/add?user_id=5`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+
+    if (!res.ok) {
+      const text = await res.text();   // <-- await it
+      throw new Error(`${res.status}: ${text}`);
+    }
+  }
+
   useEffect(() => {
     const loadNearby = async () => {
       try {
         setLoadingPlaces(true);
-
-        const results = await nearbyLocations(
-          44.2312,
-          -76.486
-        );
-
+        const results = await nearbyLocations(44.2312, -76.486);
         setPlaces(results);
       } catch (err) {
         console.error("Failed to load nearby places", err);
@@ -53,24 +72,24 @@ export default function Map() {
 
   useFocusEffect(
     React.useCallback(() => {
-      try {
-        TrueSheet.present('search');
-      } catch {
-        console.log('error')
-      }
-        
+      const t = setTimeout(() => {
+        searchSheetRef.current?.present();
+      }, 0);
 
       return () => {
-        TrueSheet.dismissAll();
+        clearTimeout(t);
+        searchSheetRef.current?.dismiss();
+        placeSheetRef.current?.dismiss();
         setSelectedMarker(null);
       };
     }, [])
   );
 
+
   return (
     <View style={{ flex: 1 }}>
       <MapView
-      showsPointsOfInterest={false}
+        showsPointsOfInterest={false}
         style={StyleSheet.absoluteFill}
         initialRegion={{
           latitude: 44.2312,
@@ -80,11 +99,11 @@ export default function Map() {
         }}
         showsUserLocation
       >
-        {places.map(place => (
+        {places.map((place) => (
           <CustomMarker
-            key={place.id}
-            latitude={place.latitude}
-            longitude={place.longitude}
+            key={String(place.id)}
+            latitude={(place as any).latitude}
+            longitude={(place as any).longitude}
             selected={selectedMarker?.id === place.id}
             onPress={() => onMarkerPress(place)}
           />
@@ -95,10 +114,30 @@ export default function Map() {
         sheetRef={placeSheetRef}
         place={selectedMarker}
         onDismiss={dismissSheet}
-        onFavorite={async () => {await addToWatchlist(selectedMarker?.id)}}
+        onFavorite={async () => {
+          if (!selectedMarker) return;
+
+          await addFavourite({
+            id: Number((selectedMarker as any).id),
+            name: (selectedMarker as any).name ?? (selectedMarker as any).title ?? "Unknown",
+            category: (selectedMarker as any).category,
+            address: (selectedMarker as any).address,
+            latitude: Number((selectedMarker as any).latitude),
+            longitude: Number((selectedMarker as any).longitude),
+            hours: (selectedMarker as any).hours, // keep as string
+          });
+
+          Alert.alert("Saved", "Added to favourites.");
+        }}
+
       />
-      <SearchSheet ref={searchSheetRef} places={[]} recentSearches={[]} onSelectPlace={(place: Place) => console.log(place)}/>
+
+      <SearchSheet
+        ref={searchSheetRef}
+        places={places}
+        recentSearches={[]}
+        onSelectPlace={(place: Place) => onMarkerPress(place)}
+      />
     </View>
   );
 }
-
