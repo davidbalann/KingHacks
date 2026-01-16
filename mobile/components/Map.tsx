@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import { nearbyLocations } from "@/api/nearbyLocations";
 import SearchSheet from "./SearchSheet";
 import { useFocusEffect } from "@react-navigation/native";
+import { addToWatchlist } from "@/api/watchlist";
 
 export default function Map() {
   const [places, setPlaces] = useState<Place[]>([]);
@@ -90,7 +91,7 @@ export default function Map() {
         sheetRef={placeSheetRef}
         place={selectedMarker}
         onDismiss={dismissSheet}
-        onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}
+        onFavorite={async () => {await addToWatchlist(selectedMarker?.id)}}
       />
       <SearchSheet ref={searchSheetRef} places={[]} recentSearches={[]} onSelectPlace={(place: Place) => console.log(place)}/>
     </View>

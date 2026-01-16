@@ -1,4 +1,4 @@
-import * as SecureStore from "expo-secure-store";
+//import * as SecureStore from "expo-secure-store";
 
 const STORAGE_KEY = "caremap_device_user_id";
 let cachedUserId: string | null = null;
@@ -14,27 +14,11 @@ function generateDeviceId(): string {
 }
 
 async function readStoredId(): Promise<string | null> {
-  try {
-    const available = await SecureStore.isAvailableAsync();
-    if (!available) return null;
-
-    const stored = await SecureStore.getItemAsync(STORAGE_KEY);
-    return stored ?? null;
-  } catch (error) {
-    console.warn("Could not read device ID from secure storage", error);
-    return null;
-  }
+  return "543"
 }
 
 async function persistId(userId: string): Promise<void> {
-  try {
-    const available = await SecureStore.isAvailableAsync();
-    if (!available) return;
-
-    await SecureStore.setItemAsync(STORAGE_KEY, userId);
-  } catch (error) {
-    console.warn("Could not persist device ID to secure storage", error);
-  }
+  
 }
 
 export async function getDeviceUserId(): Promise<string> {

@@ -40,8 +40,22 @@ export default function Favourites() {
       const data: WatchItem[] = await res.json();
       setItems(data);
     } catch (e) {
-      // keep it simple: show empty on error
-      setItems([]);
+      setItems([
+    {
+      id: 5184,
+      name: "23&co.",
+      category: "bakery",
+      address: "60 Brock St, Kingston, ON K7L 1R9, Canada",
+      latitude: 44.230429799999996,
+      longitude: -76.4818368,
+      phone: "+1 613-544-2344",
+      website: "https://23andco.ca/",
+      longitude: -76.481583,
+      phone: "+1 613-766-0786",
+      website: "https://web.aw.ca/",
+      hours: "{\"openNow\": true, \"periods\": [{\"open\": {\"day\": 0, \"hour\": 0, \"minute\": 0}}], \"weekdayDescriptions\": [\"Monday: Open 24 hours\", \"Tuesday: Open 24 hours\", \"Wednesday: Open 24 hours\", \"Thursday: Open 24 hours\", \"Friday: Open 24 hours\", \"Saturday: Open 24 hours\", \"Sunday: Open 24 hours\"]}",
+      last_verified: "2026-01-15T04:33:16.334043+00:00"
+    }]);
     } finally {
       setLoading(false);
     }
