@@ -14,30 +14,51 @@ import { router } from "expo-router";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
 import { clamp, runOnJS } from "react-native-reanimated";
 
+import { backboardChat, BackboardRequest } from "@/api/chat"; // <-- import your method
+
 export default function Index() {
   const [message, setMessage] = useState("");
   const [inputHeight, setInputHeight] = useState(40);
-  const [messages, setMessages] = useState<{ text: string; fromMe: boolean }[]>(
-    [
-      { text: "Hello!", fromMe: false },
-      { text: "Hi!", fromMe: true },
-    ]
-  );
+  const [messages, setMessages] = useState<{ text: string; fromMe: boolean }[]>([
+    { text: "Hello!", fromMe: false },
+    { text: "Hi!", fromMe: true },
+  ]);
 
   const [zoom, setZoom] = useState(1);
   const zoomRef = useRef(1);
   const pinchStartZoom = useRef(1);
 
-  function send() {
+  async function send() {
     const trimmed = message.trim();
     if (trimmed === "") return;
 
+    // Add user's message
     setMessages((prev) => [...prev, { text: trimmed, fromMe: true }]);
     setMessage("");
 
-    setTimeout(() => {
-      setMessages((prev) => [...prev, { text: "I'm horny", fromMe: false }]);
-    }, 600);
+    try {
+      // Build the request for backboard
+      const body: BackboardRequest = {
+        query: trimmed,
+        latitude: 44.2312, // Replace with actual location if available
+        longitude: -76.486,
+        radius_km: 3,
+        limit: 1,
+      };
+
+      const response = await backboardChat(body);
+      const replyText = response.answer || "No response";
+
+      setMessages((prev) => [...prev, { text: replyText, fromMe: false }]);
+
+
+    } catch (err) {
+      console.error("Backboard error:", err);
+      setMessages((prev) => [
+        ...prev,
+        { text: "Oops, something went wrong.", fromMe: false },
+      ]);
+    }
   }
 
   function startPinch() {
@@ -58,7 +79,6 @@ export default function Index() {
     .onBegin(() => runOnJS(startPinch)())
     .onUpdate((e) => runOnJS(updatePinch)(e.scale));
 
-  // Updated: less likely to steal taps
   const swipeBack = Gesture.Pan()
     .activeOffsetX([20, 9999])
     .failOffsetY([-10, 10])
@@ -89,7 +109,6 @@ export default function Index() {
     >
       <GestureDetector gesture={gestures}>
         <View style={{ flex: 1, backgroundColor: "white", marginTop: 90, marginBottom: 10 }}>
-
           <View style={{ flex: 1, padding: 20 }}>
             <ScrollView
               style={{ flex: 1, marginTop: 10 }}
@@ -109,12 +128,7 @@ export default function Index() {
                     maxWidth: "85%",
                   }}
                 >
-                  <Text
-                    style={{
-                      color: m.fromMe ? "white" : "black",
-                      fontSize: msgFont,
-                    }}
-                  >
+                  <Text style={{ color: m.fromMe ? "white" : "black", fontSize: msgFont }}>
                     {m.text}
                   </Text>
                 </View>

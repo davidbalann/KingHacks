@@ -66,31 +66,3 @@ const styles = StyleSheet.create({
     marginRight: 12,
   }
 });
-
-function getHoursColor(hours?: {
-  openNow?: boolean;
-  nextCloseTime?: string;
-}) {
-  // Closed or missing data
-  if (!hours?.openNow) {
-    return "#9CA3AF"; // gray (THIS NEEDS TO CHANGE COLOURS)
-  }
-
-  // If we don't know the close time, treat as open
-  if (!hours.nextCloseTime) {
-    return "#16A34A"; // green
-  }
-
-  const now = new Date();
-  const closeTime = new Date(hours.nextCloseTime);
-
-  const minutesUntilClose =
-    (closeTime.getTime() - now.getTime()) / 1000 / 60;
-
-  if (minutesUntilClose <= 30 && minutesUntilClose > 0) {
-    return "#FACC15"; // yellow (closing soon)
-  }
-
-  return "#16A34A"; // green (open)
-}
-});
