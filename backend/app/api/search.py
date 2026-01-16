@@ -1,54 +1,56 @@
-# backend/app/api/search.py
-
-import math
-import sqlite3
-from fastapi import APIRouter, HTTPException, Query
+import json
+from fastapi import APIRouter, Query
 from typing import Optional
-from backend.app.models.listings import get_db
+
+from ..db import get_conn
+from ..models import Place
 
 router = APIRouter()
 
-
-@router.get("/search")
-async def search_services(
-    category: Optional[str] = Query(default=None),
-    location: Optional[str] = Query(default=None),
-    page: int = Query(default=1, ge=1, description="Page number (1-indexed)"),
-    limit: int = Query(
-        default=20,
-        ge=1,
-        le=100,
-        description="Number of results per page (max 100)",
-    ),
+@router.get("/search", response_model=list[Place])
+def search(
+    category: Optional[str] = Query(None, description="Category id (e.g., meals, shelter, dropin)"),
+    name: Optional[str] = Query(None, description="Partial name match"),
+    limit: int = Query(50, ge=1, le=200),
 ):
-    conn = get_db()
-    conn.row_factory = sqlite3.Row
-    cursor = conn.cursor()
+    q = """
+      SELECT id, name, category, address, latitude, longitude, phone, website, hours_json, last_verified
+      FROM places
+      WHERE 1=1
+    """
+    params: list = []
 
-    category_filter = category or ""
-    location_filter = location or ""
+    if category:
+        q += " AND category = ?"
+        params.append(category)
 
-    query_filter = "FROM listings WHERE category LIKE ? AND address LIKE ?"
-    params = (f"%{category_filter}%", f"%{location_filter}%")
+    if name:
+        # Case-insensitive match in SQLite using COLLATE NOCASE
+        q += " AND name LIKE ? COLLATE NOCASE"
+        params.append(f"%{name}%")
 
-    try:
-        total_count = cursor.execute(f"SELECT COUNT(*) {query_filter}", params).fetchone()[0]
-        offset = (page - 1) * limit
-        cursor.execute(
-            f"SELECT * {query_filter} ORDER BY name LIMIT ? OFFSET ?",
-            (*params, limit, offset),
-        )
-        listings = cursor.fetchall()
-    except Exception as exc:
-        conn.close()
-        raise HTTPException(status_code=500, detail=f"Failed to execute search: {exc}")
+    q += " ORDER BY name ASC LIMIT ?"
+    params.append(limit)
 
+    conn = get_conn()
+    rows = conn.execute(q, params).fetchall()
     conn.close()
 
-    return {
-        "results": [dict(row) for row in listings],
-        "page": page,
-        "limit": limit,
-        "total": total_count,
-        "pages": math.ceil(total_count / limit) if total_count else 0,
-    }
+    out: list[Place] = []
+    for r in rows:
+        hours = json.loads(r["hours_json"]) if r["hours_json"] else None
+        out.append(
+            Place(
+                id=r["id"],
+                name=r["name"],
+                category=r["category"],
+                address=r["address"],
+                latitude=r["latitude"],
+                longitude=r["longitude"],
+                phone=r["phone"],
+                website=r["website"],
+                hours=hours,
+                last_verified=r["last_verified"],
+            )
+        )
+    return out

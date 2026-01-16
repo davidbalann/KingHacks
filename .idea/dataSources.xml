@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="kingston_caremap" uuid="a6e730eb-88f1-4119-a0de-ba1df379db56">
+    <data-source source="LOCAL" name="kingston_caremap" uuid="18ac503d-e08e-4f91-919a-b06fc1dffae0">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:D:\Code\Other\kingston-caremap\kingston_caremap.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:D:\Code\Other\kingston-caremap\backend\kingston_caremap.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
       <libraries>
         <library>
