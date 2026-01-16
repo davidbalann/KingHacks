@@ -1,5 +1,3 @@
-// mobile/components/placeStatus.ts
-
 export type PlaceStatus = "open" | "closingSoon" | "pickup" | "closed";
 
 // Convert status to color

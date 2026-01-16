@@ -15,7 +15,7 @@ export default function Categories({onSelectCategory}: CategoryProps) {
         keyExtractor={(item) => item.id.toString()}
         ItemSeparatorComponent={() => <View style={styles.separator} />}
         renderItem={({ item }) => (
-          <Pressable style={styles.row} onPress={() => onSelectCategory(item.id)}>
+          <Pressable style={styles.row} onPress={async () => await onSelectCategory(item.id)}>
             <View style={styles.iconContainer}>
               <CategoryIcon
                 provider={item.provider}
