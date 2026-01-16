@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Keyboard } from "react-native";
 import MapView from "react-native-maps";
 import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
@@ -16,17 +16,20 @@ export default function Map() {
 
   const [selectedMarker, setSelectedMarker] = useState<Place>(null);
 
-  const searchSheetRef = useRef<TrueSheet>(null);
-  const placeSheetRef = useRef<TrueSheet>(null);
-
   const onMarkerPress = async (marker: Place) => {
     setSelectedMarker(marker);
-    await placeSheetRef.current?.present();
+    await TrueSheet.present('place');
   };
 
+  const onSelectPlace = async (place: Place) => {
+    setSelectedMarker(place);
+    await TrueSheet.present('place');
+  }
+
   const dismissSheet = async () => {
-    await placeSheetRef.current?.dismiss();
+    await TrueSheet.dismiss('place');
     setSelectedMarker(null);
+    await TrueSheet.present('search');
   };
 
   useEffect(() => {
@@ -89,14 +92,33 @@ export default function Map() {
           />
         ))}
       </MapView>
+      <TrueSheet name="place" detents={[0.35, 1]} onDidDismiss={() => TrueSheet.present('search')}>
+        <PlaceSheet
+          place={selectedMarker}
+          onDismiss={dismissSheet}
+          onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}
+        />
+      </TrueSheet>
+      <TrueSheet
+        name="search"
+        scrollable
+        detents={[0.077, 1]}
+        dimmed={false}
+        initialDetentIndex={0}
+        onDetentChange={(event) => {
+          const index = event.nativeEvent.index;
+          const expanded = index > 0.5;
 
-      <PlaceSheet
-        sheetRef={placeSheetRef}
-        place={selectedMarker}
-        onDismiss={dismissSheet}
-        onFavorite={() => {console.log(`favorite ${selectedMarker?.name}`)}}
-      />
-      <SearchSheet ref={searchSheetRef} places={[]} recentSearches={[]} onSelectPlace={(place: Place) => console.log(place)}/>
+          //setSheetExpanded(expanded);
+
+          if (!expanded) {
+            //setQuery("");
+            Keyboard.dismiss();
+          }
+        }}
+      >
+        <SearchSheet onSelectPlace={onSelectPlace}/>
+      </TrueSheet>
     </View>
   );
 }

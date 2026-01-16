@@ -1,11 +1,8 @@
 import React, {
   useState,
   useRef,
-  useEffect,
-  forwardRef,
-  useImperativeHandle,
 } from "react";
-import { View, TextInput, StyleSheet, Keyboard } from "react-native";
+import { View, TextInput, StyleSheet } from "react-native";
 import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import { Place } from "@/types/place";
 import Results from "./Results";
@@ -16,7 +13,6 @@ interface SearchSheetProps {
 }
 
 export default function SearchSheet({onSelectPlace} : SearchSheetProps) {
-    const sheetRef = useRef<TrueSheet>(null);
     const [query, setQuery] = useState("");
     const [inputFocused, setInputFocused] = useState(false);
     const [sheetExpanded, setSheetExpanded] = useState(false);
@@ -25,7 +21,7 @@ export default function SearchSheet({onSelectPlace} : SearchSheetProps) {
 
     const handleFocus = async () => {
       setInputFocused(true);
-      await sheetRef.current?.resize(1);
+      await TrueSheet.resize('search', 1);
     };
 
     const handleBlur = () => {
@@ -33,26 +29,8 @@ export default function SearchSheet({onSelectPlace} : SearchSheetProps) {
     };
 
     return (
-      <TrueSheet
-        name="search"
-        ref={sheetRef}
-        scrollable
-        detents={[0.077, 1]}
-        dimmed={false}
-        initialDetentIndex={0}
-        onDetentChange={(event) => {
-          const index = event.nativeEvent.index;
-          const expanded = index > 0.5;
-
-          setSheetExpanded(expanded);
-
-          if (!expanded) {
-            setQuery("");
-            Keyboard.dismiss();
-          }
-        }}
-        header={
-          <View style={styles.searchContainer}>
+      <>
+        <View style={styles.searchContainer}>
             <TextInput
               value={query}
               onChangeText={setQuery}
@@ -63,14 +41,12 @@ export default function SearchSheet({onSelectPlace} : SearchSheetProps) {
               style={styles.input}
             />
           </View>
-        }
-      >
         {focused && query ? (
           <Results query={query} onSelectPlace={onSelectPlace} />
         ) : (
           <Categories onSelectPlace={onSelectPlace} />
         )}
-      </TrueSheet>
+      </>
     );
   }
 
