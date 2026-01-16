@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { View, StyleSheet, Keyboard } from "react-native";
-import MapView from "react-native-maps";
+import MapView, { Marker } from "react-native-maps";
 import { TrueSheet } from "@lodev09/react-native-true-sheet";
 import CustomMarker from "./CustomMarker";
 import PlaceSheet from "./PlaceSheet";
@@ -120,16 +120,12 @@ export default function Map() {
           latitudeDelta: 0.05,
           longitudeDelta: 0.05,
         }}
-        showsUserLocation
       >
         {places.map(place => (
-          <CustomMarker
-            place={place}
-            latitude={place.latitude}
-            longitude={place.longitude}
-            selected={selectedMarker?.id === place.id}
-            onPress={() => onMarkerPress(place)}
-          />
+          <Marker icon={require('@/assets/images/markers/greenHouse.png')} onPress={onSelectPlace} key={place.id} coordinate={{latitude: place.latitude, longitude: place.longitude}} pinColor={"blue"}>
+
+          </Marker>
+
         ))}
       </MapView>
       <TrueSheet name="place" detents={[0.35, 1]} onDidDismiss={() => TrueSheet.present('search')}>
