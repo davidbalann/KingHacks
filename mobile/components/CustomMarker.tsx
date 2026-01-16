@@ -1,4 +1,6 @@
+import { Ionicons } from "@expo/vector-icons";
 import React, { useEffect } from "react";
+import { View } from "react-native";
 import { Marker } from "react-native-maps";
 import Animated, {
   useSharedValue,
@@ -39,17 +41,10 @@ export default function CustomMarker({
       coordinate={{ latitude, longitude }}
       onPress={onPress}
       tracksViewChanges={false}
-    >
-      <Animated.Image
-        source={require("@/assets/images/markers/greenHouse.png")}
-        style={[
-          {
-            width: 40,
-            height: 40,
-            resizeMode: "contain",
-          },
-        ]}
-      />
+    > 
+    <View style={{ backgroundColor: 'blue', padding: 3, borderRadius: 50 }}> 
+      <Ionicons name="home" color={'white'}/>
+      </View>
     </Marker>
   );
 }

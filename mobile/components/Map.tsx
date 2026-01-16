@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import { nearbyLocations } from "@/api/nearbyLocations";
 import SearchSheet from "./SearchSheet";
 import { useFocusEffect } from "@react-navigation/native";
+import { searchPlaces } from "@/api/search";
 
 export default function Map() {
   const [places, setPlaces] = useState<Place[]>([]);
@@ -24,6 +25,13 @@ export default function Map() {
   const onSelectPlace = async (place: Place) => {
     setSelectedMarker(place);
     await TrueSheet.present('place');
+  }
+
+  const onSelectCategory = async (category: string) => {
+    const resultPlaces = await searchPlaces(category);
+    console.log(resultPlaces);
+    setPlaces(resultPlaces);
+    await dismissSheet();
   }
 
   const dismissSheet = async () => {
@@ -117,7 +125,7 @@ export default function Map() {
           }
         }}
       >
-        <SearchSheet onSelectPlace={onSelectPlace}/>
+        <SearchSheet onSelectPlace={onSelectPlace} onSelectCategory={onSelectCategory}/>
       </TrueSheet>
     </View>
   );

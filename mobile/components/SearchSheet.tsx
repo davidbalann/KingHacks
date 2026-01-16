@@ -10,9 +10,10 @@ import Categories from "./Categories";
 
 interface SearchSheetProps {
   onSelectPlace: (place: Place) => void;
+  onSelectCategory: (category: string) => Promise<void>;
 }
 
-export default function SearchSheet({onSelectPlace} : SearchSheetProps) {
+export default function SearchSheet({onSelectPlace, onSelectCategory} : SearchSheetProps) {
     const [query, setQuery] = useState("");
     const [inputFocused, setInputFocused] = useState(false);
     const [sheetExpanded, setSheetExpanded] = useState(false);
@@ -44,7 +45,7 @@ export default function SearchSheet({onSelectPlace} : SearchSheetProps) {
         {focused && query ? (
           <Results query={query} onSelectPlace={onSelectPlace} />
         ) : (
-          <Categories onSelectPlace={onSelectPlace} />
+          <Categories onSelectCategory={onSelectCategory} />
         )}
       </>
     );
